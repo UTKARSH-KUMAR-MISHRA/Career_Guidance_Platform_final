@@ -1,0 +1,801 @@
+student_id,branch,year,cgpa,current_skills,skill_level,certifications,dream_role,available_hours_per_week,learning_mode,career_goal
+STU001,Information Technology,1st,8.51,"React, JavaScript",Advanced,AWS Cloud Practitioner,Software Developer,20,Offline,Government Job
+STU002,Electronics & Communication,2nd,6.5,"Verilog, Embedded C, C++",Advanced,NPTEL Python,IoT Developer,13,Online,Startup
+STU003,Electronics & Communication,1st,9.62,"MATLAB, Verilog",Advanced,Cisco CCNA,IoT Developer,6,Hybrid,Placement
+STU004,Mechanical,3rd,9.0,"MATLAB, ANSYS, SolidWorks, AutoCAD",Advanced,AWS Cloud Practitioner,Robotics Engineer,10,Hybrid,Government Job
+STU005,Information Technology,2nd,7.76,"SQL, Node.js, Git",Intermediate,Cisco CCNA,Full Stack Developer,20,Offline,Government Job
+STU006,Computer Science,1st,6.98,"Python, Machine Learning",Intermediate,NPTEL Python,Backend Developer,14,Hybrid,Higher Studies
+STU007,Information Technology,4th,8.85,"Node.js, SQL, React, Python, JavaScript",Advanced,Cisco CCNA,Cloud Engineer,7,Offline,Placement
+STU008,Electrical,2nd,8.29,"Circuit Design, Power Systems, PLC Programming",Beginner,NPTEL Python,Power Systems Engineer,9,Online,Placement
+STU009,Mechanical,3rd,6.02,"SolidWorks, AutoCAD, ANSYS, MATLAB",Advanced,None,Mechanical Design Engineer,9,Online,Placement
+STU010,Civil,2nd,9.62,"Excel, Surveying, AutoCAD",Intermediate,Cisco CCNA,Civil Site Engineer,8,Online,Startup
+STU011,Computer Science,1st,8.32,"Git, Python",Intermediate,None,Data Scientist,20,Offline,Higher Studies
+STU012,Computer Science,2nd,6.56,"Algorithms, Git, Python",Advanced,AWS Cloud Practitioner,Software Developer,16,Online,Higher Studies
+STU013,Computer Science,3rd,6.76,"React, Python, Data Structures, Machine Learning",Intermediate,None,Software Developer,9,Hybrid,Startup
+STU014,Electrical,1st,7.86,"MATLAB, Power Systems",Intermediate,Google Data Analytics,Electrical Engineer,6,Hybrid,Placement
+STU015,Computer Science,4th,8.05,"Python, React, SQL, Java, Algorithms",Advanced,Cisco CCNA,Software Developer,15,Hybrid,Startup
+STU016,Civil,3rd,7.21,"STAAD Pro, AutoCAD, Excel, Surveying",Beginner,AWS Cloud Practitioner,Civil Site Engineer,16,Offline,Higher Studies
+STU017,Information Technology,1st,8.77,"Python, JavaScript",Advanced,AWS Cloud Practitioner,Cloud Engineer,6,Hybrid,Higher Studies
+STU018,Electronics & Communication,1st,6.24,"Embedded C, C",Intermediate,AWS Cloud Practitioner,Embedded Systems Engineer,7,Offline,Government Job
+STU019,Electronics & Communication,1st,9.12,"Embedded C, Verilog",Intermediate,AWS Cloud Practitioner,VLSI Engineer,20,Online,Higher Studies
+STU020,Computer Science,3rd,6.72,"Java, Git, Machine Learning, Python",Intermediate,None,ML Engineer,14,Hybrid,Placement
+STU021,Chemical,2nd,6.91,"Excel, Safety Management, MATLAB",Beginner,None,Production Engineer,8,Offline,Startup
+STU022,Electronics & Communication,1st,7.59,"Embedded C, C++",Intermediate,NPTEL Python,VLSI Engineer,18,Hybrid,Placement
+STU023,Computer Science,2nd,7.71,"Java, React, Machine Learning",Advanced,Cisco CCNA,Backend Developer,10,Offline,Government Job
+STU024,Chemical,2nd,9.28,"Safety Management, Excel, MATLAB",Advanced,Cisco CCNA,Production Engineer,5,Hybrid,Startup
+STU025,Mechanical,4th,7.0,"ANSYS, AutoCAD, SolidWorks, MATLAB",Beginner,Google Data Analytics,Automotive Engineer,5,Offline,Government Job
+STU026,Mechanical,4th,9.24,"MATLAB, SolidWorks, AutoCAD, ANSYS",Beginner,Cisco CCNA,Robotics Engineer,19,Online,Placement
+STU027,Civil,3rd,8.15,"STAAD Pro, Excel, Surveying, AutoCAD",Advanced,AWS Cloud Practitioner,Structural Engineer,13,Online,Placement
+STU028,Information Technology,2nd,6.88,"Git, SQL, React",Advanced,AWS Cloud Practitioner,Software Developer,16,Online,Startup
+STU029,Electrical,4th,9.26,"PLC Programming, Circuit Design, MATLAB, Power Systems",Beginner,NPTEL Python,Power Systems Engineer,12,Offline,Startup
+STU030,Mechanical,2nd,9.06,"AutoCAD, MATLAB, ANSYS",Beginner,AWS Cloud Practitioner,Robotics Engineer,13,Online,Placement
+STU031,Computer Science,4th,7.61,"Algorithms, Python, Machine Learning, Git, Java",Beginner,Google Data Analytics,ML Engineer,5,Hybrid,Higher Studies
+STU032,Information Technology,2nd,6.44,"JavaScript, SQL, Node.js",Intermediate,NPTEL Python,Software Developer,17,Hybrid,Government Job
+STU033,Electrical,4th,8.52,"Circuit Design, Power Systems, PLC Programming, MATLAB",Intermediate,NPTEL Python,Power Systems Engineer,9,Online,Higher Studies
+STU034,Electronics & Communication,1st,6.64,"Embedded C, C",Intermediate,Google Data Analytics,VLSI Engineer,6,Online,Government Job
+STU035,Electronics & Communication,3rd,8.22,"Embedded C, C, C++, MATLAB",Advanced,Google Data Analytics,Embedded Systems Engineer,11,Online,Placement
+STU036,Electronics & Communication,1st,8.32,"MATLAB, C++",Advanced,AWS Cloud Practitioner,IoT Developer,17,Offline,Government Job
+STU037,Civil,1st,8.92,"Surveying, AutoCAD",Beginner,AWS Cloud Practitioner,Civil Site Engineer,11,Offline,Startup
+STU038,Electrical,1st,7.02,"Circuit Design, Power Systems",Intermediate,NPTEL Python,Power Systems Engineer,19,Offline,Higher Studies
+STU039,Computer Science,1st,8.16,"Algorithms, SQL",Beginner,NPTEL Python,ML Engineer,15,Offline,Placement
+STU040,Computer Science,4th,8.44,"React, Python, Git, Data Structures, Machine Learning",Advanced,NPTEL Python,Data Scientist,15,Offline,Government Job
+STU041,Computer Science,3rd,6.89,"Data Structures, Algorithms, SQL, Python",Beginner,None,ML Engineer,13,Online,Startup
+STU042,Mechanical,1st,9.37,"AutoCAD, SolidWorks",Beginner,AWS Cloud Practitioner,Robotics Engineer,15,Hybrid,Placement
+STU043,Computer Science,1st,9.03,"Python, Data Structures",Beginner,AWS Cloud Practitioner,Data Scientist,13,Offline,Startup
+STU044,Information Technology,3rd,6.63,"Git, React, Node.js, JavaScript",Beginner,Cisco CCNA,Cloud Engineer,8,Hybrid,Higher Studies
+STU045,Chemical,2nd,7.0,"Process Simulation, Excel, MATLAB",Advanced,NPTEL Python,Production Engineer,20,Online,Startup
+STU046,Chemical,3rd,6.6,"Process Simulation, Safety Management, MATLAB, Excel",Beginner,None,Production Engineer,14,Hybrid,Government Job
+STU047,Electrical,2nd,8.61,"PLC Programming, Power Systems, Circuit Design",Intermediate,AWS Cloud Practitioner,Power Systems Engineer,19,Online,Higher Studies
+STU048,Electronics & Communication,3rd,9.54,"MATLAB, Embedded C, Verilog, C",Beginner,AWS Cloud Practitioner,Embedded Systems Engineer,6,Offline,Startup
+STU049,Electrical,4th,8.79,"Circuit Design, Power Systems, PLC Programming, MATLAB",Advanced,AWS Cloud Practitioner,Electrical Engineer,8,Online,Higher Studies
+STU050,Electrical,3rd,6.64,"PLC Programming, Power Systems, MATLAB, Circuit Design",Beginner,None,Power Systems Engineer,9,Offline,Government Job
+STU051,Mechanical,3rd,7.05,"MATLAB, SolidWorks, AutoCAD, ANSYS",Advanced,Cisco CCNA,Automotive Engineer,10,Offline,Placement
+STU052,Mechanical,3rd,7.81,"AutoCAD, SolidWorks, ANSYS, MATLAB",Beginner,Google Data Analytics,Robotics Engineer,7,Hybrid,Government Job
+STU053,Electronics & Communication,3rd,8.37,"C++, C, Embedded C, MATLAB",Beginner,None,IoT Developer,13,Hybrid,Higher Studies
+STU054,Electrical,4th,9.11,"PLC Programming, Power Systems, Circuit Design, MATLAB",Intermediate,NPTEL Python,Electrical Engineer,18,Online,Startup
+STU055,Mechanical,3rd,9.77,"MATLAB, SolidWorks, AutoCAD, ANSYS",Intermediate,NPTEL Python,Robotics Engineer,20,Hybrid,Government Job
+STU056,Mechanical,2nd,6.2,"ANSYS, MATLAB, AutoCAD",Beginner,None,Robotics Engineer,16,Offline,Government Job
+STU057,Chemical,4th,7.12,"Safety Management, MATLAB, Process Simulation, Excel",Intermediate,Google Data Analytics,Process Engineer,12,Hybrid,Placement
+STU058,Chemical,4th,6.84,"Safety Management, MATLAB, Process Simulation, Excel",Advanced,AWS Cloud Practitioner,Production Engineer,8,Offline,Startup
+STU059,Chemical,3rd,7.43,"Excel, Safety Management, Process Simulation, MATLAB",Intermediate,Cisco CCNA,Production Engineer,16,Online,Higher Studies
+STU060,Civil,4th,6.03,"Surveying, STAAD Pro, Excel, AutoCAD",Intermediate,Google Data Analytics,Structural Engineer,6,Offline,Startup
+STU061,Information Technology,3rd,9.6,"React, Python, JavaScript, SQL",Intermediate,None,Cloud Engineer,20,Offline,Placement
+STU062,Electronics & Communication,1st,8.23,"C, Embedded C",Advanced,Cisco CCNA,Embedded Systems Engineer,6,Offline,Placement
+STU063,Civil,3rd,6.19,"Excel, Surveying, STAAD Pro, AutoCAD",Intermediate,Google Data Analytics,Structural Engineer,10,Hybrid,Startup
+STU064,Information Technology,3rd,7.01,"SQL, Git, JavaScript, Node.js",Advanced,Cisco CCNA,Cloud Engineer,15,Offline,Startup
+STU065,Electrical,1st,9.1,"Power Systems, PLC Programming",Beginner,NPTEL Python,Power Systems Engineer,9,Offline,Startup
+STU066,Electronics & Communication,1st,8.75,"Embedded C, Verilog",Intermediate,Google Data Analytics,Embedded Systems Engineer,7,Hybrid,Placement
+STU067,Civil,1st,6.48,"AutoCAD, Excel",Beginner,Google Data Analytics,Civil Site Engineer,11,Offline,Higher Studies
+STU068,Civil,2nd,7.98,"AutoCAD, Excel, Surveying",Intermediate,NPTEL Python,Civil Site Engineer,12,Hybrid,Startup
+STU069,Computer Science,1st,9.19,"Java, React",Beginner,Cisco CCNA,Software Developer,19,Online,Startup
+STU070,Chemical,4th,6.44,"Excel, Process Simulation, MATLAB, Safety Management",Beginner,NPTEL Python,Production Engineer,5,Offline,Placement
+STU071,Electrical,4th,7.65,"Power Systems, MATLAB, PLC Programming, Circuit Design",Advanced,Google Data Analytics,Power Systems Engineer,8,Offline,Placement
+STU072,Mechanical,4th,8.21,"ANSYS, AutoCAD, MATLAB, SolidWorks",Beginner,None,Mechanical Design Engineer,8,Online,Higher Studies
+STU073,Civil,4th,6.84,"STAAD Pro, AutoCAD, Excel, Surveying",Intermediate,None,Civil Site Engineer,13,Hybrid,Startup
+STU074,Electronics & Communication,2nd,6.1,"MATLAB, Verilog, Embedded C",Intermediate,AWS Cloud Practitioner,VLSI Engineer,19,Offline,Higher Studies
+STU075,Electrical,1st,6.26,"MATLAB, Power Systems",Advanced,None,Power Systems Engineer,11,Hybrid,Higher Studies
+STU076,Chemical,2nd,6.83,"Process Simulation, MATLAB, Safety Management",Intermediate,None,Production Engineer,19,Hybrid,Startup
+STU077,Mechanical,4th,7.25,"MATLAB, SolidWorks, ANSYS, AutoCAD",Beginner,Google Data Analytics,Mechanical Design Engineer,7,Online,Placement
+STU078,Mechanical,2nd,6.18,"MATLAB, SolidWorks, ANSYS",Advanced,Cisco CCNA,Mechanical Design Engineer,17,Online,Placement
+STU079,Computer Science,2nd,8.54,"Git, SQL, Data Structures",Intermediate,None,Software Developer,10,Offline,Higher Studies
+STU080,Electronics & Communication,4th,8.62,"Verilog, MATLAB, C++, C, Embedded C",Advanced,None,VLSI Engineer,11,Offline,Higher Studies
+STU081,Electrical,2nd,6.81,"MATLAB, Circuit Design, PLC Programming",Beginner,AWS Cloud Practitioner,Power Systems Engineer,15,Online,Government Job
+STU082,Mechanical,4th,7.35,"SolidWorks, MATLAB, AutoCAD, ANSYS",Advanced,None,Robotics Engineer,7,Offline,Placement
+STU083,Chemical,3rd,8.68,"MATLAB, Process Simulation, Excel, Safety Management",Intermediate,Google Data Analytics,Production Engineer,13,Online,Higher Studies
+STU084,Chemical,3rd,8.61,"MATLAB, Process Simulation, Safety Management, Excel",Advanced,NPTEL Python,Process Engineer,10,Online,Placement
+STU085,Electronics & Communication,1st,6.97,"MATLAB, Embedded C",Beginner,NPTEL Python,IoT Developer,7,Hybrid,Higher Studies
+STU086,Electronics & Communication,3rd,7.78,"C, MATLAB, C++, Embedded C",Beginner,Google Data Analytics,Embedded Systems Engineer,14,Offline,Startup
+STU087,Computer Science,4th,8.66,"Algorithms, Java, Python, Data Structures, Machine Learning",Advanced,Cisco CCNA,Backend Developer,20,Online,Government Job
+STU088,Electrical,3rd,6.3,"MATLAB, Power Systems, PLC Programming, Circuit Design",Beginner,NPTEL Python,Electrical Engineer,7,Online,Government Job
+STU089,Computer Science,3rd,6.31,"Machine Learning, Data Structures, Git, SQL",Advanced,NPTEL Python,Backend Developer,16,Hybrid,Startup
+STU090,Information Technology,3rd,7.68,"React, JavaScript, Git, Python",Advanced,Cisco CCNA,Software Developer,6,Offline,Placement
+STU091,Information Technology,3rd,9.57,"Python, JavaScript, SQL, Node.js",Intermediate,Cisco CCNA,Software Developer,9,Online,Higher Studies
+STU092,Computer Science,4th,7.87,"Git, Python, Algorithms, Data Structures, SQL",Advanced,Google Data Analytics,Data Scientist,18,Offline,Higher Studies
+STU093,Electrical,3rd,9.55,"MATLAB, PLC Programming, Circuit Design, Power Systems",Beginner,None,Electrical Engineer,18,Hybrid,Higher Studies
+STU094,Civil,4th,7.58,"Surveying, STAAD Pro, AutoCAD, Excel",Intermediate,Google Data Analytics,Civil Site Engineer,13,Online,Government Job
+STU095,Civil,4th,9.41,"Surveying, STAAD Pro, AutoCAD, Excel",Intermediate,NPTEL Python,Civil Site Engineer,5,Offline,Placement
+STU096,Information Technology,4th,6.05,"React, SQL, JavaScript, Python, Node.js",Intermediate,Cisco CCNA,Full Stack Developer,7,Online,Higher Studies
+STU097,Electronics & Communication,2nd,9.04,"C, C++, MATLAB",Beginner,AWS Cloud Practitioner,VLSI Engineer,10,Online,Higher Studies
+STU098,Electronics & Communication,3rd,6.04,"Embedded C, C, C++, Verilog",Intermediate,Google Data Analytics,IoT Developer,19,Offline,Government Job
+STU099,Information Technology,2nd,6.2,"React, Python, SQL",Advanced,Cisco CCNA,Software Developer,13,Online,Government Job
+STU100,Chemical,4th,6.44,"Process Simulation, MATLAB, Excel, Safety Management",Advanced,NPTEL Python,Production Engineer,10,Offline,Higher Studies
+STU101,Electronics & Communication,2nd,9.48,"Verilog, C, Embedded C",Beginner,None,VLSI Engineer,17,Offline,Startup
+STU102,Civil,2nd,9.21,"Excel, STAAD Pro, AutoCAD",Intermediate,Google Data Analytics,Civil Site Engineer,13,Online,Government Job
+STU103,Electronics & Communication,2nd,8.36,"C++, Embedded C, Verilog",Advanced,None,Embedded Systems Engineer,9,Offline,Government Job
+STU104,Electronics & Communication,4th,9.38,"Embedded C, MATLAB, Verilog, C, C++",Advanced,AWS Cloud Practitioner,Embedded Systems Engineer,19,Online,Government Job
+STU105,Electrical,1st,8.3,"Circuit Design, PLC Programming",Intermediate,AWS Cloud Practitioner,Electrical Engineer,19,Hybrid,Startup
+STU106,Electrical,2nd,6.35,"PLC Programming, Circuit Design, MATLAB",Beginner,Cisco CCNA,Power Systems Engineer,16,Offline,Placement
+STU107,Electronics & Communication,3rd,6.67,"Embedded C, C++, Verilog, C",Intermediate,NPTEL Python,Embedded Systems Engineer,16,Offline,Government Job
+STU108,Electronics & Communication,3rd,8.98,"Verilog, C++, Embedded C, MATLAB",Beginner,None,Embedded Systems Engineer,7,Offline,Higher Studies
+STU109,Information Technology,1st,8.51,"Node.js, React",Beginner,AWS Cloud Practitioner,Cloud Engineer,16,Offline,Higher Studies
+STU110,Civil,1st,7.39,"STAAD Pro, Surveying",Advanced,None,Structural Engineer,8,Hybrid,Startup
+STU111,Information Technology,4th,6.37,"SQL, Node.js, React, Python, Git",Advanced,None,Software Developer,12,Offline,Startup
+STU112,Information Technology,3rd,7.09,"SQL, React, JavaScript, Python",Beginner,Google Data Analytics,Software Developer,5,Offline,Higher Studies
+STU113,Computer Science,3rd,9.61,"Algorithms, SQL, React, Python",Beginner,AWS Cloud Practitioner,Backend Developer,14,Online,Higher Studies
+STU114,Chemical,2nd,9.79,"MATLAB, Process Simulation, Safety Management",Advanced,NPTEL Python,Process Engineer,9,Online,Placement
+STU115,Computer Science,3rd,6.99,"Java, Python, Git, Machine Learning",Intermediate,None,ML Engineer,7,Offline,Placement
+STU116,Electronics & Communication,4th,6.73,"Verilog, Embedded C, C, C++, MATLAB",Beginner,None,IoT Developer,8,Offline,Higher Studies
+STU117,Electronics & Communication,1st,6.52,"MATLAB, Verilog",Intermediate,Google Data Analytics,Embedded Systems Engineer,6,Online,Higher Studies
+STU118,Chemical,1st,9.48,"Excel, MATLAB",Intermediate,None,Process Engineer,15,Hybrid,Startup
+STU119,Information Technology,1st,8.06,"React, Node.js",Intermediate,Cisco CCNA,Software Developer,9,Offline,Placement
+STU120,Mechanical,2nd,8.8,"ANSYS, AutoCAD, MATLAB",Intermediate,Cisco CCNA,Automotive Engineer,19,Hybrid,Higher Studies
+STU121,Mechanical,2nd,7.01,"MATLAB, ANSYS, SolidWorks",Advanced,AWS Cloud Practitioner,Mechanical Design Engineer,11,Hybrid,Placement
+STU122,Mechanical,1st,8.6,"SolidWorks, ANSYS",Beginner,None,Mechanical Design Engineer,18,Offline,Government Job
+STU123,Mechanical,3rd,6.11,"ANSYS, SolidWorks, MATLAB, AutoCAD",Beginner,Cisco CCNA,Robotics Engineer,6,Hybrid,Startup
+STU124,Information Technology,4th,8.98,"SQL, Node.js, Python, JavaScript, Git",Advanced,None,Software Developer,18,Online,Placement
+STU125,Electronics & Communication,2nd,7.61,"C, C++, Embedded C",Advanced,NPTEL Python,VLSI Engineer,17,Online,Placement
+STU126,Information Technology,3rd,6.99,"SQL, React, Node.js, Git",Beginner,Google Data Analytics,Software Developer,9,Online,Government Job
+STU127,Mechanical,2nd,7.83,"AutoCAD, ANSYS, MATLAB",Intermediate,Google Data Analytics,Automotive Engineer,9,Hybrid,Higher Studies
+STU128,Electrical,4th,9.34,"MATLAB, Power Systems, PLC Programming, Circuit Design",Advanced,NPTEL Python,Power Systems Engineer,12,Hybrid,Higher Studies
+STU129,Information Technology,4th,9.01,"Node.js, Git, SQL, Python, React",Advanced,AWS Cloud Practitioner,Software Developer,9,Hybrid,Higher Studies
+STU130,Chemical,1st,7.45,"MATLAB, Excel",Advanced,NPTEL Python,Production Engineer,13,Hybrid,Higher Studies
+STU131,Civil,2nd,6.08,"Excel, STAAD Pro, AutoCAD",Advanced,Google Data Analytics,Civil Site Engineer,14,Offline,Placement
+STU132,Chemical,2nd,8.96,"Process Simulation, Safety Management, MATLAB",Beginner,Google Data Analytics,Process Engineer,16,Hybrid,Government Job
+STU133,Computer Science,4th,6.43,"Algorithms, Git, Machine Learning, SQL, Java",Beginner,Cisco CCNA,Backend Developer,14,Offline,Higher Studies
+STU134,Mechanical,2nd,6.22,"ANSYS, MATLAB, SolidWorks",Beginner,Cisco CCNA,Mechanical Design Engineer,9,Online,Higher Studies
+STU135,Electronics & Communication,3rd,8.11,"Verilog, MATLAB, C, Embedded C",Advanced,None,Embedded Systems Engineer,7,Hybrid,Government Job
+STU136,Electrical,3rd,6.18,"PLC Programming, Circuit Design, Power Systems, MATLAB",Beginner,Cisco CCNA,Electrical Engineer,11,Hybrid,Higher Studies
+STU137,Information Technology,4th,9.33,"React, Git, SQL, Node.js, JavaScript",Beginner,NPTEL Python,Cloud Engineer,17,Offline,Startup
+STU138,Electronics & Communication,1st,6.87,"C++, Embedded C",Advanced,None,VLSI Engineer,17,Online,Startup
+STU139,Civil,4th,6.53,"AutoCAD, STAAD Pro, Excel, Surveying",Intermediate,AWS Cloud Practitioner,Civil Site Engineer,20,Offline,Higher Studies
+STU140,Information Technology,3rd,6.44,"Node.js, SQL, JavaScript, Python",Intermediate,None,Software Developer,18,Hybrid,Startup
+STU141,Information Technology,1st,7.64,"Python, Node.js",Intermediate,NPTEL Python,Software Developer,20,Offline,Placement
+STU142,Mechanical,2nd,9.03,"SolidWorks, ANSYS, AutoCAD",Beginner,None,Mechanical Design Engineer,13,Offline,Government Job
+STU143,Chemical,2nd,9.31,"Excel, MATLAB, Process Simulation",Advanced,Google Data Analytics,Process Engineer,6,Hybrid,Startup
+STU144,Computer Science,1st,8.62,"SQL, React",Beginner,Google Data Analytics,Data Scientist,6,Offline,Startup
+STU145,Electronics & Communication,2nd,8.4,"MATLAB, Verilog, C++",Intermediate,Google Data Analytics,Embedded Systems Engineer,17,Offline,Startup
+STU146,Information Technology,3rd,8.99,"Python, JavaScript, Git, React",Advanced,NPTEL Python,Software Developer,10,Online,Startup
+STU147,Electronics & Communication,1st,6.35,"C, Embedded C",Intermediate,Google Data Analytics,IoT Developer,11,Offline,Placement
+STU148,Mechanical,1st,7.42,"MATLAB, AutoCAD",Advanced,Google Data Analytics,Mechanical Design Engineer,12,Hybrid,Government Job
+STU149,Mechanical,4th,9.24,"AutoCAD, ANSYS, SolidWorks, MATLAB",Advanced,Cisco CCNA,Automotive Engineer,14,Offline,Higher Studies
+STU150,Chemical,1st,8.4,"MATLAB, Excel",Intermediate,NPTEL Python,Process Engineer,14,Offline,Higher Studies
+STU151,Information Technology,4th,9.64,"React, JavaScript, Python, Node.js, Git",Intermediate,Cisco CCNA,Cloud Engineer,13,Offline,Startup
+STU152,Civil,2nd,6.81,"STAAD Pro, AutoCAD, Surveying",Beginner,AWS Cloud Practitioner,Structural Engineer,10,Offline,Higher Studies
+STU153,Chemical,3rd,8.52,"Process Simulation, Safety Management, MATLAB, Excel",Advanced,AWS Cloud Practitioner,Process Engineer,14,Online,Government Job
+STU154,Information Technology,3rd,6.88,"SQL, React, Python, Git",Intermediate,None,Cloud Engineer,12,Offline,Placement
+STU155,Electrical,1st,8.39,"PLC Programming, MATLAB",Beginner,Cisco CCNA,Power Systems Engineer,5,Hybrid,Placement
+STU156,Civil,2nd,8.35,"STAAD Pro, Excel, Surveying",Beginner,Google Data Analytics,Civil Site Engineer,11,Hybrid,Higher Studies
+STU157,Information Technology,4th,7.62,"JavaScript, Python, SQL, Node.js, Git",Advanced,None,Cloud Engineer,11,Hybrid,Government Job
+STU158,Chemical,4th,6.07,"Process Simulation, Safety Management, Excel, MATLAB",Advanced,Cisco CCNA,Production Engineer,8,Offline,Startup
+STU159,Computer Science,2nd,8.64,"Java, Git, Python",Advanced,None,Data Scientist,9,Hybrid,Startup
+STU160,Electronics & Communication,2nd,8.97,"C++, C, Verilog",Beginner,Cisco CCNA,Embedded Systems Engineer,11,Online,Higher Studies
+STU161,Civil,3rd,8.05,"AutoCAD, STAAD Pro, Excel, Surveying",Advanced,Google Data Analytics,Structural Engineer,9,Online,Government Job
+STU162,Mechanical,1st,6.73,"AutoCAD, ANSYS",Intermediate,NPTEL Python,Mechanical Design Engineer,11,Offline,Higher Studies
+STU163,Mechanical,3rd,7.25,"ANSYS, MATLAB, AutoCAD, SolidWorks",Beginner,NPTEL Python,Robotics Engineer,16,Hybrid,Startup
+STU164,Electronics & Communication,1st,6.12,"MATLAB, Embedded C",Beginner,None,VLSI Engineer,19,Offline,Placement
+STU165,Electrical,2nd,8.82,"PLC Programming, MATLAB, Circuit Design",Intermediate,AWS Cloud Practitioner,Electrical Engineer,7,Online,Placement
+STU166,Computer Science,1st,9.26,"Machine Learning, React",Intermediate,Cisco CCNA,Data Scientist,15,Online,Government Job
+STU167,Information Technology,3rd,9.6,"Python, React, SQL, Git",Advanced,Cisco CCNA,Cloud Engineer,8,Offline,Startup
+STU168,Mechanical,2nd,8.02,"ANSYS, AutoCAD, SolidWorks",Beginner,Cisco CCNA,Robotics Engineer,15,Hybrid,Startup
+STU169,Electronics & Communication,4th,7.25,"MATLAB, C++, Embedded C, Verilog, C",Beginner,Cisco CCNA,IoT Developer,11,Offline,Startup
+STU170,Electrical,1st,8.03,"MATLAB, Circuit Design",Advanced,Cisco CCNA,Power Systems Engineer,17,Online,Government Job
+STU171,Information Technology,2nd,6.66,"Python, Node.js, SQL",Beginner,AWS Cloud Practitioner,Software Developer,8,Offline,Startup
+STU172,Civil,1st,7.37,"STAAD Pro, Excel",Advanced,Cisco CCNA,Structural Engineer,13,Offline,Placement
+STU173,Civil,1st,7.35,"Excel, Surveying",Advanced,None,Civil Site Engineer,8,Offline,Startup
+STU174,Information Technology,4th,8.68,"SQL, Git, React, Node.js, Python",Advanced,AWS Cloud Practitioner,Cloud Engineer,9,Hybrid,Placement
+STU175,Computer Science,2nd,8.03,"Data Structures, Machine Learning, Git",Intermediate,NPTEL Python,Software Developer,9,Online,Higher Studies
+STU176,Electrical,2nd,9.06,"MATLAB, Power Systems, PLC Programming",Advanced,None,Power Systems Engineer,13,Hybrid,Government Job
+STU177,Electrical,1st,6.53,"Circuit Design, Power Systems",Beginner,Cisco CCNA,Electrical Engineer,5,Offline,Placement
+STU178,Electronics & Communication,3rd,7.74,"MATLAB, Embedded C, Verilog, C++",Intermediate,NPTEL Python,IoT Developer,15,Hybrid,Government Job
+STU179,Computer Science,4th,7.34,"Java, Python, Git, SQL, Machine Learning",Advanced,NPTEL Python,Backend Developer,11,Offline,Startup
+STU180,Electronics & Communication,2nd,8.53,"C, Verilog, Embedded C",Intermediate,Cisco CCNA,Embedded Systems Engineer,9,Hybrid,Placement
+STU181,Electronics & Communication,2nd,8.76,"Embedded C, C, Verilog",Beginner,Google Data Analytics,VLSI Engineer,6,Hybrid,Government Job
+STU182,Information Technology,3rd,8.36,"Node.js, Python, JavaScript, Git",Intermediate,Cisco CCNA,Cloud Engineer,8,Hybrid,Higher Studies
+STU183,Mechanical,4th,9.68,"ANSYS, MATLAB, SolidWorks, AutoCAD",Beginner,AWS Cloud Practitioner,Mechanical Design Engineer,11,Offline,Higher Studies
+STU184,Civil,4th,7.17,"AutoCAD, STAAD Pro, Surveying, Excel",Intermediate,Google Data Analytics,Civil Site Engineer,5,Online,Startup
+STU185,Civil,3rd,6.28,"AutoCAD, STAAD Pro, Excel, Surveying",Advanced,None,Civil Site Engineer,7,Online,Government Job
+STU186,Electrical,3rd,9.46,"Circuit Design, PLC Programming, Power Systems, MATLAB",Beginner,Google Data Analytics,Electrical Engineer,5,Online,Higher Studies
+STU187,Electronics & Communication,3rd,8.06,"MATLAB, Verilog, C, C++",Intermediate,Google Data Analytics,IoT Developer,10,Hybrid,Government Job
+STU188,Mechanical,3rd,7.31,"ANSYS, AutoCAD, MATLAB, SolidWorks",Intermediate,Cisco CCNA,Mechanical Design Engineer,13,Hybrid,Placement
+STU189,Chemical,1st,6.15,"Excel, Process Simulation",Advanced,NPTEL Python,Production Engineer,17,Offline,Startup
+STU190,Mechanical,3rd,7.31,"SolidWorks, MATLAB, AutoCAD, ANSYS",Advanced,AWS Cloud Practitioner,Mechanical Design Engineer,11,Hybrid,Higher Studies
+STU191,Information Technology,4th,8.59,"JavaScript, React, Node.js, SQL, Python",Beginner,NPTEL Python,Full Stack Developer,9,Offline,Higher Studies
+STU192,Mechanical,2nd,6.19,"SolidWorks, AutoCAD, MATLAB",Intermediate,Cisco CCNA,Robotics Engineer,10,Hybrid,Placement
+STU193,Computer Science,1st,8.69,"Algorithms, Data Structures",Intermediate,Google Data Analytics,ML Engineer,13,Offline,Government Job
+STU194,Chemical,1st,7.34,"MATLAB, Excel",Advanced,Cisco CCNA,Production Engineer,9,Hybrid,Placement
+STU195,Information Technology,2nd,7.01,"React, Python, JavaScript",Beginner,Cisco CCNA,Cloud Engineer,12,Hybrid,Startup
+STU196,Electronics & Communication,2nd,6.68,"C++, MATLAB, Embedded C",Advanced,AWS Cloud Practitioner,VLSI Engineer,7,Online,Government Job
+STU197,Civil,1st,8.58,"STAAD Pro, AutoCAD",Intermediate,NPTEL Python,Structural Engineer,18,Hybrid,Startup
+STU198,Computer Science,3rd,9.04,"Python, Java, SQL, Data Structures",Advanced,Google Data Analytics,Software Developer,5,Offline,Startup
+STU199,Mechanical,1st,8.19,"SolidWorks, MATLAB",Advanced,Google Data Analytics,Robotics Engineer,17,Hybrid,Placement
+STU200,Electrical,4th,9.03,"Circuit Design, Power Systems, MATLAB, PLC Programming",Beginner,None,Power Systems Engineer,14,Offline,Government Job
+STU201,Information Technology,3rd,6.74,"JavaScript, React, Node.js, Python",Advanced,AWS Cloud Practitioner,Full Stack Developer,10,Offline,Startup
+STU202,Chemical,4th,6.09,"MATLAB, Safety Management, Excel, Process Simulation",Intermediate,Cisco CCNA,Process Engineer,12,Offline,Higher Studies
+STU203,Electronics & Communication,3rd,7.25,"Embedded C, C++, Verilog, C",Intermediate,AWS Cloud Practitioner,Embedded Systems Engineer,9,Offline,Startup
+STU204,Electronics & Communication,4th,9.28,"Verilog, C, C++, MATLAB, Embedded C",Intermediate,NPTEL Python,VLSI Engineer,14,Offline,Higher Studies
+STU205,Information Technology,4th,8.97,"Python, Node.js, Git, React, SQL",Advanced,Cisco CCNA,Software Developer,9,Offline,Startup
+STU206,Chemical,1st,9.52,"Safety Management, Excel",Beginner,None,Production Engineer,10,Hybrid,Government Job
+STU207,Chemical,3rd,8.47,"Excel, Safety Management, MATLAB, Process Simulation",Beginner,Google Data Analytics,Production Engineer,11,Hybrid,Government Job
+STU208,Chemical,2nd,9.22,"MATLAB, Process Simulation, Excel",Intermediate,Cisco CCNA,Production Engineer,16,Hybrid,Startup
+STU209,Electrical,1st,7.07,"MATLAB, PLC Programming",Beginner,None,Power Systems Engineer,13,Offline,Higher Studies
+STU210,Electronics & Communication,2nd,7.23,"Verilog, C, C++",Advanced,None,IoT Developer,20,Online,Government Job
+STU211,Electrical,2nd,9.71,"PLC Programming, Power Systems, MATLAB",Intermediate,NPTEL Python,Power Systems Engineer,9,Online,Startup
+STU212,Computer Science,3rd,7.99,"Python, Machine Learning, SQL, Data Structures",Intermediate,NPTEL Python,ML Engineer,12,Hybrid,Placement
+STU213,Electronics & Communication,4th,9.26,"C++, Verilog, Embedded C, MATLAB, C",Beginner,None,IoT Developer,15,Offline,Startup
+STU214,Mechanical,2nd,7.48,"MATLAB, AutoCAD, ANSYS",Intermediate,Google Data Analytics,Automotive Engineer,5,Hybrid,Placement
+STU215,Mechanical,1st,6.12,"AutoCAD, SolidWorks",Intermediate,AWS Cloud Practitioner,Automotive Engineer,15,Online,Higher Studies
+STU216,Computer Science,4th,9.33,"React, Data Structures, Machine Learning, Python, Algorithms",Beginner,NPTEL Python,Software Developer,20,Online,Startup
+STU217,Mechanical,3rd,8.39,"MATLAB, AutoCAD, SolidWorks, ANSYS",Intermediate,AWS Cloud Practitioner,Robotics Engineer,12,Online,Placement
+STU218,Mechanical,4th,8.3,"SolidWorks, AutoCAD, MATLAB, ANSYS",Beginner,Google Data Analytics,Automotive Engineer,14,Online,Startup
+STU219,Electronics & Communication,2nd,9.05,"MATLAB, C, C++",Intermediate,Cisco CCNA,IoT Developer,6,Hybrid,Startup
+STU220,Electronics & Communication,1st,9.2,"Embedded C, MATLAB",Advanced,NPTEL Python,IoT Developer,6,Online,Government Job
+STU221,Civil,1st,6.23,"AutoCAD, Surveying",Beginner,None,Civil Site Engineer,12,Online,Startup
+STU222,Information Technology,1st,6.15,"JavaScript, Python",Advanced,Cisco CCNA,Cloud Engineer,13,Online,Placement
+STU223,Civil,3rd,6.63,"AutoCAD, STAAD Pro, Excel, Surveying",Intermediate,None,Civil Site Engineer,10,Online,Higher Studies
+STU224,Chemical,2nd,7.28,"Process Simulation, MATLAB, Safety Management",Advanced,Google Data Analytics,Process Engineer,12,Hybrid,Higher Studies
+STU225,Chemical,2nd,9.16,"MATLAB, Process Simulation, Safety Management",Beginner,Cisco CCNA,Process Engineer,16,Offline,Startup
+STU226,Electrical,4th,8.78,"Circuit Design, Power Systems, MATLAB, PLC Programming",Intermediate,Cisco CCNA,Power Systems Engineer,12,Offline,Startup
+STU227,Chemical,3rd,9.21,"Process Simulation, MATLAB, Excel, Safety Management",Intermediate,AWS Cloud Practitioner,Production Engineer,20,Offline,Government Job
+STU228,Chemical,3rd,6.94,"Safety Management, MATLAB, Process Simulation, Excel",Beginner,None,Production Engineer,6,Hybrid,Higher Studies
+STU229,Electronics & Communication,4th,7.94,"Verilog, C++, MATLAB, Embedded C, C",Beginner,AWS Cloud Practitioner,IoT Developer,9,Hybrid,Government Job
+STU230,Chemical,2nd,9.55,"Safety Management, MATLAB, Excel",Beginner,Google Data Analytics,Process Engineer,19,Hybrid,Startup
+STU231,Computer Science,2nd,9.07,"Java, Python, SQL",Advanced,AWS Cloud Practitioner,ML Engineer,17,Hybrid,Placement
+STU232,Electronics & Communication,4th,6.62,"C, Verilog, Embedded C, MATLAB, C++",Advanced,NPTEL Python,Embedded Systems Engineer,19,Offline,Higher Studies
+STU233,Chemical,1st,6.14,"MATLAB, Process Simulation",Intermediate,None,Production Engineer,6,Hybrid,Government Job
+STU234,Chemical,2nd,8.86,"Process Simulation, MATLAB, Excel",Advanced,AWS Cloud Practitioner,Production Engineer,14,Hybrid,Higher Studies
+STU235,Electronics & Communication,3rd,6.56,"C, Embedded C, MATLAB, C++",Intermediate,AWS Cloud Practitioner,IoT Developer,13,Hybrid,Higher Studies
+STU236,Information Technology,2nd,7.65,"React, Git, Node.js",Beginner,Cisco CCNA,Software Developer,20,Hybrid,Government Job
+STU237,Chemical,1st,8.79,"MATLAB, Process Simulation",Intermediate,AWS Cloud Practitioner,Process Engineer,9,Online,Government Job
+STU238,Chemical,4th,7.65,"MATLAB, Safety Management, Excel, Process Simulation",Advanced,Google Data Analytics,Process Engineer,5,Online,Government Job
+STU239,Electrical,3rd,9.51,"Circuit Design, PLC Programming, MATLAB, Power Systems",Intermediate,AWS Cloud Practitioner,Power Systems Engineer,8,Online,Higher Studies
+STU240,Chemical,1st,7.4,"Excel, Process Simulation",Beginner,None,Process Engineer,20,Online,Higher Studies
+STU241,Mechanical,1st,9.45,"AutoCAD, SolidWorks",Beginner,NPTEL Python,Robotics Engineer,10,Hybrid,Placement
+STU242,Electronics & Communication,4th,9.25,"C++, Embedded C, MATLAB, Verilog, C",Intermediate,Cisco CCNA,VLSI Engineer,12,Online,Placement
+STU243,Civil,3rd,7.71,"Excel, AutoCAD, Surveying, STAAD Pro",Intermediate,NPTEL Python,Structural Engineer,9,Hybrid,Higher Studies
+STU244,Civil,1st,7.1,"Excel, AutoCAD",Advanced,None,Structural Engineer,6,Hybrid,Startup
+STU245,Chemical,4th,9.53,"Safety Management, Excel, MATLAB, Process Simulation",Intermediate,Google Data Analytics,Process Engineer,10,Hybrid,Startup
+STU246,Mechanical,1st,6.48,"MATLAB, SolidWorks",Advanced,AWS Cloud Practitioner,Robotics Engineer,16,Online,Higher Studies
+STU247,Civil,1st,8.97,"Excel, AutoCAD",Beginner,None,Structural Engineer,9,Online,Higher Studies
+STU248,Mechanical,4th,9.3,"ANSYS, AutoCAD, SolidWorks, MATLAB",Intermediate,NPTEL Python,Robotics Engineer,9,Offline,Startup
+STU249,Electrical,3rd,8.53,"Power Systems, Circuit Design, PLC Programming, MATLAB",Intermediate,NPTEL Python,Electrical Engineer,18,Online,Government Job
+STU250,Electrical,4th,7.32,"Circuit Design, MATLAB, Power Systems, PLC Programming",Advanced,AWS Cloud Practitioner,Power Systems Engineer,17,Hybrid,Government Job
+STU251,Mechanical,2nd,7.07,"AutoCAD, MATLAB, SolidWorks",Beginner,AWS Cloud Practitioner,Automotive Engineer,13,Hybrid,Startup
+STU252,Chemical,4th,7.86,"Safety Management, Process Simulation, Excel, MATLAB",Beginner,None,Process Engineer,14,Offline,Startup
+STU253,Mechanical,3rd,6.29,"ANSYS, MATLAB, AutoCAD, SolidWorks",Advanced,AWS Cloud Practitioner,Mechanical Design Engineer,11,Online,Startup
+STU254,Information Technology,3rd,9.24,"Git, Python, Node.js, JavaScript",Advanced,Cisco CCNA,Cloud Engineer,13,Hybrid,Placement
+STU255,Chemical,1st,9.24,"Excel, Safety Management",Beginner,NPTEL Python,Production Engineer,5,Hybrid,Government Job
+STU256,Electronics & Communication,1st,8.36,"C, Embedded C",Advanced,AWS Cloud Practitioner,Embedded Systems Engineer,11,Online,Startup
+STU257,Electronics & Communication,3rd,8.14,"C, Verilog, MATLAB, C++",Advanced,AWS Cloud Practitioner,VLSI Engineer,18,Online,Placement
+STU258,Electronics & Communication,1st,8.16,"MATLAB, Embedded C",Beginner,NPTEL Python,Embedded Systems Engineer,12,Online,Higher Studies
+STU259,Electrical,3rd,8.53,"Power Systems, MATLAB, Circuit Design, PLC Programming",Advanced,None,Electrical Engineer,20,Online,Startup
+STU260,Computer Science,3rd,7.23,"Data Structures, React, Algorithms, Machine Learning",Beginner,Google Data Analytics,Software Developer,13,Offline,Government Job
+STU261,Computer Science,2nd,9.05,"React, SQL, Machine Learning",Advanced,AWS Cloud Practitioner,Software Developer,12,Hybrid,Startup
+STU262,Chemical,4th,9.44,"Safety Management, MATLAB, Excel, Process Simulation",Beginner,Google Data Analytics,Process Engineer,8,Online,Government Job
+STU263,Civil,1st,9.53,"Surveying, AutoCAD",Beginner,Cisco CCNA,Civil Site Engineer,12,Hybrid,Startup
+STU264,Computer Science,3rd,7.15,"Java, Algorithms, Python, React",Beginner,Cisco CCNA,Software Developer,7,Hybrid,Higher Studies
+STU265,Electrical,2nd,6.41,"PLC Programming, MATLAB, Power Systems",Beginner,NPTEL Python,Power Systems Engineer,9,Offline,Higher Studies
+STU266,Civil,1st,9.63,"AutoCAD, Surveying",Intermediate,Cisco CCNA,Civil Site Engineer,16,Online,Placement
+STU267,Civil,1st,7.48,"STAAD Pro, Surveying",Beginner,Google Data Analytics,Structural Engineer,14,Online,Placement
+STU268,Mechanical,3rd,9.46,"AutoCAD, ANSYS, MATLAB, SolidWorks",Intermediate,Google Data Analytics,Automotive Engineer,14,Offline,Higher Studies
+STU269,Chemical,4th,6.91,"MATLAB, Process Simulation, Safety Management, Excel",Intermediate,Cisco CCNA,Process Engineer,11,Offline,Government Job
+STU270,Electronics & Communication,2nd,7.6,"C, C++, MATLAB",Intermediate,Google Data Analytics,IoT Developer,12,Hybrid,Government Job
+STU271,Information Technology,4th,8.49,"Git, SQL, JavaScript, React, Node.js",Intermediate,None,Software Developer,7,Hybrid,Higher Studies
+STU272,Mechanical,1st,8.55,"ANSYS, AutoCAD",Intermediate,NPTEL Python,Robotics Engineer,11,Offline,Government Job
+STU273,Mechanical,2nd,8.76,"AutoCAD, ANSYS, MATLAB",Advanced,AWS Cloud Practitioner,Automotive Engineer,11,Online,Placement
+STU274,Mechanical,1st,8.91,"ANSYS, AutoCAD",Beginner,Cisco CCNA,Robotics Engineer,18,Online,Placement
+STU275,Electrical,3rd,6.96,"Power Systems, Circuit Design, MATLAB, PLC Programming",Beginner,AWS Cloud Practitioner,Power Systems Engineer,6,Hybrid,Government Job
+STU276,Mechanical,1st,8.1,"MATLAB, ANSYS",Beginner,Cisco CCNA,Robotics Engineer,5,Offline,Placement
+STU277,Electronics & Communication,3rd,8.56,"MATLAB, C, Verilog, C++",Beginner,AWS Cloud Practitioner,Embedded Systems Engineer,15,Hybrid,Startup
+STU278,Computer Science,4th,7.49,"Git, SQL, Java, React, Python",Beginner,Google Data Analytics,Data Scientist,6,Offline,Higher Studies
+STU279,Information Technology,4th,7.97,"JavaScript, Python, Git, SQL, React",Intermediate,Cisco CCNA,Software Developer,18,Offline,Startup
+STU280,Mechanical,4th,6.04,"ANSYS, SolidWorks, MATLAB, AutoCAD",Advanced,None,Automotive Engineer,7,Offline,Higher Studies
+STU281,Electrical,1st,8.4,"MATLAB, PLC Programming",Intermediate,None,Power Systems Engineer,18,Hybrid,Placement
+STU282,Civil,3rd,7.25,"Surveying, AutoCAD, STAAD Pro, Excel",Advanced,Google Data Analytics,Structural Engineer,10,Offline,Government Job
+STU283,Electronics & Communication,3rd,8.46,"Verilog, Embedded C, MATLAB, C++",Intermediate,NPTEL Python,Embedded Systems Engineer,13,Online,Placement
+STU284,Mechanical,4th,7.33,"AutoCAD, ANSYS, MATLAB, SolidWorks",Advanced,None,Mechanical Design Engineer,6,Hybrid,Higher Studies
+STU285,Electronics & Communication,4th,9.17,"C, Verilog, MATLAB, Embedded C, C++",Intermediate,Google Data Analytics,Embedded Systems Engineer,12,Offline,Startup
+STU286,Information Technology,1st,6.29,"Git, SQL",Beginner,AWS Cloud Practitioner,Full Stack Developer,8,Offline,Higher Studies
+STU287,Electronics & Communication,4th,7.42,"Embedded C, MATLAB, Verilog, C, C++",Beginner,AWS Cloud Practitioner,Embedded Systems Engineer,6,Online,Placement
+STU288,Computer Science,1st,8.5,"Machine Learning, Python",Beginner,None,Backend Developer,13,Online,Placement
+STU289,Mechanical,1st,7.39,"MATLAB, ANSYS",Beginner,None,Robotics Engineer,20,Online,Startup
+STU290,Electronics & Communication,4th,7.19,"Verilog, MATLAB, Embedded C, C++, C",Intermediate,NPTEL Python,IoT Developer,19,Online,Placement
+STU291,Computer Science,4th,8.78,"Python, Git, React, Java, Machine Learning",Advanced,Cisco CCNA,Software Developer,14,Online,Government Job
+STU292,Electrical,4th,8.24,"PLC Programming, MATLAB, Power Systems, Circuit Design",Beginner,Cisco CCNA,Power Systems Engineer,8,Online,Higher Studies
+STU293,Chemical,1st,6.49,"Excel, MATLAB",Beginner,Google Data Analytics,Production Engineer,18,Online,Higher Studies
+STU294,Electronics & Communication,4th,6.54,"MATLAB, C, C++, Verilog, Embedded C",Advanced,NPTEL Python,Embedded Systems Engineer,10,Online,Higher Studies
+STU295,Chemical,1st,6.74,"Process Simulation, Safety Management",Beginner,Cisco CCNA,Production Engineer,15,Hybrid,Placement
+STU296,Electrical,1st,6.97,"Power Systems, MATLAB",Intermediate,Google Data Analytics,Electrical Engineer,13,Online,Government Job
+STU297,Electrical,4th,6.96,"Circuit Design, MATLAB, Power Systems, PLC Programming",Advanced,None,Power Systems Engineer,17,Hybrid,Higher Studies
+STU298,Mechanical,1st,8.02,"SolidWorks, AutoCAD",Beginner,None,Mechanical Design Engineer,15,Hybrid,Government Job
+STU299,Mechanical,1st,6.54,"SolidWorks, ANSYS",Beginner,NPTEL Python,Automotive Engineer,14,Offline,Startup
+STU300,Mechanical,1st,6.88,"ANSYS, SolidWorks",Intermediate,AWS Cloud Practitioner,Robotics Engineer,8,Offline,Placement
+STU301,Electrical,2nd,8.66,"Circuit Design, MATLAB, Power Systems",Beginner,AWS Cloud Practitioner,Electrical Engineer,13,Online,Placement
+STU302,Computer Science,4th,8.75,"Data Structures, SQL, Python, Java, Git",Advanced,NPTEL Python,ML Engineer,12,Offline,Startup
+STU303,Information Technology,3rd,6.66,"JavaScript, SQL, Git, Python",Intermediate,AWS Cloud Practitioner,Full Stack Developer,13,Offline,Startup
+STU304,Electrical,3rd,7.84,"Circuit Design, PLC Programming, Power Systems, MATLAB",Intermediate,NPTEL Python,Power Systems Engineer,14,Hybrid,Government Job
+STU305,Chemical,4th,7.7,"MATLAB, Safety Management, Excel, Process Simulation",Intermediate,NPTEL Python,Process Engineer,15,Hybrid,Government Job
+STU306,Civil,3rd,8.64,"STAAD Pro, Excel, AutoCAD, Surveying",Intermediate,Google Data Analytics,Structural Engineer,18,Offline,Placement
+STU307,Chemical,2nd,6.84,"Safety Management, Process Simulation, MATLAB",Beginner,Google Data Analytics,Production Engineer,6,Hybrid,Placement
+STU308,Information Technology,1st,7.53,"React, Node.js",Intermediate,Google Data Analytics,Cloud Engineer,19,Hybrid,Higher Studies
+STU309,Electronics & Communication,1st,9.32,"Verilog, C",Advanced,Cisco CCNA,VLSI Engineer,19,Hybrid,Government Job
+STU310,Electronics & Communication,1st,9.65,"Embedded C, C++",Beginner,Cisco CCNA,IoT Developer,16,Hybrid,Placement
+STU311,Information Technology,3rd,9.37,"SQL, Git, JavaScript, Node.js",Beginner,Cisco CCNA,Full Stack Developer,9,Hybrid,Government Job
+STU312,Computer Science,3rd,6.61,"React, Data Structures, Machine Learning, Python",Beginner,NPTEL Python,Data Scientist,20,Online,Higher Studies
+STU313,Mechanical,1st,8.22,"SolidWorks, ANSYS",Advanced,AWS Cloud Practitioner,Automotive Engineer,17,Offline,Higher Studies
+STU314,Chemical,1st,9.78,"MATLAB, Process Simulation",Beginner,Google Data Analytics,Production Engineer,7,Online,Startup
+STU315,Computer Science,2nd,6.65,"Python, Machine Learning, Algorithms",Intermediate,Google Data Analytics,Data Scientist,8,Online,Startup
+STU316,Computer Science,2nd,8.17,"Git, Machine Learning, React",Advanced,NPTEL Python,ML Engineer,9,Hybrid,Placement
+STU317,Electrical,3rd,7.64,"Circuit Design, MATLAB, PLC Programming, Power Systems",Advanced,None,Electrical Engineer,12,Hybrid,Startup
+STU318,Chemical,1st,8.47,"Process Simulation, Safety Management",Advanced,Cisco CCNA,Process Engineer,10,Online,Government Job
+STU319,Mechanical,2nd,6.67,"ANSYS, AutoCAD, SolidWorks",Advanced,Google Data Analytics,Robotics Engineer,16,Hybrid,Higher Studies
+STU320,Chemical,1st,7.22,"Safety Management, MATLAB",Beginner,NPTEL Python,Process Engineer,20,Hybrid,Startup
+STU321,Computer Science,3rd,8.01,"Data Structures, SQL, Machine Learning, Python",Beginner,Cisco CCNA,Backend Developer,9,Hybrid,Placement
+STU322,Computer Science,3rd,7.72,"Algorithms, React, Python, Data Structures",Beginner,NPTEL Python,ML Engineer,8,Hybrid,Placement
+STU323,Electronics & Communication,4th,8.52,"C++, MATLAB, Verilog, Embedded C, C",Intermediate,AWS Cloud Practitioner,Embedded Systems Engineer,9,Offline,Government Job
+STU324,Mechanical,3rd,9.19,"ANSYS, SolidWorks, MATLAB, AutoCAD",Advanced,Google Data Analytics,Mechanical Design Engineer,19,Offline,Higher Studies
+STU325,Civil,4th,9.72,"AutoCAD, Excel, Surveying, STAAD Pro",Intermediate,AWS Cloud Practitioner,Civil Site Engineer,8,Online,Government Job
+STU326,Mechanical,2nd,7.23,"AutoCAD, MATLAB, SolidWorks",Intermediate,AWS Cloud Practitioner,Robotics Engineer,20,Offline,Placement
+STU327,Information Technology,2nd,8.09,"Python, Git, React",Advanced,Google Data Analytics,Cloud Engineer,18,Online,Placement
+STU328,Mechanical,4th,6.97,"MATLAB, SolidWorks, ANSYS, AutoCAD",Advanced,Google Data Analytics,Robotics Engineer,7,Offline,Placement
+STU329,Chemical,2nd,9.06,"Excel, Process Simulation, Safety Management",Intermediate,Cisco CCNA,Process Engineer,14,Online,Placement
+STU330,Chemical,2nd,6.2,"Excel, MATLAB, Process Simulation",Advanced,NPTEL Python,Production Engineer,14,Hybrid,Government Job
+STU331,Electronics & Communication,3rd,8.7,"Embedded C, Verilog, C++, C",Beginner,Google Data Analytics,VLSI Engineer,15,Hybrid,Startup
+STU332,Civil,4th,8.33,"Excel, AutoCAD, STAAD Pro, Surveying",Beginner,NPTEL Python,Civil Site Engineer,5,Online,Placement
+STU333,Electronics & Communication,3rd,8.02,"MATLAB, Embedded C, C++, Verilog",Beginner,NPTEL Python,VLSI Engineer,6,Online,Higher Studies
+STU334,Mechanical,1st,8.87,"MATLAB, SolidWorks",Beginner,NPTEL Python,Automotive Engineer,18,Hybrid,Government Job
+STU335,Mechanical,3rd,9.24,"SolidWorks, ANSYS, AutoCAD, MATLAB",Advanced,None,Mechanical Design Engineer,10,Offline,Higher Studies
+STU336,Information Technology,3rd,8.73,"Git, Python, React, SQL",Advanced,NPTEL Python,Cloud Engineer,18,Hybrid,Higher Studies
+STU337,Computer Science,2nd,8.5,"Algorithms, Machine Learning, SQL",Intermediate,AWS Cloud Practitioner,Backend Developer,6,Online,Higher Studies
+STU338,Civil,3rd,8.5,"Excel, Surveying, AutoCAD, STAAD Pro",Beginner,Google Data Analytics,Civil Site Engineer,14,Hybrid,Higher Studies
+STU339,Mechanical,3rd,8.83,"ANSYS, MATLAB, SolidWorks, AutoCAD",Beginner,NPTEL Python,Mechanical Design Engineer,14,Online,Placement
+STU340,Computer Science,3rd,9.58,"Algorithms, React, Data Structures, Java",Intermediate,None,ML Engineer,11,Hybrid,Government Job
+STU341,Electronics & Communication,4th,6.86,"C, MATLAB, Embedded C, Verilog, C++",Advanced,Cisco CCNA,Embedded Systems Engineer,7,Online,Startup
+STU342,Electronics & Communication,1st,8.0,"Verilog, MATLAB",Advanced,Google Data Analytics,IoT Developer,19,Hybrid,Startup
+STU343,Electronics & Communication,1st,9.72,"C++, C",Beginner,AWS Cloud Practitioner,Embedded Systems Engineer,9,Online,Government Job
+STU344,Electrical,3rd,7.72,"PLC Programming, Circuit Design, Power Systems, MATLAB",Beginner,None,Power Systems Engineer,11,Hybrid,Government Job
+STU345,Electrical,1st,9.61,"PLC Programming, MATLAB",Intermediate,Cisco CCNA,Electrical Engineer,5,Hybrid,Placement
+STU346,Information Technology,4th,6.72,"Node.js, JavaScript, React, SQL, Git",Intermediate,Cisco CCNA,Cloud Engineer,14,Online,Startup
+STU347,Civil,1st,7.04,"AutoCAD, STAAD Pro",Advanced,NPTEL Python,Structural Engineer,7,Online,Higher Studies
+STU348,Civil,1st,9.3,"STAAD Pro, AutoCAD",Beginner,NPTEL Python,Civil Site Engineer,18,Hybrid,Government Job
+STU349,Electrical,2nd,8.6,"Circuit Design, MATLAB, Power Systems",Beginner,NPTEL Python,Power Systems Engineer,6,Online,Startup
+STU350,Civil,1st,7.91,"Excel, Surveying",Advanced,None,Structural Engineer,15,Offline,Government Job
+STU351,Mechanical,2nd,7.28,"SolidWorks, AutoCAD, MATLAB",Intermediate,Cisco CCNA,Mechanical Design Engineer,12,Online,Placement
+STU352,Electrical,2nd,8.36,"PLC Programming, Power Systems, MATLAB",Intermediate,None,Power Systems Engineer,7,Offline,Higher Studies
+STU353,Electrical,3rd,7.15,"Power Systems, Circuit Design, MATLAB, PLC Programming",Intermediate,Cisco CCNA,Electrical Engineer,13,Hybrid,Government Job
+STU354,Mechanical,2nd,8.69,"MATLAB, AutoCAD, ANSYS",Intermediate,AWS Cloud Practitioner,Mechanical Design Engineer,20,Offline,Government Job
+STU355,Electronics & Communication,1st,8.31,"Embedded C, C++",Beginner,None,IoT Developer,19,Online,Higher Studies
+STU356,Information Technology,3rd,7.87,"Node.js, JavaScript, Python, Git",Advanced,Google Data Analytics,Full Stack Developer,8,Offline,Government Job
+STU357,Information Technology,1st,8.7,"React, Python",Advanced,AWS Cloud Practitioner,Cloud Engineer,19,Offline,Government Job
+STU358,Electrical,1st,6.66,"MATLAB, PLC Programming",Intermediate,AWS Cloud Practitioner,Power Systems Engineer,18,Hybrid,Startup
+STU359,Mechanical,2nd,6.91,"SolidWorks, MATLAB, AutoCAD",Intermediate,AWS Cloud Practitioner,Automotive Engineer,11,Online,Government Job
+STU360,Computer Science,1st,9.07,"Git, Data Structures",Intermediate,Google Data Analytics,Data Scientist,6,Hybrid,Higher Studies
+STU361,Electronics & Communication,2nd,7.11,"C++, C, Verilog",Beginner,None,IoT Developer,15,Offline,Higher Studies
+STU362,Electrical,2nd,7.19,"Power Systems, PLC Programming, Circuit Design",Beginner,Google Data Analytics,Power Systems Engineer,19,Offline,Startup
+STU363,Electrical,3rd,7.31,"Power Systems, PLC Programming, MATLAB, Circuit Design",Advanced,AWS Cloud Practitioner,Electrical Engineer,16,Online,Startup
+STU364,Electronics & Communication,2nd,6.55,"Verilog, C, C++",Beginner,NPTEL Python,Embedded Systems Engineer,18,Online,Placement
+STU365,Computer Science,1st,8.63,"React, Algorithms",Intermediate,Cisco CCNA,ML Engineer,9,Offline,Government Job
+STU366,Chemical,1st,8.3,"MATLAB, Excel",Intermediate,AWS Cloud Practitioner,Production Engineer,16,Online,Government Job
+STU367,Chemical,2nd,6.9,"MATLAB, Safety Management, Excel",Beginner,AWS Cloud Practitioner,Process Engineer,14,Hybrid,Higher Studies
+STU368,Civil,2nd,8.71,"AutoCAD, Surveying, Excel",Advanced,Cisco CCNA,Structural Engineer,17,Offline,Placement
+STU369,Mechanical,2nd,9.08,"SolidWorks, AutoCAD, MATLAB",Intermediate,NPTEL Python,Mechanical Design Engineer,14,Online,Higher Studies
+STU370,Civil,3rd,7.93,"STAAD Pro, AutoCAD, Surveying, Excel",Intermediate,Cisco CCNA,Structural Engineer,14,Offline,Startup
+STU371,Civil,2nd,8.02,"Surveying, AutoCAD, Excel",Beginner,None,Civil Site Engineer,8,Hybrid,Startup
+STU372,Information Technology,4th,7.57,"SQL, React, Node.js, JavaScript, Git",Intermediate,None,Full Stack Developer,10,Online,Higher Studies
+STU373,Information Technology,3rd,8.17,"SQL, Git, React, Node.js",Beginner,Google Data Analytics,Software Developer,17,Online,Government Job
+STU374,Chemical,3rd,7.75,"MATLAB, Safety Management, Process Simulation, Excel",Beginner,None,Process Engineer,9,Online,Higher Studies
+STU375,Mechanical,4th,8.06,"AutoCAD, ANSYS, MATLAB, SolidWorks",Beginner,AWS Cloud Practitioner,Mechanical Design Engineer,19,Offline,Startup
+STU376,Electrical,1st,7.93,"Circuit Design, Power Systems",Advanced,Cisco CCNA,Power Systems Engineer,10,Offline,Government Job
+STU377,Chemical,1st,9.62,"MATLAB, Excel",Intermediate,Cisco CCNA,Process Engineer,16,Online,Placement
+STU378,Computer Science,1st,8.08,"Data Structures, Machine Learning",Intermediate,AWS Cloud Practitioner,Backend Developer,7,Hybrid,Higher Studies
+STU379,Computer Science,1st,9.59,"SQL, React",Beginner,NPTEL Python,Data Scientist,20,Offline,Government Job
+STU380,Electronics & Communication,3rd,7.17,"C++, C, Embedded C, MATLAB",Advanced,Cisco CCNA,Embedded Systems Engineer,9,Offline,Startup
+STU381,Electronics & Communication,4th,6.79,"C++, Verilog, Embedded C, C, MATLAB",Intermediate,None,Embedded Systems Engineer,18,Offline,Government Job
+STU382,Electronics & Communication,2nd,6.15,"C, MATLAB, C++",Beginner,None,VLSI Engineer,20,Hybrid,Government Job
+STU383,Electrical,3rd,9.39,"PLC Programming, MATLAB, Power Systems, Circuit Design",Beginner,None,Power Systems Engineer,15,Online,Higher Studies
+STU384,Electrical,3rd,6.65,"PLC Programming, MATLAB, Power Systems, Circuit Design",Advanced,None,Power Systems Engineer,16,Hybrid,Startup
+STU385,Civil,4th,6.71,"AutoCAD, STAAD Pro, Surveying, Excel",Beginner,Google Data Analytics,Civil Site Engineer,9,Online,Government Job
+STU386,Information Technology,1st,8.18,"JavaScript, Python",Advanced,AWS Cloud Practitioner,Cloud Engineer,20,Online,Placement
+STU387,Mechanical,1st,6.74,"AutoCAD, MATLAB",Advanced,AWS Cloud Practitioner,Automotive Engineer,20,Offline,Higher Studies
+STU388,Chemical,1st,6.92,"Safety Management, Excel",Beginner,AWS Cloud Practitioner,Process Engineer,7,Online,Higher Studies
+STU389,Civil,2nd,6.74,"STAAD Pro, Surveying, AutoCAD",Intermediate,AWS Cloud Practitioner,Civil Site Engineer,16,Hybrid,Government Job
+STU390,Chemical,2nd,6.03,"MATLAB, Process Simulation, Excel",Beginner,NPTEL Python,Process Engineer,17,Online,Higher Studies
+STU391,Chemical,2nd,7.21,"Excel, MATLAB, Safety Management",Intermediate,Google Data Analytics,Process Engineer,14,Online,Higher Studies
+STU392,Electrical,3rd,9.05,"Circuit Design, PLC Programming, Power Systems, MATLAB",Beginner,None,Power Systems Engineer,15,Offline,Government Job
+STU393,Chemical,1st,7.49,"Excel, Safety Management",Beginner,None,Process Engineer,13,Online,Placement
+STU394,Computer Science,4th,9.71,"SQL, Algorithms, Git, Data Structures, Java",Beginner,Google Data Analytics,Data Scientist,14,Hybrid,Placement
+STU395,Electronics & Communication,3rd,9.31,"MATLAB, Verilog, C++, C",Beginner,NPTEL Python,VLSI Engineer,8,Hybrid,Startup
+STU396,Information Technology,2nd,7.07,"React, JavaScript, Python",Advanced,Cisco CCNA,Cloud Engineer,12,Offline,Startup
+STU397,Information Technology,4th,9.17,"JavaScript, Node.js, SQL, Python, Git",Advanced,NPTEL Python,Software Developer,8,Offline,Startup
+STU398,Information Technology,2nd,8.98,"React, Git, JavaScript",Beginner,Google Data Analytics,Cloud Engineer,6,Online,Startup
+STU399,Information Technology,4th,7.43,"Python, Git, Node.js, JavaScript, SQL",Intermediate,Google Data Analytics,Software Developer,18,Offline,Government Job
+STU400,Electrical,4th,6.49,"Power Systems, Circuit Design, PLC Programming, MATLAB",Beginner,NPTEL Python,Power Systems Engineer,6,Hybrid,Higher Studies
+STU401,Electrical,1st,7.39,"Circuit Design, Power Systems",Intermediate,NPTEL Python,Power Systems Engineer,14,Hybrid,Startup
+STU402,Chemical,4th,9.14,"MATLAB, Safety Management, Process Simulation, Excel",Advanced,Cisco CCNA,Production Engineer,7,Offline,Government Job
+STU403,Electrical,4th,7.16,"Circuit Design, MATLAB, Power Systems, PLC Programming",Intermediate,Google Data Analytics,Power Systems Engineer,7,Online,Government Job
+STU404,Information Technology,2nd,7.38,"SQL, Python, React",Intermediate,Google Data Analytics,Full Stack Developer,10,Offline,Higher Studies
+STU405,Chemical,1st,9.53,"MATLAB, Safety Management",Advanced,None,Process Engineer,16,Offline,Higher Studies
+STU406,Computer Science,1st,8.63,"Algorithms, Java",Beginner,AWS Cloud Practitioner,ML Engineer,15,Offline,Placement
+STU407,Chemical,4th,9.74,"Excel, MATLAB, Process Simulation, Safety Management",Advanced,Google Data Analytics,Production Engineer,14,Hybrid,Startup
+STU408,Electronics & Communication,1st,7.28,"C++, MATLAB",Beginner,Cisco CCNA,VLSI Engineer,19,Hybrid,Higher Studies
+STU409,Mechanical,4th,9.5,"ANSYS, AutoCAD, SolidWorks, MATLAB",Beginner,NPTEL Python,Automotive Engineer,20,Offline,Higher Studies
+STU410,Computer Science,1st,9.15,"SQL, Git",Intermediate,Google Data Analytics,Software Developer,16,Offline,Placement
+STU411,Civil,4th,8.35,"STAAD Pro, Surveying, Excel, AutoCAD",Intermediate,Cisco CCNA,Structural Engineer,12,Offline,Higher Studies
+STU412,Chemical,2nd,7.56,"MATLAB, Excel, Safety Management",Intermediate,Google Data Analytics,Process Engineer,18,Offline,Placement
+STU413,Computer Science,4th,7.08,"Python, Algorithms, Data Structures, Machine Learning, SQL",Intermediate,Cisco CCNA,Data Scientist,15,Hybrid,Startup
+STU414,Civil,4th,8.59,"AutoCAD, STAAD Pro, Surveying, Excel",Intermediate,AWS Cloud Practitioner,Structural Engineer,20,Hybrid,Higher Studies
+STU415,Civil,2nd,9.1,"STAAD Pro, Surveying, Excel",Intermediate,Google Data Analytics,Civil Site Engineer,20,Hybrid,Higher Studies
+STU416,Information Technology,3rd,8.17,"Python, SQL, Git, JavaScript",Advanced,None,Full Stack Developer,13,Online,Higher Studies
+STU417,Mechanical,3rd,7.26,"MATLAB, AutoCAD, ANSYS, SolidWorks",Beginner,Cisco CCNA,Mechanical Design Engineer,5,Online,Higher Studies
+STU418,Chemical,2nd,7.66,"Safety Management, Process Simulation, Excel",Intermediate,Cisco CCNA,Process Engineer,8,Online,Placement
+STU419,Chemical,4th,7.22,"MATLAB, Safety Management, Process Simulation, Excel",Beginner,Google Data Analytics,Process Engineer,14,Hybrid,Higher Studies
+STU420,Civil,2nd,6.6,"AutoCAD, Surveying, Excel",Beginner,Google Data Analytics,Structural Engineer,7,Offline,Startup
+STU421,Electronics & Communication,4th,8.18,"Embedded C, Verilog, C, C++, MATLAB",Intermediate,Cisco CCNA,VLSI Engineer,13,Offline,Government Job
+STU422,Chemical,4th,7.87,"Excel, MATLAB, Safety Management, Process Simulation",Intermediate,Cisco CCNA,Production Engineer,19,Online,Placement
+STU423,Mechanical,4th,8.21,"AutoCAD, SolidWorks, MATLAB, ANSYS",Beginner,AWS Cloud Practitioner,Automotive Engineer,18,Online,Placement
+STU424,Mechanical,3rd,6.3,"SolidWorks, MATLAB, ANSYS, AutoCAD",Beginner,NPTEL Python,Automotive Engineer,8,Hybrid,Higher Studies
+STU425,Chemical,3rd,7.15,"Process Simulation, Safety Management, Excel, MATLAB",Beginner,None,Production Engineer,13,Online,Startup
+STU426,Mechanical,2nd,7.19,"MATLAB, ANSYS, AutoCAD",Advanced,Cisco CCNA,Robotics Engineer,7,Hybrid,Government Job
+STU427,Computer Science,2nd,7.45,"SQL, Algorithms, Git",Advanced,Google Data Analytics,Backend Developer,11,Online,Government Job
+STU428,Civil,2nd,6.89,"Surveying, STAAD Pro, Excel",Advanced,NPTEL Python,Structural Engineer,15,Hybrid,Higher Studies
+STU429,Civil,3rd,6.26,"Surveying, STAAD Pro, AutoCAD, Excel",Beginner,NPTEL Python,Structural Engineer,13,Offline,Placement
+STU430,Electronics & Communication,2nd,7.6,"C, Verilog, Embedded C",Intermediate,AWS Cloud Practitioner,Embedded Systems Engineer,16,Offline,Startup
+STU431,Mechanical,3rd,6.26,"SolidWorks, ANSYS, AutoCAD, MATLAB",Intermediate,AWS Cloud Practitioner,Automotive Engineer,7,Offline,Startup
+STU432,Civil,2nd,6.05,"AutoCAD, STAAD Pro, Excel",Beginner,Cisco CCNA,Structural Engineer,19,Offline,Higher Studies
+STU433,Electronics & Communication,1st,6.03,"C++, Embedded C",Advanced,Google Data Analytics,IoT Developer,12,Online,Higher Studies
+STU434,Computer Science,2nd,6.33,"SQL, Python, React",Advanced,Google Data Analytics,Software Developer,13,Offline,Placement
+STU435,Information Technology,1st,8.65,"Node.js, Git",Intermediate,Cisco CCNA,Software Developer,15,Offline,Higher Studies
+STU436,Chemical,4th,7.68,"Safety Management, MATLAB, Excel, Process Simulation",Intermediate,Cisco CCNA,Production Engineer,18,Hybrid,Government Job
+STU437,Mechanical,2nd,9.59,"MATLAB, ANSYS, SolidWorks",Beginner,Cisco CCNA,Mechanical Design Engineer,7,Hybrid,Government Job
+STU438,Information Technology,2nd,8.69,"Python, JavaScript, SQL",Beginner,None,Cloud Engineer,10,Online,Startup
+STU439,Civil,4th,7.51,"Surveying, Excel, STAAD Pro, AutoCAD",Advanced,Google Data Analytics,Structural Engineer,14,Online,Startup
+STU440,Computer Science,2nd,8.29,"Python, Data Structures, Java",Intermediate,None,Software Developer,10,Offline,Government Job
+STU441,Mechanical,2nd,8.19,"ANSYS, AutoCAD, MATLAB",Advanced,Cisco CCNA,Robotics Engineer,10,Hybrid,Startup
+STU442,Electronics & Communication,1st,7.56,"MATLAB, Verilog",Advanced,Google Data Analytics,VLSI Engineer,9,Hybrid,Startup
+STU443,Computer Science,1st,6.64,"Git, Java",Intermediate,None,Data Scientist,18,Hybrid,Higher Studies
+STU444,Civil,2nd,7.18,"Surveying, STAAD Pro, AutoCAD",Beginner,NPTEL Python,Civil Site Engineer,11,Hybrid,Government Job
+STU445,Electronics & Communication,4th,8.11,"C, C++, MATLAB, Verilog, Embedded C",Beginner,Google Data Analytics,VLSI Engineer,5,Offline,Placement
+STU446,Electronics & Communication,3rd,9.26,"C, Verilog, C++, MATLAB",Intermediate,Google Data Analytics,VLSI Engineer,7,Offline,Higher Studies
+STU447,Computer Science,3rd,9.8,"React, Machine Learning, Git, Python",Intermediate,None,Backend Developer,13,Hybrid,Government Job
+STU448,Information Technology,3rd,9.16,"JavaScript, React, Git, Node.js",Intermediate,NPTEL Python,Software Developer,9,Offline,Government Job
+STU449,Electronics & Communication,2nd,7.57,"C, MATLAB, C++",Advanced,AWS Cloud Practitioner,IoT Developer,10,Hybrid,Government Job
+STU450,Computer Science,4th,7.22,"Python, SQL, Machine Learning, Java, Algorithms",Advanced,Google Data Analytics,Backend Developer,20,Hybrid,Higher Studies
+STU451,Information Technology,4th,8.91,"Node.js, JavaScript, SQL, Python, Git",Advanced,Google Data Analytics,Cloud Engineer,18,Offline,Higher Studies
+STU452,Civil,1st,7.59,"AutoCAD, Surveying",Beginner,AWS Cloud Practitioner,Civil Site Engineer,6,Hybrid,Government Job
+STU453,Computer Science,4th,7.65,"Machine Learning, Java, Python, Git, React",Advanced,None,Data Scientist,7,Hybrid,Higher Studies
+STU454,Electronics & Communication,3rd,8.65,"C++, Verilog, Embedded C, MATLAB",Intermediate,NPTEL Python,IoT Developer,14,Hybrid,Higher Studies
+STU455,Civil,2nd,6.61,"AutoCAD, Surveying, STAAD Pro",Intermediate,NPTEL Python,Civil Site Engineer,6,Offline,Higher Studies
+STU456,Electrical,4th,9.13,"Circuit Design, MATLAB, Power Systems, PLC Programming",Advanced,NPTEL Python,Power Systems Engineer,19,Hybrid,Government Job
+STU457,Electronics & Communication,3rd,9.2,"C, C++, MATLAB, Verilog",Intermediate,None,Embedded Systems Engineer,14,Hybrid,Placement
+STU458,Information Technology,2nd,6.01,"Python, Git, React",Advanced,Cisco CCNA,Cloud Engineer,14,Hybrid,Government Job
+STU459,Electronics & Communication,1st,8.82,"Verilog, MATLAB",Beginner,None,VLSI Engineer,5,Online,Higher Studies
+STU460,Computer Science,4th,7.91,"Data Structures, React, Git, Algorithms, SQL",Beginner,AWS Cloud Practitioner,Backend Developer,12,Online,Startup
+STU461,Information Technology,2nd,7.21,"Python, Node.js, SQL",Intermediate,NPTEL Python,Cloud Engineer,9,Offline,Placement
+STU462,Electrical,3rd,7.58,"PLC Programming, Circuit Design, MATLAB, Power Systems",Advanced,NPTEL Python,Electrical Engineer,11,Hybrid,Placement
+STU463,Electrical,3rd,9.28,"MATLAB, PLC Programming, Circuit Design, Power Systems",Advanced,Cisco CCNA,Electrical Engineer,11,Offline,Government Job
+STU464,Electronics & Communication,1st,9.26,"Verilog, Embedded C",Beginner,None,Embedded Systems Engineer,17,Online,Higher Studies
+STU465,Electronics & Communication,3rd,9.77,"MATLAB, C, C++, Verilog",Advanced,AWS Cloud Practitioner,Embedded Systems Engineer,11,Online,Startup
+STU466,Civil,3rd,6.98,"Surveying, Excel, STAAD Pro, AutoCAD",Advanced,AWS Cloud Practitioner,Structural Engineer,14,Hybrid,Government Job
+STU467,Chemical,2nd,7.8,"MATLAB, Safety Management, Excel",Beginner,Cisco CCNA,Production Engineer,7,Online,Higher Studies
+STU468,Mechanical,2nd,6.89,"ANSYS, MATLAB, SolidWorks",Advanced,None,Robotics Engineer,14,Online,Higher Studies
+STU469,Civil,1st,8.63,"Surveying, STAAD Pro",Advanced,None,Civil Site Engineer,6,Offline,Higher Studies
+STU470,Chemical,3rd,8.56,"MATLAB, Excel, Safety Management, Process Simulation",Advanced,None,Production Engineer,12,Offline,Startup
+STU471,Electrical,3rd,8.83,"Power Systems, Circuit Design, MATLAB, PLC Programming",Beginner,AWS Cloud Practitioner,Electrical Engineer,15,Offline,Higher Studies
+STU472,Electrical,4th,6.92,"MATLAB, Power Systems, Circuit Design, PLC Programming",Beginner,AWS Cloud Practitioner,Electrical Engineer,17,Hybrid,Higher Studies
+STU473,Computer Science,3rd,9.14,"Machine Learning, Data Structures, Java, Algorithms",Intermediate,Google Data Analytics,Backend Developer,10,Hybrid,Government Job
+STU474,Electronics & Communication,4th,7.18,"Embedded C, C, C++, Verilog, MATLAB",Beginner,Cisco CCNA,VLSI Engineer,20,Hybrid,Startup
+STU475,Computer Science,3rd,8.64,"Machine Learning, Java, Data Structures, SQL",Intermediate,None,ML Engineer,20,Hybrid,Government Job
+STU476,Electronics & Communication,2nd,7.4,"Verilog, Embedded C, MATLAB",Beginner,Google Data Analytics,Embedded Systems Engineer,16,Offline,Government Job
+STU477,Mechanical,4th,9.33,"AutoCAD, ANSYS, MATLAB, SolidWorks",Beginner,NPTEL Python,Mechanical Design Engineer,18,Offline,Startup
+STU478,Computer Science,2nd,6.54,"Python, React, SQL",Intermediate,Google Data Analytics,ML Engineer,7,Hybrid,Government Job
+STU479,Mechanical,2nd,8.58,"SolidWorks, AutoCAD, MATLAB",Beginner,None,Automotive Engineer,10,Online,Startup
+STU480,Mechanical,2nd,6.33,"ANSYS, SolidWorks, MATLAB",Intermediate,Google Data Analytics,Mechanical Design Engineer,8,Offline,Placement
+STU481,Electrical,4th,7.61,"Circuit Design, Power Systems, PLC Programming, MATLAB",Intermediate,None,Power Systems Engineer,7,Hybrid,Startup
+STU482,Mechanical,2nd,9.24,"ANSYS, AutoCAD, SolidWorks",Advanced,NPTEL Python,Automotive Engineer,9,Hybrid,Placement
+STU483,Chemical,1st,9.08,"Process Simulation, Safety Management",Advanced,Cisco CCNA,Process Engineer,15,Offline,Higher Studies
+STU484,Civil,1st,7.39,"Excel, STAAD Pro",Intermediate,Google Data Analytics,Structural Engineer,12,Online,Government Job
+STU485,Chemical,1st,6.52,"Safety Management, MATLAB",Intermediate,None,Process Engineer,6,Offline,Placement
+STU486,Computer Science,4th,6.72,"Python, Git, Data Structures, React, Machine Learning",Intermediate,AWS Cloud Practitioner,Backend Developer,15,Hybrid,Government Job
+STU487,Electronics & Communication,2nd,7.1,"MATLAB, C, Verilog",Beginner,Google Data Analytics,IoT Developer,13,Offline,Government Job
+STU488,Electronics & Communication,2nd,6.71,"C, Embedded C, C++",Advanced,Cisco CCNA,IoT Developer,17,Hybrid,Higher Studies
+STU489,Mechanical,4th,8.12,"AutoCAD, SolidWorks, MATLAB, ANSYS",Beginner,None,Automotive Engineer,18,Online,Placement
+STU490,Electrical,2nd,8.49,"PLC Programming, Circuit Design, Power Systems",Advanced,AWS Cloud Practitioner,Power Systems Engineer,6,Hybrid,Placement
+STU491,Electronics & Communication,1st,7.29,"Verilog, MATLAB",Beginner,AWS Cloud Practitioner,VLSI Engineer,15,Online,Higher Studies
+STU492,Electronics & Communication,2nd,7.59,"C++, Verilog, Embedded C",Intermediate,NPTEL Python,IoT Developer,5,Online,Startup
+STU493,Electronics & Communication,1st,9.51,"Embedded C, MATLAB",Advanced,AWS Cloud Practitioner,IoT Developer,20,Offline,Government Job
+STU494,Information Technology,3rd,6.84,"SQL, React, Python, Node.js",Beginner,None,Cloud Engineer,12,Online,Startup
+STU495,Civil,1st,6.9,"Surveying, STAAD Pro",Intermediate,NPTEL Python,Structural Engineer,16,Online,Government Job
+STU496,Electronics & Communication,1st,7.08,"C++, MATLAB",Beginner,Cisco CCNA,IoT Developer,16,Offline,Government Job
+STU497,Electronics & Communication,3rd,7.63,"Embedded C, C, C++, MATLAB",Advanced,None,Embedded Systems Engineer,9,Hybrid,Startup
+STU498,Computer Science,2nd,9.11,"React, Python, Data Structures",Intermediate,Google Data Analytics,ML Engineer,15,Hybrid,Placement
+STU499,Electronics & Communication,4th,8.99,"C++, Embedded C, MATLAB, C, Verilog",Beginner,AWS Cloud Practitioner,Embedded Systems Engineer,12,Online,Government Job
+STU500,Chemical,4th,6.61,"Process Simulation, Safety Management, MATLAB, Excel",Intermediate,NPTEL Python,Process Engineer,9,Offline,Government Job
+STU501,Mechanical,1st,9.28,"SolidWorks, AutoCAD",Intermediate,None,Automotive Engineer,9,Offline,Government Job
+STU502,Civil,1st,7.06,"Excel, STAAD Pro",Advanced,Google Data Analytics,Civil Site Engineer,12,Hybrid,Startup
+STU503,Mechanical,3rd,6.77,"SolidWorks, MATLAB, ANSYS, AutoCAD",Beginner,Cisco CCNA,Mechanical Design Engineer,7,Offline,Government Job
+STU504,Civil,3rd,8.91,"Excel, AutoCAD, Surveying, STAAD Pro",Advanced,Cisco CCNA,Structural Engineer,11,Hybrid,Government Job
+STU505,Computer Science,4th,7.39,"Python, Data Structures, Git, Algorithms, Machine Learning",Beginner,Google Data Analytics,Software Developer,15,Hybrid,Placement
+STU506,Information Technology,4th,6.06,"Node.js, JavaScript, Git, React, SQL",Advanced,Cisco CCNA,Cloud Engineer,7,Hybrid,Placement
+STU507,Electronics & Communication,2nd,8.29,"C++, C, MATLAB",Advanced,Google Data Analytics,Embedded Systems Engineer,11,Online,Higher Studies
+STU508,Civil,3rd,8.07,"STAAD Pro, Surveying, AutoCAD, Excel",Advanced,AWS Cloud Practitioner,Civil Site Engineer,15,Offline,Higher Studies
+STU509,Civil,2nd,7.32,"STAAD Pro, Excel, AutoCAD",Advanced,Cisco CCNA,Structural Engineer,6,Online,Government Job
+STU510,Civil,3rd,8.07,"STAAD Pro, Excel, AutoCAD, Surveying",Intermediate,Google Data Analytics,Civil Site Engineer,12,Offline,Government Job
+STU511,Civil,3rd,8.83,"STAAD Pro, AutoCAD, Surveying, Excel",Intermediate,Google Data Analytics,Civil Site Engineer,9,Online,Higher Studies
+STU512,Chemical,3rd,6.61,"Safety Management, Process Simulation, Excel, MATLAB",Intermediate,Google Data Analytics,Process Engineer,19,Hybrid,Startup
+STU513,Computer Science,2nd,9.07,"Python, Machine Learning, React",Beginner,AWS Cloud Practitioner,Data Scientist,10,Online,Placement
+STU514,Civil,1st,6.92,"STAAD Pro, AutoCAD",Advanced,NPTEL Python,Civil Site Engineer,5,Online,Placement
+STU515,Mechanical,3rd,8.9,"AutoCAD, MATLAB, ANSYS, SolidWorks",Intermediate,Cisco CCNA,Robotics Engineer,12,Hybrid,Higher Studies
+STU516,Information Technology,1st,9.63,"SQL, Node.js",Advanced,Google Data Analytics,Full Stack Developer,18,Online,Startup
+STU517,Mechanical,3rd,7.72,"AutoCAD, SolidWorks, MATLAB, ANSYS",Beginner,AWS Cloud Practitioner,Mechanical Design Engineer,17,Hybrid,Placement
+STU518,Electrical,2nd,7.65,"Circuit Design, PLC Programming, MATLAB",Intermediate,NPTEL Python,Electrical Engineer,8,Hybrid,Startup
+STU519,Mechanical,4th,6.52,"AutoCAD, SolidWorks, ANSYS, MATLAB",Intermediate,AWS Cloud Practitioner,Robotics Engineer,20,Hybrid,Higher Studies
+STU520,Mechanical,4th,6.3,"SolidWorks, MATLAB, ANSYS, AutoCAD",Intermediate,AWS Cloud Practitioner,Automotive Engineer,16,Offline,Government Job
+STU521,Civil,1st,7.58,"Surveying, AutoCAD",Intermediate,NPTEL Python,Civil Site Engineer,9,Offline,Government Job
+STU522,Mechanical,2nd,6.95,"ANSYS, AutoCAD, MATLAB",Beginner,Cisco CCNA,Automotive Engineer,20,Online,Higher Studies
+STU523,Information Technology,3rd,8.98,"React, Node.js, Python, SQL",Intermediate,Google Data Analytics,Full Stack Developer,17,Online,Higher Studies
+STU524,Mechanical,3rd,9.53,"AutoCAD, SolidWorks, ANSYS, MATLAB",Advanced,AWS Cloud Practitioner,Robotics Engineer,12,Offline,Placement
+STU525,Information Technology,2nd,6.73,"SQL, Node.js, Git",Intermediate,None,Full Stack Developer,5,Online,Placement
+STU526,Civil,4th,8.77,"Excel, STAAD Pro, AutoCAD, Surveying",Beginner,None,Structural Engineer,15,Hybrid,Startup
+STU527,Information Technology,3rd,7.88,"Git, SQL, Python, JavaScript",Intermediate,Google Data Analytics,Software Developer,18,Online,Higher Studies
+STU528,Civil,1st,9.04,"Surveying, AutoCAD",Beginner,Google Data Analytics,Civil Site Engineer,16,Online,Government Job
+STU529,Electrical,3rd,8.7,"MATLAB, PLC Programming, Circuit Design, Power Systems",Advanced,AWS Cloud Practitioner,Electrical Engineer,19,Hybrid,Higher Studies
+STU530,Electronics & Communication,1st,7.0,"C, Embedded C",Advanced,Cisco CCNA,VLSI Engineer,6,Offline,Placement
+STU531,Electrical,4th,6.06,"MATLAB, Power Systems, PLC Programming, Circuit Design",Beginner,Google Data Analytics,Electrical Engineer,12,Hybrid,Startup
+STU532,Information Technology,2nd,8.55,"Python, Node.js, JavaScript",Beginner,NPTEL Python,Cloud Engineer,11,Hybrid,Government Job
+STU533,Chemical,1st,8.67,"MATLAB, Excel",Intermediate,Cisco CCNA,Production Engineer,5,Hybrid,Government Job
+STU534,Electronics & Communication,1st,7.8,"Verilog, C",Intermediate,None,Embedded Systems Engineer,11,Hybrid,Government Job
+STU535,Computer Science,1st,9.24,"React, Algorithms",Beginner,AWS Cloud Practitioner,Data Scientist,19,Online,Government Job
+STU536,Chemical,1st,6.82,"Safety Management, Excel",Beginner,Cisco CCNA,Production Engineer,13,Online,Startup
+STU537,Civil,2nd,7.6,"Excel, Surveying, STAAD Pro",Beginner,Cisco CCNA,Structural Engineer,10,Offline,Placement
+STU538,Electrical,2nd,8.74,"MATLAB, PLC Programming, Power Systems",Beginner,None,Electrical Engineer,6,Hybrid,Higher Studies
+STU539,Civil,1st,7.68,"Excel, Surveying",Advanced,AWS Cloud Practitioner,Civil Site Engineer,10,Hybrid,Startup
+STU540,Computer Science,2nd,6.54,"Algorithms, SQL, Java",Beginner,NPTEL Python,Software Developer,19,Hybrid,Placement
+STU541,Chemical,2nd,9.65,"Excel, MATLAB, Process Simulation",Beginner,Google Data Analytics,Production Engineer,20,Hybrid,Higher Studies
+STU542,Electronics & Communication,4th,7.21,"C++, MATLAB, C, Verilog, Embedded C",Beginner,Google Data Analytics,IoT Developer,11,Offline,Startup
+STU543,Information Technology,2nd,8.09,"JavaScript, Python, Git",Intermediate,Google Data Analytics,Software Developer,6,Hybrid,Placement
+STU544,Chemical,4th,6.58,"Safety Management, MATLAB, Excel, Process Simulation",Intermediate,Cisco CCNA,Production Engineer,11,Offline,Government Job
+STU545,Chemical,4th,7.75,"MATLAB, Process Simulation, Safety Management, Excel",Beginner,Google Data Analytics,Production Engineer,12,Online,Placement
+STU546,Electronics & Communication,2nd,8.06,"Embedded C, C, C++",Beginner,AWS Cloud Practitioner,IoT Developer,5,Offline,Placement
+STU547,Chemical,3rd,9.44,"MATLAB, Excel, Process Simulation, Safety Management",Beginner,NPTEL Python,Production Engineer,19,Online,Government Job
+STU548,Electronics & Communication,2nd,8.4,"C++, Verilog, C",Advanced,Cisco CCNA,Embedded Systems Engineer,7,Offline,Startup
+STU549,Chemical,1st,8.03,"Safety Management, Excel",Advanced,AWS Cloud Practitioner,Production Engineer,9,Online,Higher Studies
+STU550,Electronics & Communication,4th,8.49,"Embedded C, Verilog, C++, MATLAB, C",Intermediate,None,VLSI Engineer,20,Online,Higher Studies
+STU551,Electrical,2nd,6.59,"Circuit Design, MATLAB, Power Systems",Advanced,NPTEL Python,Power Systems Engineer,15,Offline,Higher Studies
+STU552,Civil,3rd,8.06,"AutoCAD, Surveying, STAAD Pro, Excel",Beginner,None,Structural Engineer,14,Offline,Startup
+STU553,Civil,3rd,7.37,"AutoCAD, Excel, STAAD Pro, Surveying",Intermediate,None,Civil Site Engineer,6,Offline,Startup
+STU554,Mechanical,4th,7.74,"MATLAB, ANSYS, SolidWorks, AutoCAD",Beginner,None,Mechanical Design Engineer,6,Hybrid,Higher Studies
+STU555,Information Technology,4th,9.58,"SQL, React, JavaScript, Node.js, Git",Beginner,Cisco CCNA,Cloud Engineer,5,Offline,Higher Studies
+STU556,Mechanical,4th,6.07,"SolidWorks, AutoCAD, MATLAB, ANSYS",Advanced,AWS Cloud Practitioner,Automotive Engineer,7,Online,Higher Studies
+STU557,Information Technology,3rd,7.33,"Python, React, SQL, Node.js",Advanced,None,Software Developer,14,Offline,Placement
+STU558,Civil,1st,7.43,"Excel, STAAD Pro",Beginner,None,Structural Engineer,14,Online,Startup
+STU559,Computer Science,3rd,8.14,"Java, React, Git, Algorithms",Beginner,AWS Cloud Practitioner,Data Scientist,13,Offline,Placement
+STU560,Electrical,3rd,8.05,"MATLAB, Circuit Design, PLC Programming, Power Systems",Beginner,NPTEL Python,Power Systems Engineer,15,Hybrid,Government Job
+STU561,Electronics & Communication,4th,8.64,"Embedded C, Verilog, C++, C, MATLAB",Advanced,AWS Cloud Practitioner,IoT Developer,6,Online,Higher Studies
+STU562,Electrical,1st,8.24,"MATLAB, Circuit Design",Advanced,Google Data Analytics,Electrical Engineer,17,Hybrid,Higher Studies
+STU563,Information Technology,2nd,6.52,"JavaScript, Python, Git",Beginner,Google Data Analytics,Software Developer,13,Hybrid,Higher Studies
+STU564,Electrical,4th,7.09,"Power Systems, Circuit Design, PLC Programming, MATLAB",Advanced,Cisco CCNA,Power Systems Engineer,15,Online,Placement
+STU565,Computer Science,2nd,8.41,"SQL, React, Machine Learning",Intermediate,Google Data Analytics,Software Developer,11,Online,Placement
+STU566,Electrical,3rd,6.41,"Power Systems, MATLAB, Circuit Design, PLC Programming",Advanced,Cisco CCNA,Electrical Engineer,7,Online,Government Job
+STU567,Mechanical,1st,6.09,"AutoCAD, MATLAB",Advanced,AWS Cloud Practitioner,Robotics Engineer,15,Offline,Startup
+STU568,Electrical,3rd,6.61,"Circuit Design, Power Systems, MATLAB, PLC Programming",Advanced,NPTEL Python,Power Systems Engineer,8,Hybrid,Placement
+STU569,Computer Science,1st,9.75,"Python, Java",Advanced,AWS Cloud Practitioner,Software Developer,13,Offline,Higher Studies
+STU570,Chemical,2nd,7.75,"Safety Management, Process Simulation, Excel",Beginner,AWS Cloud Practitioner,Process Engineer,8,Offline,Government Job
+STU571,Chemical,3rd,7.95,"Excel, Process Simulation, MATLAB, Safety Management",Advanced,NPTEL Python,Production Engineer,17,Offline,Higher Studies
+STU572,Mechanical,1st,7.28,"AutoCAD, SolidWorks",Intermediate,None,Robotics Engineer,11,Online,Government Job
+STU573,Chemical,1st,9.73,"Safety Management, Excel",Intermediate,None,Process Engineer,19,Hybrid,Startup
+STU574,Electrical,3rd,6.35,"MATLAB, Power Systems, Circuit Design, PLC Programming",Advanced,None,Power Systems Engineer,9,Online,Placement
+STU575,Civil,1st,6.54,"AutoCAD, STAAD Pro",Advanced,NPTEL Python,Civil Site Engineer,18,Hybrid,Startup
+STU576,Electronics & Communication,3rd,8.48,"Embedded C, MATLAB, C++, Verilog",Beginner,None,IoT Developer,9,Offline,Startup
+STU577,Information Technology,3rd,6.24,"Node.js, React, JavaScript, SQL",Advanced,None,Cloud Engineer,7,Offline,Higher Studies
+STU578,Electronics & Communication,2nd,9.63,"MATLAB, Embedded C, C",Beginner,NPTEL Python,Embedded Systems Engineer,15,Hybrid,Higher Studies
+STU579,Mechanical,1st,8.6,"MATLAB, AutoCAD",Intermediate,Google Data Analytics,Mechanical Design Engineer,8,Offline,Startup
+STU580,Information Technology,1st,6.91,"Python, Git",Intermediate,Cisco CCNA,Software Developer,6,Offline,Placement
+STU581,Information Technology,4th,7.32,"React, Python, Node.js, JavaScript, SQL",Intermediate,Cisco CCNA,Software Developer,13,Offline,Placement
+STU582,Chemical,4th,7.01,"Process Simulation, Safety Management, Excel, MATLAB",Beginner,Google Data Analytics,Production Engineer,14,Hybrid,Startup
+STU583,Chemical,2nd,7.8,"MATLAB, Excel, Safety Management",Advanced,Google Data Analytics,Production Engineer,15,Hybrid,Government Job
+STU584,Civil,4th,7.46,"AutoCAD, Surveying, Excel, STAAD Pro",Intermediate,None,Civil Site Engineer,5,Offline,Higher Studies
+STU585,Information Technology,2nd,9.04,"Python, Node.js, React",Beginner,Cisco CCNA,Software Developer,19,Hybrid,Startup
+STU586,Chemical,1st,7.76,"Process Simulation, MATLAB",Intermediate,None,Production Engineer,11,Offline,Higher Studies
+STU587,Electrical,2nd,6.99,"Circuit Design, Power Systems, MATLAB",Advanced,Google Data Analytics,Electrical Engineer,5,Hybrid,Placement
+STU588,Information Technology,4th,8.64,"JavaScript, SQL, Python, Node.js, React",Intermediate,None,Cloud Engineer,16,Hybrid,Government Job
+STU589,Electrical,4th,7.7,"Circuit Design, MATLAB, Power Systems, PLC Programming",Intermediate,Google Data Analytics,Electrical Engineer,17,Hybrid,Startup
+STU590,Civil,3rd,7.17,"STAAD Pro, Surveying, AutoCAD, Excel",Beginner,Cisco CCNA,Civil Site Engineer,12,Hybrid,Government Job
+STU591,Information Technology,4th,8.77,"Python, Git, SQL, JavaScript, React",Intermediate,Google Data Analytics,Software Developer,6,Online,Startup
+STU592,Electrical,2nd,6.83,"MATLAB, Power Systems, Circuit Design",Beginner,None,Electrical Engineer,8,Offline,Startup
+STU593,Electronics & Communication,4th,6.61,"Verilog, C, MATLAB, Embedded C, C++",Advanced,None,Embedded Systems Engineer,16,Offline,Higher Studies
+STU594,Electronics & Communication,2nd,9.22,"C, Embedded C, MATLAB",Intermediate,None,IoT Developer,7,Offline,Government Job
+STU595,Computer Science,4th,9.57,"SQL, Java, Machine Learning, React, Python",Beginner,Cisco CCNA,Data Scientist,14,Hybrid,Startup
+STU596,Chemical,3rd,6.96,"Excel, MATLAB, Process Simulation, Safety Management",Intermediate,NPTEL Python,Production Engineer,18,Offline,Government Job
+STU597,Information Technology,4th,6.13,"JavaScript, React, Git, Python, Node.js",Beginner,Google Data Analytics,Cloud Engineer,11,Offline,Higher Studies
+STU598,Chemical,2nd,7.47,"MATLAB, Excel, Process Simulation",Advanced,Google Data Analytics,Process Engineer,8,Offline,Government Job
+STU599,Computer Science,3rd,9.51,"Python, Machine Learning, React, SQL",Advanced,Google Data Analytics,Software Developer,14,Online,Startup
+STU600,Electronics & Communication,2nd,9.45,"Verilog, MATLAB, Embedded C",Intermediate,Cisco CCNA,IoT Developer,8,Offline,Government Job
+STU601,Computer Science,3rd,6.55,"React, Python, Java, Data Structures",Intermediate,Google Data Analytics,ML Engineer,7,Hybrid,Startup
+STU602,Electronics & Communication,4th,9.24,"MATLAB, Embedded C, C++, Verilog, C",Beginner,AWS Cloud Practitioner,VLSI Engineer,11,Hybrid,Placement
+STU603,Electronics & Communication,3rd,9.09,"C++, MATLAB, Verilog, Embedded C",Beginner,None,Embedded Systems Engineer,9,Offline,Government Job
+STU604,Civil,2nd,7.99,"Excel, STAAD Pro, Surveying",Advanced,Cisco CCNA,Structural Engineer,18,Online,Government Job
+STU605,Computer Science,3rd,9.49,"Machine Learning, Algorithms, SQL, Java",Intermediate,NPTEL Python,Data Scientist,15,Offline,Startup
+STU606,Computer Science,4th,8.38,"Python, Git, Algorithms, Data Structures, Java",Beginner,Cisco CCNA,ML Engineer,7,Online,Government Job
+STU607,Chemical,1st,8.15,"Excel, Process Simulation",Beginner,None,Production Engineer,17,Hybrid,Government Job
+STU608,Computer Science,2nd,6.57,"Python, Algorithms, React",Advanced,None,ML Engineer,19,Online,Higher Studies
+STU609,Computer Science,2nd,8.9,"React, Machine Learning, Algorithms",Intermediate,NPTEL Python,Software Developer,12,Offline,Placement
+STU610,Chemical,2nd,6.66,"Safety Management, MATLAB, Excel",Beginner,AWS Cloud Practitioner,Process Engineer,16,Offline,Government Job
+STU611,Civil,2nd,6.43,"STAAD Pro, AutoCAD, Excel",Advanced,Google Data Analytics,Structural Engineer,14,Hybrid,Placement
+STU612,Computer Science,3rd,7.75,"Algorithms, Git, SQL, Python",Beginner,Cisco CCNA,ML Engineer,18,Hybrid,Startup
+STU613,Information Technology,4th,9.62,"JavaScript, Git, SQL, Node.js, Python",Beginner,None,Cloud Engineer,9,Online,Startup
+STU614,Computer Science,4th,8.49,"Java, Git, Machine Learning, Python, Data Structures",Intermediate,Cisco CCNA,Backend Developer,14,Online,Higher Studies
+STU615,Information Technology,1st,7.61,"SQL, React",Advanced,Google Data Analytics,Software Developer,11,Offline,Higher Studies
+STU616,Mechanical,1st,6.06,"SolidWorks, AutoCAD",Intermediate,None,Robotics Engineer,11,Hybrid,Higher Studies
+STU617,Chemical,2nd,8.13,"Safety Management, Excel, MATLAB",Advanced,NPTEL Python,Production Engineer,5,Offline,Government Job
+STU618,Electronics & Communication,1st,7.61,"MATLAB, Verilog",Advanced,NPTEL Python,VLSI Engineer,5,Offline,Government Job
+STU619,Computer Science,4th,7.22,"Machine Learning, Algorithms, Git, Data Structures, Python",Advanced,Google Data Analytics,Data Scientist,15,Online,Government Job
+STU620,Mechanical,2nd,6.37,"MATLAB, SolidWorks, ANSYS",Intermediate,AWS Cloud Practitioner,Automotive Engineer,9,Offline,Higher Studies
+STU621,Chemical,3rd,7.16,"Safety Management, MATLAB, Excel, Process Simulation",Intermediate,AWS Cloud Practitioner,Production Engineer,7,Offline,Government Job
+STU622,Mechanical,2nd,7.61,"ANSYS, SolidWorks, AutoCAD",Intermediate,None,Robotics Engineer,9,Hybrid,Startup
+STU623,Mechanical,4th,6.91,"MATLAB, AutoCAD, SolidWorks, ANSYS",Intermediate,Cisco CCNA,Robotics Engineer,9,Online,Startup
+STU624,Electrical,4th,9.57,"PLC Programming, Power Systems, MATLAB, Circuit Design",Beginner,None,Electrical Engineer,14,Hybrid,Government Job
+STU625,Civil,1st,6.01,"AutoCAD, Surveying",Beginner,NPTEL Python,Civil Site Engineer,7,Offline,Government Job
+STU626,Information Technology,3rd,6.81,"Git, Node.js, JavaScript, Python",Intermediate,NPTEL Python,Full Stack Developer,19,Offline,Government Job
+STU627,Electrical,1st,6.11,"Circuit Design, Power Systems",Beginner,NPTEL Python,Electrical Engineer,14,Hybrid,Startup
+STU628,Computer Science,3rd,8.13,"Data Structures, Machine Learning, Python, React",Beginner,Cisco CCNA,ML Engineer,16,Hybrid,Placement
+STU629,Computer Science,4th,8.84,"Java, Algorithms, Python, Git, SQL",Intermediate,None,Software Developer,15,Online,Higher Studies
+STU630,Electronics & Communication,2nd,9.12,"C, C++, Embedded C",Beginner,NPTEL Python,Embedded Systems Engineer,18,Hybrid,Startup
+STU631,Computer Science,4th,8.21,"Data Structures, Java, SQL, Algorithms, Machine Learning",Advanced,Google Data Analytics,ML Engineer,19,Offline,Government Job
+STU632,Electronics & Communication,1st,8.38,"MATLAB, C",Advanced,Google Data Analytics,VLSI Engineer,10,Online,Placement
+STU633,Mechanical,4th,7.87,"MATLAB, AutoCAD, ANSYS, SolidWorks",Intermediate,Google Data Analytics,Automotive Engineer,5,Online,Higher Studies
+STU634,Electronics & Communication,3rd,6.86,"C, MATLAB, Embedded C, Verilog",Intermediate,None,VLSI Engineer,10,Online,Placement
+STU635,Computer Science,4th,6.7,"Java, Git, React, Python, Machine Learning",Intermediate,NPTEL Python,Data Scientist,5,Online,Government Job
+STU636,Civil,3rd,7.2,"AutoCAD, Surveying, Excel, STAAD Pro",Intermediate,None,Structural Engineer,5,Offline,Government Job
+STU637,Mechanical,3rd,7.0,"SolidWorks, AutoCAD, ANSYS, MATLAB",Advanced,NPTEL Python,Robotics Engineer,8,Online,Startup
+STU638,Electrical,2nd,6.57,"Power Systems, PLC Programming, Circuit Design",Beginner,AWS Cloud Practitioner,Electrical Engineer,9,Hybrid,Higher Studies
+STU639,Computer Science,1st,6.01,"Git, Data Structures",Advanced,Google Data Analytics,Software Developer,19,Online,Government Job
+STU640,Information Technology,1st,6.5,"JavaScript, Node.js",Beginner,Cisco CCNA,Cloud Engineer,14,Hybrid,Government Job
+STU641,Chemical,4th,7.33,"Safety Management, Process Simulation, MATLAB, Excel",Beginner,AWS Cloud Practitioner,Process Engineer,9,Offline,Government Job
+STU642,Information Technology,3rd,8.47,"React, SQL, Python, Git",Advanced,NPTEL Python,Cloud Engineer,16,Online,Startup
+STU643,Chemical,3rd,8.48,"MATLAB, Safety Management, Process Simulation, Excel",Intermediate,Google Data Analytics,Production Engineer,11,Online,Higher Studies
+STU644,Electrical,1st,7.71,"MATLAB, Circuit Design",Advanced,None,Electrical Engineer,10,Offline,Higher Studies
+STU645,Mechanical,4th,7.39,"SolidWorks, AutoCAD, ANSYS, MATLAB",Beginner,AWS Cloud Practitioner,Robotics Engineer,14,Online,Placement
+STU646,Information Technology,3rd,8.9,"Node.js, React, Git, JavaScript",Intermediate,None,Software Developer,5,Offline,Government Job
+STU647,Civil,4th,7.5,"STAAD Pro, AutoCAD, Excel, Surveying",Advanced,NPTEL Python,Civil Site Engineer,14,Offline,Higher Studies
+STU648,Chemical,4th,8.13,"Excel, Process Simulation, Safety Management, MATLAB",Beginner,None,Process Engineer,14,Hybrid,Higher Studies
+STU649,Information Technology,3rd,6.27,"React, Git, Node.js, JavaScript",Advanced,Google Data Analytics,Full Stack Developer,10,Hybrid,Higher Studies
+STU650,Mechanical,3rd,9.45,"SolidWorks, AutoCAD, ANSYS, MATLAB",Intermediate,Cisco CCNA,Robotics Engineer,13,Hybrid,Government Job
+STU651,Chemical,3rd,6.4,"MATLAB, Safety Management, Process Simulation, Excel",Beginner,AWS Cloud Practitioner,Production Engineer,10,Online,Startup
+STU652,Information Technology,2nd,7.55,"Git, Python, React",Beginner,None,Cloud Engineer,10,Hybrid,Government Job
+STU653,Information Technology,2nd,8.7,"SQL, React, Node.js",Beginner,AWS Cloud Practitioner,Software Developer,14,Online,Government Job
+STU654,Electronics & Communication,4th,9.66,"Verilog, MATLAB, C++, C, Embedded C",Intermediate,Cisco CCNA,VLSI Engineer,13,Hybrid,Startup
+STU655,Information Technology,3rd,8.95,"Git, Python, React, Node.js",Intermediate,None,Cloud Engineer,13,Hybrid,Higher Studies
+STU656,Mechanical,3rd,6.83,"AutoCAD, ANSYS, SolidWorks, MATLAB",Advanced,Google Data Analytics,Robotics Engineer,18,Online,Startup
+STU657,Chemical,1st,6.88,"Safety Management, MATLAB",Intermediate,Cisco CCNA,Production Engineer,10,Offline,Higher Studies
+STU658,Electrical,1st,8.57,"Power Systems, MATLAB",Advanced,AWS Cloud Practitioner,Electrical Engineer,15,Hybrid,Government Job
+STU659,Computer Science,1st,6.47,"Data Structures, Python",Intermediate,Google Data Analytics,Software Developer,19,Online,Government Job
+STU660,Chemical,3rd,8.46,"MATLAB, Safety Management, Excel, Process Simulation",Beginner,NPTEL Python,Production Engineer,18,Hybrid,Placement
+STU661,Computer Science,2nd,7.8,"Java, React, SQL",Intermediate,Google Data Analytics,ML Engineer,9,Hybrid,Startup
+STU662,Electrical,3rd,8.64,"MATLAB, Power Systems, Circuit Design, PLC Programming",Advanced,AWS Cloud Practitioner,Power Systems Engineer,11,Offline,Higher Studies
+STU663,Mechanical,4th,6.31,"SolidWorks, AutoCAD, MATLAB, ANSYS",Intermediate,Google Data Analytics,Automotive Engineer,18,Hybrid,Higher Studies
+STU664,Electronics & Communication,3rd,7.33,"C, MATLAB, Verilog, Embedded C",Beginner,NPTEL Python,IoT Developer,18,Online,Startup
+STU665,Electronics & Communication,1st,8.62,"C++, Embedded C",Beginner,AWS Cloud Practitioner,VLSI Engineer,15,Hybrid,Higher Studies
+STU666,Civil,4th,6.36,"Excel, STAAD Pro, AutoCAD, Surveying",Beginner,AWS Cloud Practitioner,Civil Site Engineer,11,Hybrid,Startup
+STU667,Chemical,2nd,6.15,"MATLAB, Excel, Process Simulation",Beginner,None,Production Engineer,13,Offline,Placement
+STU668,Mechanical,2nd,6.89,"AutoCAD, ANSYS, MATLAB",Intermediate,Google Data Analytics,Robotics Engineer,18,Offline,Higher Studies
+STU669,Chemical,2nd,7.08,"Safety Management, Excel, Process Simulation",Intermediate,AWS Cloud Practitioner,Production Engineer,5,Offline,Government Job
+STU670,Electrical,1st,7.39,"Power Systems, PLC Programming",Beginner,Cisco CCNA,Power Systems Engineer,20,Offline,Government Job
+STU671,Computer Science,4th,8.61,"Machine Learning, Git, Python, React, Data Structures",Advanced,Cisco CCNA,Data Scientist,13,Offline,Startup
+STU672,Civil,1st,8.19,"Surveying, AutoCAD",Advanced,NPTEL Python,Civil Site Engineer,13,Hybrid,Startup
+STU673,Information Technology,4th,6.44,"SQL, Git, JavaScript, Node.js, Python",Beginner,AWS Cloud Practitioner,Full Stack Developer,17,Offline,Higher Studies
+STU674,Electrical,2nd,7.26,"MATLAB, Power Systems, PLC Programming",Advanced,Google Data Analytics,Power Systems Engineer,17,Online,Higher Studies
+STU675,Electrical,1st,6.4,"Power Systems, PLC Programming",Advanced,NPTEL Python,Electrical Engineer,15,Offline,Placement
+STU676,Computer Science,2nd,8.12,"Data Structures, Java, SQL",Advanced,NPTEL Python,Data Scientist,15,Hybrid,Placement
+STU677,Information Technology,3rd,9.67,"React, SQL, JavaScript, Node.js",Intermediate,Google Data Analytics,Full Stack Developer,10,Offline,Higher Studies
+STU678,Mechanical,1st,7.06,"AutoCAD, SolidWorks",Beginner,None,Mechanical Design Engineer,10,Online,Placement
+STU679,Information Technology,2nd,6.46,"SQL, Python, JavaScript",Intermediate,Google Data Analytics,Cloud Engineer,15,Online,Placement
+STU680,Mechanical,2nd,6.37,"MATLAB, ANSYS, AutoCAD",Intermediate,AWS Cloud Practitioner,Robotics Engineer,9,Hybrid,Placement
+STU681,Civil,4th,7.81,"AutoCAD, STAAD Pro, Excel, Surveying",Intermediate,Cisco CCNA,Civil Site Engineer,12,Online,Placement
+STU682,Chemical,3rd,9.24,"MATLAB, Process Simulation, Safety Management, Excel",Advanced,NPTEL Python,Production Engineer,18,Hybrid,Government Job
+STU683,Mechanical,1st,9.49,"ANSYS, MATLAB",Advanced,Google Data Analytics,Automotive Engineer,7,Hybrid,Government Job
+STU684,Computer Science,3rd,6.51,"React, Java, Algorithms, SQL",Advanced,None,Data Scientist,20,Offline,Government Job
+STU685,Electronics & Communication,2nd,8.22,"Verilog, Embedded C, C",Intermediate,NPTEL Python,VLSI Engineer,17,Hybrid,Higher Studies
+STU686,Electrical,4th,8.17,"Circuit Design, MATLAB, Power Systems, PLC Programming",Intermediate,None,Electrical Engineer,18,Offline,Startup
+STU687,Information Technology,3rd,7.51,"Git, Python, Node.js, SQL",Advanced,Cisco CCNA,Full Stack Developer,12,Hybrid,Government Job
+STU688,Computer Science,4th,7.55,"Git, Python, SQL, Machine Learning, Data Structures",Advanced,NPTEL Python,ML Engineer,10,Online,Placement
+STU689,Civil,3rd,9.8,"Excel, AutoCAD, STAAD Pro, Surveying",Intermediate,NPTEL Python,Civil Site Engineer,19,Online,Government Job
+STU690,Mechanical,1st,8.66,"SolidWorks, AutoCAD",Advanced,Google Data Analytics,Automotive Engineer,7,Online,Government Job
+STU691,Civil,1st,7.83,"Excel, STAAD Pro",Advanced,Google Data Analytics,Structural Engineer,16,Offline,Startup
+STU692,Computer Science,2nd,6.08,"Git, Algorithms, SQL",Beginner,None,Software Developer,18,Offline,Government Job
+STU693,Electronics & Communication,2nd,6.59,"Embedded C, C, MATLAB",Beginner,Cisco CCNA,IoT Developer,17,Offline,Placement
+STU694,Electronics & Communication,3rd,7.84,"MATLAB, C++, C, Embedded C",Beginner,NPTEL Python,IoT Developer,12,Hybrid,Placement
+STU695,Computer Science,3rd,7.57,"Java, Algorithms, Data Structures, SQL",Beginner,Cisco CCNA,Software Developer,19,Offline,Government Job
+STU696,Civil,4th,8.0,"Excel, STAAD Pro, Surveying, AutoCAD",Intermediate,Cisco CCNA,Civil Site Engineer,12,Offline,Startup
+STU697,Information Technology,3rd,9.44,"SQL, React, Git, JavaScript",Advanced,AWS Cloud Practitioner,Software Developer,6,Online,Government Job
+STU698,Information Technology,1st,9.06,"JavaScript, SQL",Intermediate,Cisco CCNA,Cloud Engineer,5,Offline,Government Job
+STU699,Chemical,2nd,9.11,"Process Simulation, Safety Management, MATLAB",Beginner,NPTEL Python,Process Engineer,11,Hybrid,Government Job
+STU700,Chemical,3rd,6.82,"MATLAB, Excel, Safety Management, Process Simulation",Advanced,Google Data Analytics,Production Engineer,16,Offline,Startup
+STU701,Computer Science,2nd,8.7,"Algorithms, Data Structures, Python",Advanced,Google Data Analytics,ML Engineer,6,Offline,Startup
+STU702,Civil,3rd,7.69,"AutoCAD, STAAD Pro, Surveying, Excel",Beginner,AWS Cloud Practitioner,Structural Engineer,6,Offline,Placement
+STU703,Civil,1st,6.68,"Surveying, Excel",Beginner,AWS Cloud Practitioner,Structural Engineer,18,Online,Startup
+STU704,Electronics & Communication,4th,7.59,"Embedded C, C++, Verilog, C, MATLAB",Intermediate,Cisco CCNA,VLSI Engineer,6,Offline,Government Job
+STU705,Electronics & Communication,4th,8.89,"MATLAB, Verilog, C, Embedded C, C++",Beginner,None,Embedded Systems Engineer,10,Hybrid,Higher Studies
+STU706,Chemical,1st,8.29,"Excel, MATLAB",Advanced,Cisco CCNA,Process Engineer,6,Hybrid,Higher Studies
+STU707,Computer Science,4th,7.32,"Algorithms, Data Structures, Git, Machine Learning, Python",Advanced,AWS Cloud Practitioner,Data Scientist,18,Hybrid,Startup
+STU708,Civil,2nd,9.78,"Surveying, Excel, AutoCAD",Advanced,None,Civil Site Engineer,16,Hybrid,Government Job
+STU709,Civil,2nd,8.11,"Surveying, AutoCAD, STAAD Pro",Intermediate,Google Data Analytics,Structural Engineer,17,Online,Government Job
+STU710,Mechanical,1st,7.98,"MATLAB, AutoCAD",Advanced,Cisco CCNA,Mechanical Design Engineer,19,Online,Startup
+STU711,Information Technology,4th,6.56,"JavaScript, Git, Python, React, Node.js",Beginner,Google Data Analytics,Cloud Engineer,20,Offline,Higher Studies
+STU712,Chemical,3rd,6.02,"MATLAB, Safety Management, Excel, Process Simulation",Intermediate,Cisco CCNA,Production Engineer,15,Hybrid,Higher Studies
+STU713,Electrical,3rd,7.38,"Power Systems, Circuit Design, MATLAB, PLC Programming",Beginner,AWS Cloud Practitioner,Power Systems Engineer,16,Offline,Higher Studies
+STU714,Electrical,2nd,8.45,"MATLAB, PLC Programming, Power Systems",Intermediate,Google Data Analytics,Power Systems Engineer,18,Offline,Government Job
+STU715,Electronics & Communication,2nd,6.39,"C++, Verilog, Embedded C",Intermediate,AWS Cloud Practitioner,Embedded Systems Engineer,6,Hybrid,Government Job
+STU716,Chemical,2nd,9.66,"MATLAB, Safety Management, Process Simulation",Beginner,Google Data Analytics,Production Engineer,8,Offline,Government Job
+STU717,Electronics & Communication,2nd,7.59,"C, Embedded C, C++",Intermediate,Google Data Analytics,Embedded Systems Engineer,11,Online,Higher Studies
+STU718,Information Technology,2nd,8.37,"JavaScript, SQL, React",Advanced,AWS Cloud Practitioner,Cloud Engineer,15,Hybrid,Placement
+STU719,Computer Science,4th,8.15,"Algorithms, Python, React, Machine Learning, Data Structures",Intermediate,Google Data Analytics,Software Developer,15,Hybrid,Government Job
+STU720,Computer Science,3rd,6.01,"Data Structures, Git, Python, Java",Advanced,AWS Cloud Practitioner,Data Scientist,5,Offline,Startup
+STU721,Chemical,3rd,8.08,"Process Simulation, MATLAB, Safety Management, Excel",Beginner,AWS Cloud Practitioner,Process Engineer,17,Hybrid,Higher Studies
+STU722,Chemical,4th,8.09,"Process Simulation, MATLAB, Excel, Safety Management",Beginner,AWS Cloud Practitioner,Process Engineer,8,Hybrid,Higher Studies
+STU723,Information Technology,2nd,8.55,"SQL, Python, JavaScript",Intermediate,None,Cloud Engineer,11,Hybrid,Government Job
+STU724,Information Technology,1st,8.5,"Node.js, React",Intermediate,Google Data Analytics,Full Stack Developer,14,Offline,Placement
+STU725,Computer Science,2nd,7.95,"Python, SQL, Git",Beginner,Cisco CCNA,Backend Developer,17,Online,Placement
+STU726,Chemical,4th,7.16,"MATLAB, Process Simulation, Excel, Safety Management",Beginner,NPTEL Python,Production Engineer,20,Online,Government Job
+STU727,Mechanical,1st,7.97,"ANSYS, SolidWorks",Intermediate,Google Data Analytics,Mechanical Design Engineer,12,Offline,Placement
+STU728,Civil,4th,9.49,"AutoCAD, Excel, Surveying, STAAD Pro",Advanced,None,Civil Site Engineer,16,Online,Placement
+STU729,Computer Science,3rd,9.2,"Data Structures, SQL, Machine Learning, React",Advanced,Cisco CCNA,Software Developer,14,Online,Placement
+STU730,Electrical,1st,7.54,"Circuit Design, MATLAB",Beginner,AWS Cloud Practitioner,Power Systems Engineer,5,Online,Placement
+STU731,Electrical,3rd,6.52,"Power Systems, PLC Programming, Circuit Design, MATLAB",Beginner,AWS Cloud Practitioner,Electrical Engineer,12,Online,Government Job
+STU732,Computer Science,2nd,6.09,"Algorithms, SQL, Data Structures",Advanced,NPTEL Python,Software Developer,6,Online,Government Job
+STU733,Electronics & Communication,4th,9.73,"MATLAB, Verilog, Embedded C, C, C++",Intermediate,Google Data Analytics,Embedded Systems Engineer,19,Offline,Placement
+STU734,Information Technology,3rd,9.28,"Node.js, SQL, Git, JavaScript",Beginner,Cisco CCNA,Full Stack Developer,19,Online,Government Job
+STU735,Electronics & Communication,1st,9.53,"MATLAB, Embedded C",Beginner,Google Data Analytics,IoT Developer,17,Hybrid,Government Job
+STU736,Electronics & Communication,1st,7.25,"C, Verilog",Intermediate,AWS Cloud Practitioner,IoT Developer,15,Online,Startup
+STU737,Mechanical,3rd,7.32,"SolidWorks, AutoCAD, MATLAB, ANSYS",Beginner,AWS Cloud Practitioner,Automotive Engineer,19,Online,Startup
+STU738,Electronics & Communication,4th,9.44,"MATLAB, C++, C, Embedded C, Verilog",Beginner,Google Data Analytics,IoT Developer,19,Hybrid,Placement
+STU739,Civil,1st,7.94,"Excel, Surveying",Intermediate,Cisco CCNA,Civil Site Engineer,8,Online,Higher Studies
+STU740,Information Technology,4th,9.07,"Python, Node.js, Git, React, JavaScript",Advanced,None,Software Developer,6,Hybrid,Startup
+STU741,Electronics & Communication,1st,8.86,"C, Verilog",Advanced,None,VLSI Engineer,7,Hybrid,Startup
+STU742,Civil,1st,9.19,"AutoCAD, Excel",Intermediate,AWS Cloud Practitioner,Structural Engineer,8,Online,Higher Studies
+STU743,Computer Science,1st,7.0,"React, Machine Learning",Intermediate,Cisco CCNA,Software Developer,16,Offline,Placement
+STU744,Electrical,3rd,6.69,"Circuit Design, PLC Programming, Power Systems, MATLAB",Intermediate,None,Electrical Engineer,7,Online,Startup
+STU745,Electrical,2nd,9.13,"Power Systems, PLC Programming, MATLAB",Intermediate,NPTEL Python,Power Systems Engineer,20,Hybrid,Higher Studies
+STU746,Computer Science,2nd,7.81,"Algorithms, Python, React",Intermediate,None,Data Scientist,6,Hybrid,Placement
+STU747,Electrical,1st,7.19,"MATLAB, Circuit Design",Advanced,NPTEL Python,Power Systems Engineer,8,Offline,Government Job
+STU748,Information Technology,2nd,7.41,"JavaScript, Git, React",Beginner,Google Data Analytics,Full Stack Developer,15,Hybrid,Placement
+STU749,Computer Science,4th,6.23,"Python, Algorithms, Java, SQL, React",Advanced,Cisco CCNA,Data Scientist,8,Hybrid,Higher Studies
+STU750,Mechanical,2nd,8.27,"SolidWorks, AutoCAD, ANSYS",Beginner,Cisco CCNA,Automotive Engineer,11,Offline,Startup
+STU751,Civil,4th,6.2,"Surveying, AutoCAD, STAAD Pro, Excel",Beginner,Cisco CCNA,Structural Engineer,12,Hybrid,Startup
+STU752,Civil,1st,8.57,"Excel, AutoCAD",Intermediate,Google Data Analytics,Civil Site Engineer,15,Offline,Startup
+STU753,Electrical,4th,6.45,"Circuit Design, MATLAB, PLC Programming, Power Systems",Beginner,AWS Cloud Practitioner,Power Systems Engineer,6,Offline,Placement
+STU754,Chemical,3rd,6.73,"MATLAB, Excel, Safety Management, Process Simulation",Beginner,AWS Cloud Practitioner,Process Engineer,19,Hybrid,Placement
+STU755,Civil,1st,8.37,"Excel, STAAD Pro",Advanced,Cisco CCNA,Civil Site Engineer,9,Hybrid,Startup
+STU756,Computer Science,3rd,7.85,"Algorithms, Git, SQL, React",Intermediate,NPTEL Python,Data Scientist,9,Online,Startup
+STU757,Electrical,4th,9.2,"PLC Programming, Power Systems, Circuit Design, MATLAB",Advanced,NPTEL Python,Electrical Engineer,18,Online,Startup
+STU758,Information Technology,3rd,7.32,"Node.js, Python, SQL, Git",Beginner,AWS Cloud Practitioner,Cloud Engineer,12,Offline,Government Job
+STU759,Mechanical,1st,9.56,"SolidWorks, ANSYS",Intermediate,AWS Cloud Practitioner,Mechanical Design Engineer,12,Hybrid,Placement
+STU760,Civil,3rd,8.35,"STAAD Pro, Surveying, AutoCAD, Excel",Beginner,None,Civil Site Engineer,18,Offline,Startup
+STU761,Computer Science,2nd,7.15,"Git, Algorithms, Python",Intermediate,NPTEL Python,ML Engineer,13,Hybrid,Placement
+STU762,Electronics & Communication,3rd,9.7,"Embedded C, C++, Verilog, C",Advanced,None,IoT Developer,18,Offline,Government Job
+STU763,Information Technology,1st,8.56,"Python, JavaScript",Beginner,Cisco CCNA,Full Stack Developer,9,Hybrid,Higher Studies
+STU764,Mechanical,2nd,7.99,"SolidWorks, AutoCAD, MATLAB",Beginner,Google Data Analytics,Robotics Engineer,20,Hybrid,Startup
+STU765,Electrical,2nd,6.37,"MATLAB, Circuit Design, PLC Programming",Beginner,None,Electrical Engineer,6,Hybrid,Startup
+STU766,Mechanical,4th,8.76,"SolidWorks, AutoCAD, ANSYS, MATLAB",Beginner,Google Data Analytics,Automotive Engineer,6,Offline,Startup
+STU767,Information Technology,3rd,8.99,"Python, SQL, React, Node.js",Beginner,AWS Cloud Practitioner,Cloud Engineer,11,Online,Startup
+STU768,Chemical,2nd,7.43,"MATLAB, Safety Management, Excel",Advanced,Cisco CCNA,Production Engineer,12,Offline,Startup
+STU769,Computer Science,4th,7.99,"Algorithms, Machine Learning, Java, Python, SQL",Intermediate,NPTEL Python,Data Scientist,14,Hybrid,Government Job
+STU770,Chemical,2nd,9.15,"Safety Management, MATLAB, Process Simulation",Intermediate,NPTEL Python,Production Engineer,19,Online,Government Job
+STU771,Computer Science,2nd,7.03,"SQL, Data Structures, Algorithms",Beginner,NPTEL Python,Software Developer,18,Hybrid,Higher Studies
+STU772,Electrical,3rd,8.46,"Circuit Design, MATLAB, PLC Programming, Power Systems",Advanced,AWS Cloud Practitioner,Electrical Engineer,19,Hybrid,Higher Studies
+STU773,Computer Science,3rd,9.32,"Algorithms, Machine Learning, Data Structures, Git",Beginner,Google Data Analytics,Backend Developer,7,Offline,Placement
+STU774,Computer Science,4th,6.78,"Python, Git, React, Data Structures, Machine Learning",Beginner,AWS Cloud Practitioner,ML Engineer,9,Online,Higher Studies
+STU775,Electrical,4th,7.97,"Circuit Design, PLC Programming, Power Systems, MATLAB",Intermediate,NPTEL Python,Electrical Engineer,17,Hybrid,Higher Studies
+STU776,Electrical,2nd,7.62,"Power Systems, PLC Programming, MATLAB",Beginner,AWS Cloud Practitioner,Power Systems Engineer,17,Online,Placement
+STU777,Mechanical,3rd,8.51,"MATLAB, SolidWorks, AutoCAD, ANSYS",Advanced,Cisco CCNA,Robotics Engineer,19,Offline,Placement
+STU778,Chemical,1st,6.63,"MATLAB, Process Simulation",Beginner,AWS Cloud Practitioner,Process Engineer,20,Online,Higher Studies
+STU779,Information Technology,3rd,9.56,"JavaScript, React, Python, Node.js",Advanced,Google Data Analytics,Full Stack Developer,18,Offline,Higher Studies
+STU780,Electrical,3rd,6.4,"MATLAB, Circuit Design, PLC Programming, Power Systems",Intermediate,AWS Cloud Practitioner,Power Systems Engineer,20,Hybrid,Placement
+STU781,Electronics & Communication,2nd,8.81,"Embedded C, C++, C",Advanced,None,VLSI Engineer,5,Offline,Government Job
+STU782,Civil,4th,7.35,"Excel, STAAD Pro, Surveying, AutoCAD",Intermediate,AWS Cloud Practitioner,Civil Site Engineer,6,Offline,Startup
+STU783,Information Technology,1st,6.44,"JavaScript, Python",Beginner,AWS Cloud Practitioner,Cloud Engineer,12,Offline,Startup
+STU784,Mechanical,1st,7.56,"SolidWorks, ANSYS",Intermediate,NPTEL Python,Robotics Engineer,7,Offline,Startup
+STU785,Civil,3rd,8.69,"Surveying, Excel, STAAD Pro, AutoCAD",Advanced,AWS Cloud Practitioner,Structural Engineer,16,Online,Startup
+STU786,Chemical,4th,6.33,"Process Simulation, MATLAB, Safety Management, Excel",Advanced,Google Data Analytics,Production Engineer,9,Offline,Placement
+STU787,Electrical,4th,9.67,"MATLAB, Power Systems, PLC Programming, Circuit Design",Advanced,Cisco CCNA,Power Systems Engineer,10,Online,Government Job
+STU788,Mechanical,2nd,7.1,"MATLAB, SolidWorks, AutoCAD",Intermediate,NPTEL Python,Mechanical Design Engineer,16,Hybrid,Higher Studies
+STU789,Computer Science,1st,7.39,"Data Structures, Java",Advanced,Cisco CCNA,Data Scientist,9,Offline,Government Job
+STU790,Electrical,4th,9.5,"Power Systems, PLC Programming, Circuit Design, MATLAB",Beginner,Google Data Analytics,Power Systems Engineer,14,Hybrid,Startup
+STU791,Mechanical,4th,8.02,"AutoCAD, MATLAB, ANSYS, SolidWorks",Intermediate,None,Robotics Engineer,12,Hybrid,Higher Studies
+STU792,Computer Science,1st,7.41,"Data Structures, Machine Learning",Advanced,AWS Cloud Practitioner,Backend Developer,11,Online,Placement
+STU793,Chemical,1st,7.17,"Process Simulation, MATLAB",Beginner,Google Data Analytics,Production Engineer,9,Hybrid,Startup
+STU794,Mechanical,3rd,8.48,"SolidWorks, ANSYS, MATLAB, AutoCAD",Beginner,Google Data Analytics,Robotics Engineer,11,Hybrid,Higher Studies
+STU795,Information Technology,3rd,6.64,"SQL, React, Python, JavaScript",Advanced,NPTEL Python,Full Stack Developer,12,Hybrid,Placement
+STU796,Chemical,1st,7.99,"Safety Management, Process Simulation",Advanced,Google Data Analytics,Production Engineer,6,Offline,Government Job
+STU797,Mechanical,4th,8.56,"SolidWorks, MATLAB, ANSYS, AutoCAD",Advanced,NPTEL Python,Automotive Engineer,7,Offline,Placement
+STU798,Mechanical,3rd,8.68,"MATLAB, ANSYS, AutoCAD, SolidWorks",Advanced,Cisco CCNA,Mechanical Design Engineer,10,Online,Higher Studies
+STU799,Electronics & Communication,3rd,6.97,"C, C++, Embedded C, Verilog",Beginner,AWS Cloud Practitioner,VLSI Engineer,10,Offline,Startup
+STU800,Electrical,2nd,6.22,"PLC Programming, Circuit Design, MATLAB",Intermediate,Cisco CCNA,Power Systems Engineer,6,Online,Government Job

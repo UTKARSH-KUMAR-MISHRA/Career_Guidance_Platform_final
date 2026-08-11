@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ApexForge — AI Career Mentor for Engineering Placements</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- Toast Notifications Stack -->
+    <div class="toast-stack" id="toastStack"></div>
+
+    <!-- MAIN APP CONTAINER -->
+    <div class="app" id="app">
+        <!-- MAIN WRAPPER & TOP NAVBAR -->
+        <div class="main" id="mainContentWrapper">
+            <!-- TOP BAR HEADER (DEEP NAVY STYLE) -->
+            <header class="header" id="header">
+                <div class="header-top">
+                    <!-- Brand Logo (Left Side) -->
+                    <div class="brand-logo-wrap" onclick="navigateTo('dashboard')">
+                        <div class="brand-title">Apex<span class="highlight">Forge</span></div>
+                    </div>
+
+                    <!-- Header User Profile & Auth CTA (Right Side) -->
+                    <div class="header-actions">
+                        <!-- Google Translate Widget for Multilingual Support -->
+                        <div id="google_translate_element" style="margin-right:8px;"></div>
+                        
+                        <button class="auth-btn" id="authActionBtn">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" style="width:16px; height:16px;"><path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"/><polyline points="10 17 15 12 10 7"/><line x1="15" y1="12" x2="3" y2="12"/></svg>
+                            <span>Log In</span>
+                        </button>
+                        
+                        <!-- Profile Logo & Dropdown Trigger -->
+                        <div class="profile-avatar-wrap">
+                            <div class="avatar" id="avatarBtn" title="Student Profile & Settings">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" style="width:20px; height:20px;"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                            </div>
+                            
+                            <!-- Profile Dropdown Menu -->
+                            <div class="profile-dropdown-menu" id="profileDropdown">
+                                <div class="profile-menu-header">
+                                    <div class="profile-menu-avatar">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" style="width:18px; height:18px;"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                                    </div>
+                                    <div class="profile-menu-info">
+                                        <span class="user-name" id="userNameDisplay">Welcome Student</span>
+                                        <div class="student-badge" id="studentBadge">Guest Visitor Mode</div>
+                                        <div class="target-goal-pill" id="targetGoalPill">Target: AI Engineer</div>
+                                        <div class="gamification-stats" id="gamificationStats" style="display:flex; gap:8px; font-size:11px; margin-top:6px; font-weight:700; color:var(--primary);">
+                                            <span id="gamiPoints">🏆 0 pts</span>
+                                            <span id="gamiLevel">⭐ Lvl 1</span>
+                                            <span id="gamiStreak">🔥 0 days</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="profile-menu-divider"></div>
+                                <div class="profile-menu-item" id="dropdownProfileBtn">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" style="width:16px; height:16px;"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                                    <span>My Profile</span>
+                                </div>
+                                <div class="profile-menu-item" id="dropdownSettingsBtn">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" style="width:16px; height:16px;"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06A1.65 1.65 0 0 0 4.67 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.67 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+                                    <span>Settings</span>
+                                </div>
+                                <div class="profile-menu-divider"></div>
+                                <div class="profile-menu-item logout" id="dropdownLogoutBtn">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="1.8" style="width:16px; height:16px;"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="9"/></svg>
+                                    <span>Logout</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- HCL Tech Partner Logo (Far Right Side Corner) -->
+                        <img src="hcl.png" alt="HCL Tech" class="hcl-logo-img" style="height:42px; margin-left:14px;" />
+                    </div>
+                </div>
+
+                <!-- TOP NAVIGATION LINKS BAR (CENTERED & CONCISE) -->
+                <nav class="top-nav centered-nav" id="topNav">
+                    <div class="nav-item active" data-page="dashboard">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/></svg>
+                        <span>Dashboard</span>
+                    </div>
+                    <div class="nav-item" data-page="career-guidance">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <span>Career</span>
+                    </div>
+                    <div class="nav-item" data-page="projects">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 10v6M2 10l10-5 10-5-10 5z"/><path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"/></svg>
+                        <span>Projects</span>
+                    </div>
+                    <div class="nav-item" data-page="interview-resume">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="22"/></svg>
+                        <span>Interview</span>
+                    </div>
+                    <div class="nav-item" data-page="need-help">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                        <span>Community</span>
+                    </div>
+                    <div class="nav-item" data-page="about">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+                        <span>About</span>
+                    </div>
+                </nav>
+            </header>
+
+            <div class="content" id="mainContent">
+                <!-- Rendered dynamically by app.js -->
+            </div>
+        </div>
+
+        <!-- RIGHT SIDEBAR (DYNAMIC TOOLS) -->
+        <div class="right-sidebar" id="rightSidebar">
+            <button class="toggle-btn" id="rightSidebarToggle" title="Toggle right sidebar">◀</button>
+            <div class="collapsed-icons">
+                <div class="icon-item active" data-tile="skills-radar" title="Interactive Skill Radar">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 2v20M2 12h20M12 12l7-7M12 12l-7 7"/></svg>
+                </div>
+                <div class="icon-item" data-tile="calendar" title="Calendar">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                </div>
+                <div class="icon-item" data-tile="todo" title="To-Do">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                </div>
+                <div class="icon-item" data-tile="timer" title="Timer">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                </div>
+                <div class="icon-item" data-tile="notes" title="Notes">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+                </div>
+            </div>
+            <div class="sidebar-content" id="rightSidebarContent">
+                <!-- INTERACTIVE SKILL RADAR TILE -->
+                <div class="right-tile active" data-tile="skills-radar">
+                    <div class="tile-header">
+                        <span style="display:flex; align-items:center; gap:6px;">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2" style="width:16px; height:16px;"><circle cx="12" cy="12" r="10"/><path d="M12 2v20M2 12h20M12 12l7-7"/></svg>
+                            Skill Radar & Mastery Graph
+                        </span>
+                    </div>
+                    <div class="tile-body" style="padding:10px;">
+                        <div style="margin-bottom:8px;">
+                            <select id="skillRadarDomainSelect" onchange="window.renderSkillRadar(this.value)" class="frosted-input" style="width:100%; padding:5px 8px; font-size:11.5px; font-weight:700; border-radius:6px;">
+                                <option value="CSE">💻 CSE / AI Engineer</option>
+                                <option value="DataAnalyst">📊 Data Analyst / Science</option>
+                                <option value="FullStack">⚡ Full Stack & Backend</option>
+                                <option value="DevOps">☁️ DevOps & Cloud</option>
+                                <option value="Cyber">🛡️ Cyber Security</option>
+                                <option value="Mechanical">⚙️ Mechanical & Auto</option>
+                                <option value="Civil">🏗️ Civil & Structural</option>
+                                <option value="Electrical">⚡ Electrical & Electronics</option>
+                            </select>
+                        </div>
+                        <div id="skillRadarWidget" style="text-align:center;">
+                            <!-- SVG Radar Chart rendered by app.js -->
+                        </div>
+                    </div>
+                </div>
+                <!-- CALENDAR TILE -->
+                <div class="right-tile" data-tile="calendar">
+                    <div class="tile-header">
+                        <span style="display:flex; align-items:center; gap:6px;">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" style="width:16px; height:16px;"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                            Study Calendar
+                        </span>
+                        <span class="tile-icon" id="calMonthLabel">Month Year</span>
+                    </div>
+                    <div class="tile-body">
+                        <div class="calendar-grid" id="calendarGrid"></div>
+                        <div style="display:flex; gap:6px; margin-top:8px; justify-content:center;">
+                            <button class="cal-nav-btn" data-dir="-1">◀ Prev</button>
+                            <button class="cal-nav-btn" data-dir="1">Next ▶</button>
+                        </div>
+                        <div id="selectedDateContainer" style="margin-top:10px; padding:8px; background:var(--bg-input); border-radius:6px; border:1px solid var(--border);">
+                            <div id="selectedDateDisplay" style="font-size:11.5px; font-weight:700; color:var(--primary-dark); margin-bottom:4px;">Target Date: Select a day</div>
+                            <div style="display:flex; gap:4px;">
+                                <input type="text" id="selectedDateDeadlineInput" placeholder="Set milestone/event..." style="flex:1; padding:4px 8px; border:1px solid var(--border); border-radius:4px; font-size:11px;" />
+                                <button id="addDeadlineBtn" class="auth-btn" style="padding:4px 8px; font-size:11px;">Save</button>
+                            </div>
+                            <div id="selectedDateEventsList" style="font-size:11px; margin-top:4px; color:var(--ink);"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TO-DO TILE -->
+                <div class="right-tile" data-tile="todo">
+                    <div class="tile-header">
+                        <span style="display:flex; align-items:center; gap:6px;">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" style="width:16px; height:16px;"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                            Placement Checklist
+                        </span>
+                    </div>
+                    <div class="tile-body" id="todoContainer">
+                        <div id="todoList"></div>
+                        <div class="add-todo" style="display:flex; gap:6px; margin-top:10px;">
+                            <input type="text" id="todoInput" placeholder="Add study target..." style="flex:1; padding:6px 10px; border:1px solid var(--border); border-radius:6px; font-size:12px;" />
+                            <button id="addTodoBtn" class="auth-btn" style="padding:6px 12px; font-size:12px;">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TIMER TILE (CUSTOMIZABLE DURATION & PRESETS) -->
+                <div class="right-tile" data-tile="timer">
+                    <div class="tile-header">
+                        <span style="display:flex; align-items:center; gap:6px;">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" style="width:16px; height:16px;"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                            Focus Pomodoro
+                        </span>
+                    </div>
+                    <div class="tile-body">
+                        <div style="display:flex; justify-content:center; align-items:center; gap:6px; margin-bottom:8px;">
+                            <button class="cal-nav-btn" onclick="adjustTimerMinutes(-5)">-5m</button>
+                            <div class="timer-display" id="timerDisplay" style="margin:0;">25:00</div>
+                            <button class="cal-nav-btn" onclick="adjustTimerMinutes(5)">+5m</button>
+                        </div>
+
+                        <div style="display:flex; gap:4px; justify-content:center; margin-bottom:8px; flex-wrap:wrap;">
+                            <button class="cal-nav-btn" onclick="setTimerDuration(15)">15m</button>
+                            <button class="cal-nav-btn active" style="background:var(--primary); color:#fff;" onclick="setTimerDuration(25)">25m</button>
+                            <button class="cal-nav-btn" onclick="setTimerDuration(45)">45m</button>
+                            <button class="cal-nav-btn" onclick="setTimerDuration(60)">60m</button>
+                        </div>
+
+                        <div class="timer-controls">
+                            <button class="start-btn" id="timerStart">Start</button>
+                            <button class="stop-btn" id="timerStop">Pause</button>
+                            <button class="reset-btn" id="timerReset">Reset</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- QUICK SCRATCHPAD TILE (SUBJECT FOLDERS) -->
+                <div class="right-tile" data-tile="notes">
+                    <div class="tile-header">
+                        <span style="display:flex; align-items:center; gap:6px;">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" style="width:16px; height:16px;"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+                            Quick Scratchpad
+                        </span>
+                    </div>
+                    <div class="tile-body notes-content" style="display:flex; flex-direction:column; gap:8px;">
+                        <div style="display:flex; gap:4px;">
+                            <select id="noteSubjectSelect" style="flex:1; padding:4px 6px; border:1px solid var(--border); border-radius:4px; font-size:11.5px; font-weight:700; background:#fff;">
+                                <option value="Python">Python Notes</option>
+                                <option value="SQL & DBMS">SQL & DBMS</option>
+                                <option value="Machine Learning">Machine Learning</option>
+                                <option value="Data Structures & Algorithms">DSA / Coding</option>
+                                <option value="DevOps & Cloud">DevOps & Cloud</option>
+                                <option value="General Notes">General Notes</option>
+                            </select>
+                        </div>
+                        <input type="text" id="noteTitleInput" placeholder="Note Title (e.g. List Comprehensions)" style="padding:6px; border:1px solid var(--border); border-radius:4px; font-size:12px; font-weight:600;" />
+                        <textarea id="notesTextarea" placeholder="Jot down quick formulas or placement notes..." style="width:100%; height:80px; padding:8px; border:1px solid var(--border); border-radius:6px; font-size:12px; resize:vertical; outline:none;"></textarea>
+                        <button class="auth-btn" id="notesSaveBtn" style="padding:6px 12px; font-size:12px; width:100%;">Save to Subject Folder</button>
+                        
+                        <button class="auth-btn" id="showAllNotesBtn" onclick="openAllNotesModal()" style="padding:6px 12px; font-size:12px; width:100%; background:#0f172a; margin-top:2px;">Show All Notes 📂</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ALL SUBJECT NOTES MODAL OVERLAY -->
+    <div class="roadmap-viewer-overlay" id="allNotesModal">
+        <div class="roadmap-viewer-header" style="background:#0f172a;">
+            <div class="viewer-title" style="color:#fff; display:flex; align-items:center; gap:8px;">
+                <span>Subject Notes & Study Folders</span>
+            </div>
+            <button class="viewer-close" id="allNotesModalClose">✕</button>
+        </div>
+        <div class="roadmap-viewer-body" style="padding:0; background:#f8fafc; display:flex; height:calc(100% - 60px);">
+            <!-- FOLDER SIDEBAR -->
+            <div style="width:240px; background:#fff; border-right:1px solid var(--border); padding:16px; display:flex; flex-direction:column; gap:8px;">
+                <div style="font-size:11px; font-weight:800; color:var(--muted); text-transform:uppercase; margin-bottom:4px;">Subject Folders</div>
+                <div id="notesFolderList" style="display:flex; flex-direction:column; gap:4px;"></div>
+            </div>
+
+            <!-- NOTES CONTENT AREA -->
+            <div style="flex:1; padding:20px; overflow-y:auto; display:flex; flex-direction:column; gap:16px;">
+                <div style="display:flex; justify-content:space-between; align-items:center; gap:12px;">
+                    <input type="text" id="searchNotesInput" placeholder="Search notes by keyword or title..." style="flex:1; padding:10px 14px; border:1px solid var(--border); border-radius:20px; font-size:13px; outline:none;" />
+                    <button class="auth-btn" onclick="openCreateNotePrompt()" style="padding:8px 16px; font-size:12.5px;">+ Create Note</button>
+                </div>
+
+                <div id="subjectNotesGrid" style="display:grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap:16px;"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- DOCUMENT CITATION VIEWER MODAL -->
+    <div class="roadmap-viewer-overlay" id="docViewerModal">
+        <div class="roadmap-viewer-header">
+            <div class="viewer-title" id="docModalTitle">Source Knowledge Document</div>
+            <button class="viewer-close" id="docModalClose">✕</button>
+        </div>
+        <div class="roadmap-viewer-body" id="docModalBody" style="padding:24px; background:#ffffff; overflow-y:auto; font-family:monospace; white-space:pre-wrap; font-size:13px; line-height:1.6; color:#0f172a;">
+            Loading document content...
+        </div>
+    </div>
+
+    <!-- AUTHENTICATION WALL MODAL -->
+    <div class="login-overlay" id="authWallModal">
+        <div class="login-card">
+            <div class="login-form-side">
+                <div class="brand-title" style="color:var(--ink); font-size:18px; margin-bottom:4px;">Apex<span class="highlight">Forge</span> Access</div>
+                <div style="font-size:13px; color:var(--muted); margin-bottom:16px;">AI Career Mentor for Engineering Placements</div>
+
+                <div style="display:flex; gap:10px; margin:16px 0; border-bottom:1px solid var(--border); padding-bottom:8px;">
+                    <button class="cal-nav-btn active" id="tabAuthLoginBtn" style="background:var(--primary); color:#fff; font-weight:700; flex:1;" onclick="switchAuthTab('login')">Log In</button>
+                    <button class="cal-nav-btn" id="tabAuthRegisterBtn" style="background:#fff; color:var(--ink); font-weight:700; flex:1;" onclick="switchAuthTab('register')">Create Account</button>
+                </div>
+
+                <!-- LOGIN FORM PANEL -->
+                <div id="authLoginFormPanel">
+                    <div class="login-subtitle" style="margin-bottom:14px; font-size:12.5px; color:var(--muted);">Welcome back! Enter credentials to restore your personal student portal.</div>
+                    <div style="display:flex; flex-direction:column; gap:12px;">
+                        <div class="login-field">
+                            <label>Email Address</label>
+                            <input type="email" id="login-email" placeholder="student@college.edu" value="vaishnavi@college.edu" />
+                        </div>
+                        <div class="login-field">
+                            <label>Password</label>
+                            <input type="password" id="login-password" placeholder="••••••••" value="password123" />
+                        </div>
+                        <div id="loginErrorMsg" style="color:var(--error); font-size:12px; font-weight:700; display:none;"></div>
+                        <button class="login-btn" id="submitLoginBtn">Log In & Open Portal</button>
+                    </div>
+                </div>
+
+                <!-- REGISTER FORM PANEL (DYNAMIC BRANCHES & TARGET ROLES) -->
+                <div id="authRegisterFormPanel" style="display:none;">
+                    <div class="login-subtitle" style="margin-bottom:12px; font-size:12.5px; color:var(--muted);">Create your engineering career profile saved securely in SQLite3 database</div>
+                    <div style="display:flex; flex-direction:column; gap:10px;">
+                        <div class="login-field">
+                            <label>Full Name</label>
+                            <input type="text" id="reg-name" placeholder="e.g. Vaishnavi Sharma" value="Vaishnavi Sharma" />
+                        </div>
+                        <div style="display:flex; gap:10px;">
+                            <div class="login-field" style="flex:1;">
+                                <label>Email Address</label>
+                                <input type="email" id="reg-email" placeholder="student@college.edu" value="vaishnavi@college.edu" />
+                            </div>
+                            <div class="login-field" style="flex:1;">
+                                <label>Password</label>
+                                <input type="password" id="reg-password" placeholder="••••••••" value="password123" />
+                            </div>
+                        </div>
+                        <div class="login-field">
+                            <label>College Name</label>
+                            <input type="text" id="reg-college" placeholder="e.g. Jaipur Institute of Technology" value="Jaipur Institute of Technology" />
+                        </div>
+                        <div style="display:flex; gap:10px;">
+                            <div class="login-field" style="flex:1;">
+                                <label>Engineering Branch</label>
+                                <select id="reg-branch">
+                                    <option value="CSE">Computer Science & Engineering (CSE)</option>
+                                    <option value="Aerospace">Aerospace Engineering</option>
+                                    <option value="Civil">Civil Engineering</option>
+                                    <option value="Mechanical">Mechanical Engineering</option>
+                                    <option value="Electrical">Electrical & Electronics</option>
+                                    <option value="Cloud/DevOps">Cloud & DevOps</option>
+                                </select>
+                            </div>
+                            <div class="login-field" style="flex:1;">
+                                <label>Year</label>
+                                <select id="reg-year">
+                                    <option value="1st Year">1st Year</option>
+                                    <option value="2nd Year">2nd Year</option>
+                                    <option value="3rd Year" selected>3rd Year</option>
+                                    <option value="4th Year">4th Year</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="login-field">
+                            <label>Target Career Role</label>
+                            <select id="reg-target">
+                                <option value="AI Engineer">AI & ML Engineer</option>
+                                <option value="Cloud Engineer">Cloud & DevOps Engineer</option>
+                                <option value="Software Engineer">Software Engineer (Full Stack)</option>
+                                <option value="Data Analyst">Data Analyst</option>
+                                <option value="Avionics Engineer">Avionics Engineer</option>
+                                <option value="Structural Engineer">Structural Engineer</option>
+                                <option value="Robotics Engineer">Robotics Engineer</option>
+                            </select>
+                        </div>
+                        <div id="regErrorMsg" style="color:var(--error); font-size:12px; font-weight:700; display:none;"></div>
+                        <button class="login-btn" id="submitRegisterBtn">Create Account & Launch Portal</button>
+                    </div>
+                </div>
+
+                <div style="margin-top:14px; text-align:center;">
+                    <button style="background:none; border:none; color:var(--muted); font-size:12px; cursor:pointer; text-decoration:underline;" onclick="closeAuthWallModal()">Continue Browsing in Preview Mode</button>
+                </div>
+            </div>
+            <div class="login-art">
+                <div class="login-art-content">
+                    <h3 style="font-size:20px; font-weight:800; margin-bottom:10px;">Isolated Student Vault</h3>
+                    <p style="font-size:13px; color:#cbd5e1; line-height:1.5;">Every student profile, capstone repos, scratchpad notes, placement checklist, and Sarvam AI chat threads are stored securely in SQLite3.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CAREER QUIZ MODAL -->
+    <div class="project-modal-overlay" id="careerQuizModal">
+        <div class="project-modal-card" style="max-width:620px; padding:28px;">
+            <button style="position:absolute; top:20px; right:20px; background:none; border:none; font-size:20px; cursor:pointer; color:var(--muted);" onclick="closeCareerQuizModal()">✕</button>
+            <h3 style="font-size:20px; font-weight:800; color:var(--ink); margin-bottom:6px; display:flex; align-items:center; gap:8px;">
+                <svg viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2" style="width:22px; height:22px;"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                AI Placement & Career Assessment Quiz
+            </h3>
+            <p style="font-size:13px; color:var(--muted); margin-bottom:20px;">Answer 3 quick questions to receive AI-matched role recommendations and placement readiness feedback.</p>
+            
+            <div id="quizQuestionContainer">
+                <!-- Dynamically loaded by app.js -->
+            </div>
+        </div>
+    </div>
+
+    <!-- PROJECT SPECIFICATION MODAL -->
+    <div class="project-modal-overlay" id="projectSpecModal">
+        <div class="project-modal-card">
+            <button style="position:absolute; top:20px; right:20px; background:none; border:none; font-size:20px; cursor:pointer;" id="projectModalClose">✕</button>
+            <div id="projectModalContent">
+                <!-- Dynamically populated -->
+            </div>
+        </div>
+    </div>
+
+    <!-- SARVAM IMAGE UPLOAD FLOATING WIDGET -->
+    <div id="sarvamUploadWidget" style="position:fixed; bottom:30px; right:30px; z-index:999;">
+        <button id="sarvamUploadBtn" style="background:var(--primary-gradient); color:#fff; border:none; border-radius:50%; width:60px; height:60px; box-shadow:0 10px 25px rgba(37,99,235,0.4); cursor:pointer; display:flex; align-items:center; justify-content:center; flex-direction:column;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:24px; height:24px;"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+            <span style="font-size:9px; font-weight:700; margin-top:2px;">Scan</span>
+        </button>
+        <div id="sarvamUploadPanel" style="display:none; position:absolute; bottom:80px; right:0; width:300px; background:#fff; border-radius:12px; box-shadow:0 12px 30px rgba(0,0,0,0.15); border:1px solid var(--border); overflow:hidden;">
+            <div style="background:var(--primary-dark); padding:12px; color:#fff; font-weight:700; font-size:14px;">Upload & Analyze Document</div>
+            <div style="padding:16px;">
+                <input type="file" id="sarvamFileInput" accept="image/*" style="width:100%; font-size:13px; margin-bottom:12px;" />
+                <div id="sarvamPreview" style="width:100%; height:120px; background:#f1f5f9; border-radius:8px; display:flex; align-items:center; justify-content:center; overflow:hidden; margin-bottom:12px;">
+                    <span style="color:var(--muted); font-size:12px;">Image Preview</span>
+                </div>
+                <input type="text" id="sarvamQuestion" placeholder="Ask a question about this image..." style="width:100%; padding:8px; border:1px solid var(--border); border-radius:6px; font-size:13px; margin-bottom:12px;" />
+                <button id="sarvamSubmitBtn" class="auth-btn" style="width:100%; justify-content:center; padding:10px;">Analyze via Sarvam OCR</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Google Translate Script -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'hi,bn,te,mr,ta,ur,gu,kn,ml,pa', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <!-- External JavaScript Application -->
+    <script src="app.js?v=5" defer></script>
+</body>
+</html>

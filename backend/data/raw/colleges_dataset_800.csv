@@ -1,0 +1,801 @@
+college_id,college_name,city,state,top_branch,intake_capacity,placement_rate_percent,average_package_lpa_x10,accreditation,college_type
+COL001,Jaipur Institute of Engineering & Technology 1,Jaipur,Rajasthan,Computer Science,383,70,120,AICTE Approved,Government
+COL002,Nashik Institute of Engineering & Technology 2,Nashik,Maharashtra,Mechanical,549,93,133,NAAC A+,Private
+COL003,Warangal Institute of Engineering & Technology 3,Warangal,Telangana,Electronics & Communication,931,64,121,AICTE Approved,Autonomous
+COL004,Prayagraj Institute of Engineering & Technology 4,Prayagraj,Uttar Pradesh,Computer Science,742,95,52,NAAC A,Government
+COL005,Jaipur Institute of Engineering & Technology 5,Jaipur,Rajasthan,Electrical,843,61,32,NAAC A++,Private
+COL006,Udaipur Institute of Engineering & Technology 6,Udaipur,Rajasthan,Mechanical,525,61,59,NBA,Private
+COL007,Bengaluru Institute of Engineering & Technology 7,Bengaluru,Karnataka,Chemical,966,89,103,NAAC A+,Government
+COL008,Pune Institute of Engineering & Technology 8,Pune,Maharashtra,Mechanical,943,92,133,NBA,Autonomous
+COL009,Noida Institute of Engineering & Technology 9,Noida,Uttar Pradesh,Civil,247,92,113,NAAC A++,Private
+COL010,Bhopal Institute of Engineering & Technology 10,Bhopal,Madhya Pradesh,Information Technology,578,66,83,AICTE Approved,Government
+COL011,Nagpur Institute of Engineering & Technology 11,Nagpur,Maharashtra,Civil,1002,97,34,AICTE Approved,Government
+COL012,Mumbai Institute of Engineering & Technology 12,Mumbai,Maharashtra,Civil,985,98,144,NAAC A+,Autonomous
+COL013,Warangal Institute of Engineering & Technology 13,Warangal,Telangana,Computer Science,153,82,62,NBA,Government
+COL014,Madurai Institute of Engineering & Technology 14,Madurai,Tamil Nadu,Electrical,546,88,178,NAAC A+,Autonomous
+COL015,Coimbatore Institute of Engineering & Technology 15,Coimbatore,Tamil Nadu,Mechanical,147,65,162,NAAC A,Autonomous
+COL016,Gwalior Institute of Engineering & Technology 16,Gwalior,Madhya Pradesh,Computer Science,1124,90,160,AICTE Approved,Autonomous
+COL017,Lucknow Institute of Engineering & Technology 17,Lucknow,Uttar Pradesh,Mechanical,1100,87,81,NBA,Private
+COL018,Hubballi Institute of Engineering & Technology 18,Hubballi,Karnataka,Mechanical,127,68,70,NBA,Private
+COL019,Nashik Institute of Engineering & Technology 19,Nashik,Maharashtra,Chemical,1021,79,158,NAAC A,Autonomous
+COL020,Kota Institute of Engineering & Technology 20,Kota,Rajasthan,Electronics & Communication,356,64,77,NAAC A,Government
+COL021,Nashik Institute of Engineering & Technology 21,Nashik,Maharashtra,Mechanical,653,98,154,NAAC A+,Private
+COL022,Jaipur Institute of Engineering & Technology 22,Jaipur,Rajasthan,Electrical,124,80,95,NAAC A,Government
+COL023,Prayagraj Institute of Engineering & Technology 23,Prayagraj,Uttar Pradesh,Electrical,231,98,200,NBA,Autonomous
+COL024,Madurai Institute of Engineering & Technology 24,Madurai,Tamil Nadu,Electronics & Communication,202,87,51,NAAC A++,Government
+COL025,Pune Institute of Engineering & Technology 25,Pune,Maharashtra,Civil,759,65,184,NAAC A,Autonomous
+COL026,Madurai Institute of Engineering & Technology 26,Madurai,Tamil Nadu,Electronics & Communication,687,98,36,NAAC A++,Government
+COL027,Kanpur Institute of Engineering & Technology 27,Kanpur,Uttar Pradesh,Electrical,241,71,105,NBA,Private
+COL028,Hubballi Institute of Engineering & Technology 28,Hubballi,Karnataka,Computer Science,1180,78,166,AICTE Approved,Autonomous
+COL029,Lucknow Institute of Engineering & Technology 29,Lucknow,Uttar Pradesh,Information Technology,1138,60,24,AICTE Approved,Private
+COL030,Varanasi Institute of Engineering & Technology 30,Varanasi,Uttar Pradesh,Chemical,1162,88,142,AICTE Approved,Autonomous
+COL031,Nagpur Institute of Engineering & Technology 31,Nagpur,Maharashtra,Computer Science,558,61,162,NAAC A+,Autonomous
+COL032,Lucknow Institute of Engineering & Technology 32,Lucknow,Uttar Pradesh,Civil,649,67,147,AICTE Approved,Autonomous
+COL033,Ghaziabad Institute of Engineering & Technology 33,Ghaziabad,Uttar Pradesh,Chemical,765,72,138,NAAC A++,Autonomous
+COL034,Kota Institute of Engineering & Technology 34,Kota,Rajasthan,Computer Science,189,76,187,NBA,Autonomous
+COL035,Mumbai Institute of Engineering & Technology 35,Mumbai,Maharashtra,Mechanical,268,68,137,AICTE Approved,Private
+COL036,Kota Institute of Engineering & Technology 36,Kota,Rajasthan,Electronics & Communication,650,74,128,AICTE Approved,Government
+COL037,Hyderabad Institute of Engineering & Technology 37,Hyderabad,Telangana,Information Technology,744,73,151,NAAC A++,Autonomous
+COL038,Prayagraj Institute of Engineering & Technology 38,Prayagraj,Uttar Pradesh,Information Technology,430,95,114,AICTE Approved,Autonomous
+COL039,Nashik Institute of Engineering & Technology 39,Nashik,Maharashtra,Mechanical,914,75,124,NAAC A,Autonomous
+COL040,Madurai Institute of Engineering & Technology 40,Madurai,Tamil Nadu,Electrical,406,55,92,AICTE Approved,Autonomous
+COL041,Bhopal Institute of Engineering & Technology 41,Bhopal,Madhya Pradesh,Chemical,764,56,95,NBA,Autonomous
+COL042,Udaipur Institute of Engineering & Technology 42,Udaipur,Rajasthan,Mechanical,979,80,89,NAAC A,Autonomous
+COL043,Bhopal Institute of Engineering & Technology 43,Bhopal,Madhya Pradesh,Information Technology,1058,96,20,NAAC A+,Private
+COL044,Hyderabad Institute of Engineering & Technology 44,Hyderabad,Telangana,Electronics & Communication,838,89,102,NBA,Government
+COL045,Mysuru Institute of Engineering & Technology 45,Mysuru,Karnataka,Computer Science,467,87,106,NAAC A+,Private
+COL046,Nashik Institute of Engineering & Technology 46,Nashik,Maharashtra,Chemical,749,91,136,AICTE Approved,Government
+COL047,Nashik Institute of Engineering & Technology 47,Nashik,Maharashtra,Chemical,650,65,123,NAAC A,Private
+COL048,Mumbai Institute of Engineering & Technology 48,Mumbai,Maharashtra,Information Technology,1005,81,31,AICTE Approved,Autonomous
+COL049,Mysuru Institute of Engineering & Technology 49,Mysuru,Karnataka,Computer Science,370,68,174,NBA,Government
+COL050,Coimbatore Institute of Engineering & Technology 50,Coimbatore,Tamil Nadu,Electronics & Communication,257,58,97,NAAC A,Government
+COL051,Mysuru Institute of Engineering & Technology 51,Mysuru,Karnataka,Computer Science,423,56,53,NAAC A+,Autonomous
+COL052,Prayagraj Institute of Engineering & Technology 52,Prayagraj,Uttar Pradesh,Electrical,675,95,184,NAAC A,Private
+COL053,Hubballi Institute of Engineering & Technology 53,Hubballi,Karnataka,Chemical,1017,90,168,NBA,Private
+COL054,Hyderabad Institute of Engineering & Technology 54,Hyderabad,Telangana,Mechanical,578,55,90,NAAC A+,Autonomous
+COL055,Ghaziabad Institute of Engineering & Technology 55,Ghaziabad,Uttar Pradesh,Computer Science,625,68,73,NAAC A+,Government
+COL056,Chennai Institute of Engineering & Technology 56,Chennai,Tamil Nadu,Mechanical,605,59,85,AICTE Approved,Government
+COL057,Mysuru Institute of Engineering & Technology 57,Mysuru,Karnataka,Civil,753,62,75,AICTE Approved,Government
+COL058,Madurai Institute of Engineering & Technology 58,Madurai,Tamil Nadu,Civil,1006,70,173,NAAC A,Autonomous
+COL059,Mumbai Institute of Engineering & Technology 59,Mumbai,Maharashtra,Electrical,998,79,92,NAAC A,Autonomous
+COL060,Mumbai Institute of Engineering & Technology 60,Mumbai,Maharashtra,Information Technology,1101,93,171,NAAC A,Government
+COL061,Madurai Institute of Engineering & Technology 61,Madurai,Tamil Nadu,Electronics & Communication,1008,85,118,NAAC A++,Private
+COL062,Indore Institute of Engineering & Technology 62,Indore,Madhya Pradesh,Chemical,751,67,93,AICTE Approved,Autonomous
+COL063,Hyderabad Institute of Engineering & Technology 63,Hyderabad,Telangana,Mechanical,1092,93,106,NAAC A,Autonomous
+COL064,Hyderabad Institute of Engineering & Technology 64,Hyderabad,Telangana,Civil,857,70,193,NAAC A+,Autonomous
+COL065,Prayagraj Institute of Engineering & Technology 65,Prayagraj,Uttar Pradesh,Mechanical,597,98,49,NBA,Autonomous
+COL066,Prayagraj Institute of Engineering & Technology 66,Prayagraj,Uttar Pradesh,Information Technology,597,79,70,NAAC A++,Autonomous
+COL067,Gwalior Institute of Engineering & Technology 67,Gwalior,Madhya Pradesh,Civil,855,97,185,AICTE Approved,Autonomous
+COL068,Hyderabad Institute of Engineering & Technology 68,Hyderabad,Telangana,Civil,600,82,146,NAAC A+,Government
+COL069,Lucknow Institute of Engineering & Technology 69,Lucknow,Uttar Pradesh,Civil,350,89,101,AICTE Approved,Autonomous
+COL070,Jaipur Institute of Engineering & Technology 70,Jaipur,Rajasthan,Civil,339,68,20,NAAC A+,Autonomous
+COL071,Chennai Institute of Engineering & Technology 71,Chennai,Tamil Nadu,Chemical,573,67,93,NAAC A+,Government
+COL072,Hyderabad Institute of Engineering & Technology 72,Hyderabad,Telangana,Computer Science,934,61,67,NBA,Government
+COL073,Gwalior Institute of Engineering & Technology 73,Gwalior,Madhya Pradesh,Electrical,886,98,43,NAAC A,Government
+COL074,Gwalior Institute of Engineering & Technology 74,Gwalior,Madhya Pradesh,Information Technology,869,81,98,AICTE Approved,Government
+COL075,Udaipur Institute of Engineering & Technology 75,Udaipur,Rajasthan,Mechanical,763,89,196,NAAC A,Government
+COL076,Hyderabad Institute of Engineering & Technology 76,Hyderabad,Telangana,Mechanical,463,74,194,NAAC A++,Private
+COL077,Pune Institute of Engineering & Technology 77,Pune,Maharashtra,Civil,152,88,180,NBA,Autonomous
+COL078,Nagpur Institute of Engineering & Technology 78,Nagpur,Maharashtra,Information Technology,527,80,69,AICTE Approved,Government
+COL079,Madurai Institute of Engineering & Technology 79,Madurai,Tamil Nadu,Electronics & Communication,253,91,115,NAAC A++,Government
+COL080,Warangal Institute of Engineering & Technology 80,Warangal,Telangana,Mechanical,292,60,55,NAAC A++,Autonomous
+COL081,Nashik Institute of Engineering & Technology 81,Nashik,Maharashtra,Electrical,991,90,172,NAAC A+,Government
+COL082,Warangal Institute of Engineering & Technology 82,Warangal,Telangana,Electronics & Communication,142,71,21,AICTE Approved,Government
+COL083,Hubballi Institute of Engineering & Technology 83,Hubballi,Karnataka,Information Technology,277,67,125,NAAC A+,Government
+COL084,Nashik Institute of Engineering & Technology 84,Nashik,Maharashtra,Civil,843,63,183,NBA,Private
+COL085,Warangal Institute of Engineering & Technology 85,Warangal,Telangana,Civil,1145,63,120,NAAC A++,Autonomous
+COL086,Mumbai Institute of Engineering & Technology 86,Mumbai,Maharashtra,Mechanical,899,89,79,NAAC A+,Private
+COL087,Bengaluru Institute of Engineering & Technology 87,Bengaluru,Karnataka,Computer Science,577,93,88,AICTE Approved,Autonomous
+COL088,Hyderabad Institute of Engineering & Technology 88,Hyderabad,Telangana,Computer Science,613,60,125,NBA,Private
+COL089,Hyderabad Institute of Engineering & Technology 89,Hyderabad,Telangana,Electrical,857,59,171,NBA,Private
+COL090,Gwalior Institute of Engineering & Technology 90,Gwalior,Madhya Pradesh,Chemical,702,79,77,NBA,Private
+COL091,Gwalior Institute of Engineering & Technology 91,Gwalior,Madhya Pradesh,Electrical,131,91,61,NAAC A++,Government
+COL092,Indore Institute of Engineering & Technology 92,Indore,Madhya Pradesh,Chemical,864,57,151,NAAC A+,Private
+COL093,Bengaluru Institute of Engineering & Technology 93,Bengaluru,Karnataka,Computer Science,1143,78,105,AICTE Approved,Private
+COL094,Varanasi Institute of Engineering & Technology 94,Varanasi,Uttar Pradesh,Civil,666,76,147,NAAC A,Private
+COL095,Pune Institute of Engineering & Technology 95,Pune,Maharashtra,Electrical,276,95,48,NAAC A,Private
+COL096,Hyderabad Institute of Engineering & Technology 96,Hyderabad,Telangana,Computer Science,630,65,28,NAAC A+,Private
+COL097,Pune Institute of Engineering & Technology 97,Pune,Maharashtra,Information Technology,361,92,186,NAAC A,Autonomous
+COL098,Hubballi Institute of Engineering & Technology 98,Hubballi,Karnataka,Civil,393,87,95,AICTE Approved,Private
+COL099,Madurai Institute of Engineering & Technology 99,Madurai,Tamil Nadu,Chemical,939,59,115,NAAC A,Autonomous
+COL100,Warangal Institute of Engineering & Technology 100,Warangal,Telangana,Electrical,522,89,85,AICTE Approved,Government
+COL101,Hyderabad Institute of Engineering & Technology 101,Hyderabad,Telangana,Electronics & Communication,298,68,33,NAAC A,Autonomous
+COL102,Indore Institute of Engineering & Technology 102,Indore,Madhya Pradesh,Information Technology,768,91,120,NAAC A+,Private
+COL103,Jaipur Institute of Engineering & Technology 103,Jaipur,Rajasthan,Chemical,164,94,131,NAAC A++,Private
+COL104,Hyderabad Institute of Engineering & Technology 104,Hyderabad,Telangana,Information Technology,284,60,85,NAAC A,Private
+COL105,Lucknow Institute of Engineering & Technology 105,Lucknow,Uttar Pradesh,Electronics & Communication,267,55,163,NAAC A,Government
+COL106,Nashik Institute of Engineering & Technology 106,Nashik,Maharashtra,Information Technology,746,81,76,NBA,Private
+COL107,Mysuru Institute of Engineering & Technology 107,Mysuru,Karnataka,Mechanical,683,68,24,NAAC A+,Government
+COL108,Coimbatore Institute of Engineering & Technology 108,Coimbatore,Tamil Nadu,Chemical,303,61,151,NAAC A+,Autonomous
+COL109,Varanasi Institute of Engineering & Technology 109,Varanasi,Uttar Pradesh,Electrical,792,61,163,NAAC A++,Autonomous
+COL110,Mumbai Institute of Engineering & Technology 110,Mumbai,Maharashtra,Computer Science,234,66,186,NBA,Government
+COL111,Warangal Institute of Engineering & Technology 111,Warangal,Telangana,Computer Science,500,69,174,NAAC A,Autonomous
+COL112,Bhopal Institute of Engineering & Technology 112,Bhopal,Madhya Pradesh,Computer Science,966,82,110,AICTE Approved,Government
+COL113,Chennai Institute of Engineering & Technology 113,Chennai,Tamil Nadu,Electronics & Communication,157,75,154,NAAC A,Autonomous
+COL114,Kota Institute of Engineering & Technology 114,Kota,Rajasthan,Information Technology,641,88,173,NBA,Government
+COL115,Indore Institute of Engineering & Technology 115,Indore,Madhya Pradesh,Electronics & Communication,570,72,130,NAAC A,Government
+COL116,Udaipur Institute of Engineering & Technology 116,Udaipur,Rajasthan,Information Technology,586,70,67,NAAC A+,Government
+COL117,Mumbai Institute of Engineering & Technology 117,Mumbai,Maharashtra,Electrical,694,81,126,AICTE Approved,Private
+COL118,Jaipur Institute of Engineering & Technology 118,Jaipur,Rajasthan,Mechanical,1057,59,68,AICTE Approved,Private
+COL119,Pune Institute of Engineering & Technology 119,Pune,Maharashtra,Computer Science,432,63,133,AICTE Approved,Autonomous
+COL120,Bhopal Institute of Engineering & Technology 120,Bhopal,Madhya Pradesh,Electronics & Communication,466,66,40,NAAC A,Private
+COL121,Hubballi Institute of Engineering & Technology 121,Hubballi,Karnataka,Computer Science,478,82,190,AICTE Approved,Government
+COL122,Chennai Institute of Engineering & Technology 122,Chennai,Tamil Nadu,Civil,1021,75,158,NAAC A,Autonomous
+COL123,Madurai Institute of Engineering & Technology 123,Madurai,Tamil Nadu,Information Technology,1120,80,200,AICTE Approved,Autonomous
+COL124,Hyderabad Institute of Engineering & Technology 124,Hyderabad,Telangana,Chemical,616,96,36,NBA,Government
+COL125,Madurai Institute of Engineering & Technology 125,Madurai,Tamil Nadu,Mechanical,287,87,184,NAAC A,Government
+COL126,Pune Institute of Engineering & Technology 126,Pune,Maharashtra,Chemical,289,60,52,NAAC A,Private
+COL127,Noida Institute of Engineering & Technology 127,Noida,Uttar Pradesh,Computer Science,402,73,140,NAAC A+,Autonomous
+COL128,Udaipur Institute of Engineering & Technology 128,Udaipur,Rajasthan,Mechanical,1133,64,111,NAAC A,Autonomous
+COL129,Nagpur Institute of Engineering & Technology 129,Nagpur,Maharashtra,Information Technology,456,96,59,AICTE Approved,Government
+COL130,Bengaluru Institute of Engineering & Technology 130,Bengaluru,Karnataka,Electrical,143,61,63,NAAC A++,Government
+COL131,Nashik Institute of Engineering & Technology 131,Nashik,Maharashtra,Information Technology,171,87,25,AICTE Approved,Private
+COL132,Pune Institute of Engineering & Technology 132,Pune,Maharashtra,Electronics & Communication,835,89,31,NBA,Private
+COL133,Bhopal Institute of Engineering & Technology 133,Bhopal,Madhya Pradesh,Civil,476,64,173,NAAC A+,Autonomous
+COL134,Warangal Institute of Engineering & Technology 134,Warangal,Telangana,Mechanical,935,80,122,NBA,Government
+COL135,Kota Institute of Engineering & Technology 135,Kota,Rajasthan,Information Technology,242,92,130,AICTE Approved,Private
+COL136,Warangal Institute of Engineering & Technology 136,Warangal,Telangana,Electrical,923,60,82,NAAC A+,Private
+COL137,Kota Institute of Engineering & Technology 137,Kota,Rajasthan,Mechanical,599,89,102,NAAC A+,Private
+COL138,Indore Institute of Engineering & Technology 138,Indore,Madhya Pradesh,Mechanical,401,94,160,NAAC A++,Autonomous
+COL139,Jaipur Institute of Engineering & Technology 139,Jaipur,Rajasthan,Electronics & Communication,217,62,81,AICTE Approved,Autonomous
+COL140,Indore Institute of Engineering & Technology 140,Indore,Madhya Pradesh,Chemical,1134,74,190,NAAC A+,Autonomous
+COL141,Bengaluru Institute of Engineering & Technology 141,Bengaluru,Karnataka,Information Technology,1168,82,52,NAAC A+,Private
+COL142,Madurai Institute of Engineering & Technology 142,Madurai,Tamil Nadu,Electrical,206,92,114,AICTE Approved,Autonomous
+COL143,Hyderabad Institute of Engineering & Technology 143,Hyderabad,Telangana,Electrical,283,71,63,NBA,Private
+COL144,Bengaluru Institute of Engineering & Technology 144,Bengaluru,Karnataka,Information Technology,1080,81,177,NAAC A++,Private
+COL145,Hyderabad Institute of Engineering & Technology 145,Hyderabad,Telangana,Mechanical,1167,88,36,NAAC A++,Government
+COL146,Mysuru Institute of Engineering & Technology 146,Mysuru,Karnataka,Chemical,281,70,57,NBA,Government
+COL147,Nashik Institute of Engineering & Technology 147,Nashik,Maharashtra,Information Technology,501,91,160,NAAC A,Private
+COL148,Gwalior Institute of Engineering & Technology 148,Gwalior,Madhya Pradesh,Computer Science,821,74,166,NBA,Government
+COL149,Indore Institute of Engineering & Technology 149,Indore,Madhya Pradesh,Electronics & Communication,694,68,156,NBA,Government
+COL150,Nagpur Institute of Engineering & Technology 150,Nagpur,Maharashtra,Civil,1028,61,106,NAAC A++,Autonomous
+COL151,Udaipur Institute of Engineering & Technology 151,Udaipur,Rajasthan,Electronics & Communication,1116,70,47,NAAC A++,Government
+COL152,Mysuru Institute of Engineering & Technology 152,Mysuru,Karnataka,Chemical,134,87,131,NAAC A+,Government
+COL153,Bhopal Institute of Engineering & Technology 153,Bhopal,Madhya Pradesh,Electrical,1051,62,115,NBA,Government
+COL154,Udaipur Institute of Engineering & Technology 154,Udaipur,Rajasthan,Chemical,270,61,154,NAAC A,Government
+COL155,Warangal Institute of Engineering & Technology 155,Warangal,Telangana,Civil,456,58,172,NAAC A+,Government
+COL156,Prayagraj Institute of Engineering & Technology 156,Prayagraj,Uttar Pradesh,Electrical,217,74,56,NAAC A++,Government
+COL157,Prayagraj Institute of Engineering & Technology 157,Prayagraj,Uttar Pradesh,Information Technology,1145,92,172,AICTE Approved,Private
+COL158,Mumbai Institute of Engineering & Technology 158,Mumbai,Maharashtra,Electronics & Communication,842,76,195,NAAC A,Private
+COL159,Gwalior Institute of Engineering & Technology 159,Gwalior,Madhya Pradesh,Electronics & Communication,1178,58,120,NBA,Private
+COL160,Bengaluru Institute of Engineering & Technology 160,Bengaluru,Karnataka,Computer Science,418,92,172,NBA,Government
+COL161,Varanasi Institute of Engineering & Technology 161,Varanasi,Uttar Pradesh,Civil,1117,69,52,NAAC A,Autonomous
+COL162,Kota Institute of Engineering & Technology 162,Kota,Rajasthan,Mechanical,130,94,128,NAAC A,Government
+COL163,Lucknow Institute of Engineering & Technology 163,Lucknow,Uttar Pradesh,Civil,1198,88,41,NAAC A+,Autonomous
+COL164,Udaipur Institute of Engineering & Technology 164,Udaipur,Rajasthan,Electrical,266,56,104,NAAC A,Private
+COL165,Madurai Institute of Engineering & Technology 165,Madurai,Tamil Nadu,Information Technology,177,61,58,NAAC A,Private
+COL166,Warangal Institute of Engineering & Technology 166,Warangal,Telangana,Information Technology,616,87,45,NBA,Government
+COL167,Bhopal Institute of Engineering & Technology 167,Bhopal,Madhya Pradesh,Civil,202,68,171,NBA,Private
+COL168,Kota Institute of Engineering & Technology 168,Kota,Rajasthan,Computer Science,926,90,69,AICTE Approved,Government
+COL169,Gwalior Institute of Engineering & Technology 169,Gwalior,Madhya Pradesh,Electrical,318,59,102,NAAC A,Private
+COL170,Hyderabad Institute of Engineering & Technology 170,Hyderabad,Telangana,Chemical,535,72,51,AICTE Approved,Government
+COL171,Mysuru Institute of Engineering & Technology 171,Mysuru,Karnataka,Computer Science,279,89,157,NAAC A++,Government
+COL172,Hyderabad Institute of Engineering & Technology 172,Hyderabad,Telangana,Civil,1118,86,93,NAAC A+,Private
+COL173,Nashik Institute of Engineering & Technology 173,Nashik,Maharashtra,Mechanical,576,71,59,NBA,Autonomous
+COL174,Madurai Institute of Engineering & Technology 174,Madurai,Tamil Nadu,Computer Science,1163,86,98,NAAC A+,Autonomous
+COL175,Bengaluru Institute of Engineering & Technology 175,Bengaluru,Karnataka,Information Technology,704,58,112,NAAC A+,Government
+COL176,Ghaziabad Institute of Engineering & Technology 176,Ghaziabad,Uttar Pradesh,Mechanical,404,63,38,AICTE Approved,Government
+COL177,Nagpur Institute of Engineering & Technology 177,Nagpur,Maharashtra,Mechanical,708,57,174,AICTE Approved,Autonomous
+COL178,Ghaziabad Institute of Engineering & Technology 178,Ghaziabad,Uttar Pradesh,Mechanical,786,80,139,NAAC A+,Autonomous
+COL179,Gwalior Institute of Engineering & Technology 179,Gwalior,Madhya Pradesh,Chemical,929,63,37,NAAC A++,Autonomous
+COL180,Indore Institute of Engineering & Technology 180,Indore,Madhya Pradesh,Computer Science,365,95,113,NBA,Private
+COL181,Prayagraj Institute of Engineering & Technology 181,Prayagraj,Uttar Pradesh,Electronics & Communication,893,67,65,NBA,Government
+COL182,Indore Institute of Engineering & Technology 182,Indore,Madhya Pradesh,Electronics & Communication,546,81,116,NAAC A++,Private
+COL183,Chennai Institute of Engineering & Technology 183,Chennai,Tamil Nadu,Computer Science,421,62,131,NBA,Government
+COL184,Hyderabad Institute of Engineering & Technology 184,Hyderabad,Telangana,Chemical,1078,92,47,NAAC A++,Private
+COL185,Nagpur Institute of Engineering & Technology 185,Nagpur,Maharashtra,Information Technology,341,64,183,AICTE Approved,Government
+COL186,Mysuru Institute of Engineering & Technology 186,Mysuru,Karnataka,Chemical,749,85,95,NBA,Government
+COL187,Noida Institute of Engineering & Technology 187,Noida,Uttar Pradesh,Electronics & Communication,1159,98,198,AICTE Approved,Autonomous
+COL188,Bengaluru Institute of Engineering & Technology 188,Bengaluru,Karnataka,Electrical,821,86,35,AICTE Approved,Government
+COL189,Gwalior Institute of Engineering & Technology 189,Gwalior,Madhya Pradesh,Electrical,709,83,105,NAAC A+,Government
+COL190,Kanpur Institute of Engineering & Technology 190,Kanpur,Uttar Pradesh,Chemical,759,77,56,NAAC A+,Government
+COL191,Warangal Institute of Engineering & Technology 191,Warangal,Telangana,Information Technology,311,92,117,NAAC A+,Private
+COL192,Hyderabad Institute of Engineering & Technology 192,Hyderabad,Telangana,Electrical,130,86,113,NAAC A++,Autonomous
+COL193,Warangal Institute of Engineering & Technology 193,Warangal,Telangana,Computer Science,695,74,46,NBA,Autonomous
+COL194,Indore Institute of Engineering & Technology 194,Indore,Madhya Pradesh,Electronics & Communication,916,58,39,NAAC A,Government
+COL195,Jaipur Institute of Engineering & Technology 195,Jaipur,Rajasthan,Civil,1154,71,44,NAAC A+,Autonomous
+COL196,Mumbai Institute of Engineering & Technology 196,Mumbai,Maharashtra,Computer Science,438,56,64,NAAC A++,Autonomous
+COL197,Lucknow Institute of Engineering & Technology 197,Lucknow,Uttar Pradesh,Civil,339,77,194,NBA,Government
+COL198,Jaipur Institute of Engineering & Technology 198,Jaipur,Rajasthan,Electronics & Communication,901,98,177,NAAC A,Private
+COL199,Warangal Institute of Engineering & Technology 199,Warangal,Telangana,Electrical,776,71,150,NBA,Autonomous
+COL200,Chennai Institute of Engineering & Technology 200,Chennai,Tamil Nadu,Information Technology,480,86,88,NAAC A+,Autonomous
+COL201,Hubballi Institute of Engineering & Technology 201,Hubballi,Karnataka,Electronics & Communication,707,79,189,AICTE Approved,Government
+COL202,Mumbai Institute of Engineering & Technology 202,Mumbai,Maharashtra,Civil,953,58,186,NAAC A,Private
+COL203,Kota Institute of Engineering & Technology 203,Kota,Rajasthan,Electronics & Communication,680,55,184,NAAC A,Private
+COL204,Udaipur Institute of Engineering & Technology 204,Udaipur,Rajasthan,Mechanical,320,55,41,AICTE Approved,Government
+COL205,Kanpur Institute of Engineering & Technology 205,Kanpur,Uttar Pradesh,Electrical,761,94,121,NAAC A+,Government
+COL206,Bhopal Institute of Engineering & Technology 206,Bhopal,Madhya Pradesh,Computer Science,839,61,144,AICTE Approved,Private
+COL207,Prayagraj Institute of Engineering & Technology 207,Prayagraj,Uttar Pradesh,Mechanical,249,62,167,NAAC A,Autonomous
+COL208,Prayagraj Institute of Engineering & Technology 208,Prayagraj,Uttar Pradesh,Mechanical,905,69,67,NBA,Government
+COL209,Hyderabad Institute of Engineering & Technology 209,Hyderabad,Telangana,Electronics & Communication,1009,66,135,NAAC A++,Private
+COL210,Jaipur Institute of Engineering & Technology 210,Jaipur,Rajasthan,Civil,1044,75,46,NAAC A+,Private
+COL211,Noida Institute of Engineering & Technology 211,Noida,Uttar Pradesh,Computer Science,412,96,35,AICTE Approved,Private
+COL212,Chennai Institute of Engineering & Technology 212,Chennai,Tamil Nadu,Electrical,1147,80,99,NAAC A,Autonomous
+COL213,Bengaluru Institute of Engineering & Technology 213,Bengaluru,Karnataka,Electronics & Communication,687,75,28,NAAC A++,Private
+COL214,Nashik Institute of Engineering & Technology 214,Nashik,Maharashtra,Electronics & Communication,212,90,89,NAAC A,Autonomous
+COL215,Madurai Institute of Engineering & Technology 215,Madurai,Tamil Nadu,Mechanical,1024,57,74,NAAC A++,Government
+COL216,Warangal Institute of Engineering & Technology 216,Warangal,Telangana,Information Technology,273,67,196,NAAC A,Private
+COL217,Gwalior Institute of Engineering & Technology 217,Gwalior,Madhya Pradesh,Computer Science,253,83,127,NBA,Autonomous
+COL218,Bhopal Institute of Engineering & Technology 218,Bhopal,Madhya Pradesh,Chemical,665,77,90,NAAC A,Private
+COL219,Bengaluru Institute of Engineering & Technology 219,Bengaluru,Karnataka,Electrical,705,55,185,AICTE Approved,Government
+COL220,Warangal Institute of Engineering & Technology 220,Warangal,Telangana,Civil,908,98,174,AICTE Approved,Private
+COL221,Coimbatore Institute of Engineering & Technology 221,Coimbatore,Tamil Nadu,Electronics & Communication,291,84,78,NAAC A+,Government
+COL222,Gwalior Institute of Engineering & Technology 222,Gwalior,Madhya Pradesh,Mechanical,1119,68,45,NBA,Government
+COL223,Kota Institute of Engineering & Technology 223,Kota,Rajasthan,Electronics & Communication,316,56,152,AICTE Approved,Government
+COL224,Bengaluru Institute of Engineering & Technology 224,Bengaluru,Karnataka,Electronics & Communication,756,93,180,NBA,Private
+COL225,Udaipur Institute of Engineering & Technology 225,Udaipur,Rajasthan,Civil,935,63,54,AICTE Approved,Private
+COL226,Hubballi Institute of Engineering & Technology 226,Hubballi,Karnataka,Civil,819,60,133,NAAC A++,Private
+COL227,Madurai Institute of Engineering & Technology 227,Madurai,Tamil Nadu,Electronics & Communication,892,87,181,NAAC A+,Private
+COL228,Udaipur Institute of Engineering & Technology 228,Udaipur,Rajasthan,Information Technology,363,56,164,NAAC A++,Private
+COL229,Jaipur Institute of Engineering & Technology 229,Jaipur,Rajasthan,Computer Science,692,74,163,NAAC A++,Private
+COL230,Madurai Institute of Engineering & Technology 230,Madurai,Tamil Nadu,Computer Science,815,91,154,NAAC A++,Private
+COL231,Coimbatore Institute of Engineering & Technology 231,Coimbatore,Tamil Nadu,Electrical,601,56,84,NAAC A++,Government
+COL232,Jaipur Institute of Engineering & Technology 232,Jaipur,Rajasthan,Information Technology,615,86,183,NBA,Private
+COL233,Udaipur Institute of Engineering & Technology 233,Udaipur,Rajasthan,Information Technology,1003,57,71,NAAC A+,Private
+COL234,Madurai Institute of Engineering & Technology 234,Madurai,Tamil Nadu,Electronics & Communication,787,79,21,NBA,Private
+COL235,Hubballi Institute of Engineering & Technology 235,Hubballi,Karnataka,Computer Science,375,91,148,NAAC A++,Autonomous
+COL236,Kanpur Institute of Engineering & Technology 236,Kanpur,Uttar Pradesh,Civil,251,76,85,NAAC A++,Government
+COL237,Nashik Institute of Engineering & Technology 237,Nashik,Maharashtra,Mechanical,471,92,128,NAAC A,Government
+COL238,Chennai Institute of Engineering & Technology 238,Chennai,Tamil Nadu,Computer Science,681,95,27,AICTE Approved,Government
+COL239,Nashik Institute of Engineering & Technology 239,Nashik,Maharashtra,Civil,1029,87,193,NAAC A++,Private
+COL240,Varanasi Institute of Engineering & Technology 240,Varanasi,Uttar Pradesh,Mechanical,1021,92,140,NAAC A++,Private
+COL241,Kota Institute of Engineering & Technology 241,Kota,Rajasthan,Electronics & Communication,442,77,58,NAAC A,Government
+COL242,Nashik Institute of Engineering & Technology 242,Nashik,Maharashtra,Mechanical,263,90,45,AICTE Approved,Autonomous
+COL243,Udaipur Institute of Engineering & Technology 243,Udaipur,Rajasthan,Electrical,520,93,48,AICTE Approved,Private
+COL244,Noida Institute of Engineering & Technology 244,Noida,Uttar Pradesh,Information Technology,537,77,170,AICTE Approved,Private
+COL245,Udaipur Institute of Engineering & Technology 245,Udaipur,Rajasthan,Civil,1059,95,186,NBA,Private
+COL246,Udaipur Institute of Engineering & Technology 246,Udaipur,Rajasthan,Civil,310,96,24,NAAC A+,Autonomous
+COL247,Bengaluru Institute of Engineering & Technology 247,Bengaluru,Karnataka,Information Technology,243,88,162,NAAC A+,Private
+COL248,Nagpur Institute of Engineering & Technology 248,Nagpur,Maharashtra,Electrical,255,86,121,NAAC A+,Autonomous
+COL249,Chennai Institute of Engineering & Technology 249,Chennai,Tamil Nadu,Civil,1155,82,87,NBA,Government
+COL250,Indore Institute of Engineering & Technology 250,Indore,Madhya Pradesh,Mechanical,522,78,99,AICTE Approved,Private
+COL251,Gwalior Institute of Engineering & Technology 251,Gwalior,Madhya Pradesh,Mechanical,957,90,173,NAAC A,Government
+COL252,Kota Institute of Engineering & Technology 252,Kota,Rajasthan,Civil,519,92,195,NAAC A++,Private
+COL253,Indore Institute of Engineering & Technology 253,Indore,Madhya Pradesh,Computer Science,730,67,181,AICTE Approved,Private
+COL254,Bhopal Institute of Engineering & Technology 254,Bhopal,Madhya Pradesh,Information Technology,884,87,36,NAAC A,Government
+COL255,Varanasi Institute of Engineering & Technology 255,Varanasi,Uttar Pradesh,Electrical,1111,72,150,NAAC A++,Autonomous
+COL256,Bhopal Institute of Engineering & Technology 256,Bhopal,Madhya Pradesh,Electronics & Communication,1049,63,30,NBA,Government
+COL257,Udaipur Institute of Engineering & Technology 257,Udaipur,Rajasthan,Electrical,1193,85,81,NAAC A++,Autonomous
+COL258,Warangal Institute of Engineering & Technology 258,Warangal,Telangana,Civil,377,65,144,NAAC A++,Autonomous
+COL259,Chennai Institute of Engineering & Technology 259,Chennai,Tamil Nadu,Civil,851,77,197,AICTE Approved,Private
+COL260,Hubballi Institute of Engineering & Technology 260,Hubballi,Karnataka,Electrical,249,88,145,NAAC A,Private
+COL261,Warangal Institute of Engineering & Technology 261,Warangal,Telangana,Mechanical,497,66,41,NAAC A+,Autonomous
+COL262,Gwalior Institute of Engineering & Technology 262,Gwalior,Madhya Pradesh,Chemical,1151,72,188,NBA,Private
+COL263,Coimbatore Institute of Engineering & Technology 263,Coimbatore,Tamil Nadu,Chemical,1139,86,107,NAAC A++,Private
+COL264,Kota Institute of Engineering & Technology 264,Kota,Rajasthan,Electrical,633,74,80,AICTE Approved,Autonomous
+COL265,Bhopal Institute of Engineering & Technology 265,Bhopal,Madhya Pradesh,Information Technology,1096,65,38,NAAC A++,Private
+COL266,Mysuru Institute of Engineering & Technology 266,Mysuru,Karnataka,Electrical,978,77,190,NAAC A++,Government
+COL267,Pune Institute of Engineering & Technology 267,Pune,Maharashtra,Computer Science,1150,68,73,NAAC A+,Autonomous
+COL268,Indore Institute of Engineering & Technology 268,Indore,Madhya Pradesh,Civil,244,85,80,NAAC A,Private
+COL269,Warangal Institute of Engineering & Technology 269,Warangal,Telangana,Electrical,959,70,91,NAAC A,Government
+COL270,Jaipur Institute of Engineering & Technology 270,Jaipur,Rajasthan,Chemical,691,88,141,NBA,Autonomous
+COL271,Hubballi Institute of Engineering & Technology 271,Hubballi,Karnataka,Computer Science,211,86,191,NAAC A++,Autonomous
+COL272,Madurai Institute of Engineering & Technology 272,Madurai,Tamil Nadu,Civil,316,91,73,AICTE Approved,Government
+COL273,Madurai Institute of Engineering & Technology 273,Madurai,Tamil Nadu,Computer Science,655,90,75,NAAC A++,Autonomous
+COL274,Coimbatore Institute of Engineering & Technology 274,Coimbatore,Tamil Nadu,Computer Science,932,68,24,NAAC A++,Government
+COL275,Bengaluru Institute of Engineering & Technology 275,Bengaluru,Karnataka,Electrical,609,73,163,NAAC A++,Private
+COL276,Ghaziabad Institute of Engineering & Technology 276,Ghaziabad,Uttar Pradesh,Electrical,524,68,150,NAAC A++,Autonomous
+COL277,Warangal Institute of Engineering & Technology 277,Warangal,Telangana,Computer Science,604,86,185,NAAC A+,Private
+COL278,Mysuru Institute of Engineering & Technology 278,Mysuru,Karnataka,Electronics & Communication,855,73,110,NAAC A,Autonomous
+COL279,Coimbatore Institute of Engineering & Technology 279,Coimbatore,Tamil Nadu,Chemical,1011,60,74,NAAC A,Private
+COL280,Hyderabad Institute of Engineering & Technology 280,Hyderabad,Telangana,Civil,856,84,60,NAAC A,Government
+COL281,Jaipur Institute of Engineering & Technology 281,Jaipur,Rajasthan,Information Technology,329,61,160,NAAC A+,Autonomous
+COL282,Mysuru Institute of Engineering & Technology 282,Mysuru,Karnataka,Chemical,306,77,153,NBA,Autonomous
+COL283,Coimbatore Institute of Engineering & Technology 283,Coimbatore,Tamil Nadu,Computer Science,922,94,93,NAAC A+,Government
+COL284,Hyderabad Institute of Engineering & Technology 284,Hyderabad,Telangana,Computer Science,435,87,168,NAAC A++,Government
+COL285,Nashik Institute of Engineering & Technology 285,Nashik,Maharashtra,Civil,780,84,47,NAAC A++,Government
+COL286,Nashik Institute of Engineering & Technology 286,Nashik,Maharashtra,Electrical,502,62,59,NBA,Government
+COL287,Lucknow Institute of Engineering & Technology 287,Lucknow,Uttar Pradesh,Mechanical,167,61,86,NAAC A,Private
+COL288,Chennai Institute of Engineering & Technology 288,Chennai,Tamil Nadu,Computer Science,227,91,108,NAAC A+,Government
+COL289,Nashik Institute of Engineering & Technology 289,Nashik,Maharashtra,Mechanical,378,68,130,NAAC A++,Private
+COL290,Hyderabad Institute of Engineering & Technology 290,Hyderabad,Telangana,Electronics & Communication,708,96,136,NAAC A+,Private
+COL291,Bhopal Institute of Engineering & Technology 291,Bhopal,Madhya Pradesh,Electrical,189,80,106,NAAC A,Government
+COL292,Bhopal Institute of Engineering & Technology 292,Bhopal,Madhya Pradesh,Information Technology,510,84,21,NAAC A,Government
+COL293,Jaipur Institute of Engineering & Technology 293,Jaipur,Rajasthan,Electronics & Communication,664,94,45,NBA,Government
+COL294,Warangal Institute of Engineering & Technology 294,Warangal,Telangana,Electrical,441,95,43,NAAC A+,Government
+COL295,Madurai Institute of Engineering & Technology 295,Madurai,Tamil Nadu,Mechanical,785,78,22,NAAC A+,Autonomous
+COL296,Coimbatore Institute of Engineering & Technology 296,Coimbatore,Tamil Nadu,Civil,153,83,55,NAAC A+,Private
+COL297,Chennai Institute of Engineering & Technology 297,Chennai,Tamil Nadu,Civil,477,73,170,NAAC A++,Government
+COL298,Hyderabad Institute of Engineering & Technology 298,Hyderabad,Telangana,Computer Science,1083,76,31,NBA,Autonomous
+COL299,Ghaziabad Institute of Engineering & Technology 299,Ghaziabad,Uttar Pradesh,Electronics & Communication,630,56,134,NAAC A+,Private
+COL300,Hyderabad Institute of Engineering & Technology 300,Hyderabad,Telangana,Computer Science,480,71,108,NAAC A,Private
+COL301,Indore Institute of Engineering & Technology 301,Indore,Madhya Pradesh,Chemical,777,87,31,NAAC A++,Autonomous
+COL302,Bhopal Institute of Engineering & Technology 302,Bhopal,Madhya Pradesh,Electronics & Communication,815,76,131,NBA,Private
+COL303,Noida Institute of Engineering & Technology 303,Noida,Uttar Pradesh,Chemical,602,57,30,NAAC A++,Private
+COL304,Mumbai Institute of Engineering & Technology 304,Mumbai,Maharashtra,Electrical,595,79,174,NAAC A+,Autonomous
+COL305,Nashik Institute of Engineering & Technology 305,Nashik,Maharashtra,Electronics & Communication,1039,67,184,NBA,Government
+COL306,Hyderabad Institute of Engineering & Technology 306,Hyderabad,Telangana,Chemical,633,68,169,NBA,Government
+COL307,Kota Institute of Engineering & Technology 307,Kota,Rajasthan,Information Technology,518,77,168,AICTE Approved,Private
+COL308,Bengaluru Institute of Engineering & Technology 308,Bengaluru,Karnataka,Computer Science,1065,92,46,AICTE Approved,Private
+COL309,Kota Institute of Engineering & Technology 309,Kota,Rajasthan,Civil,972,74,181,NAAC A,Autonomous
+COL310,Warangal Institute of Engineering & Technology 310,Warangal,Telangana,Electrical,516,85,63,NAAC A,Government
+COL311,Hyderabad Institute of Engineering & Technology 311,Hyderabad,Telangana,Computer Science,278,63,72,AICTE Approved,Government
+COL312,Kota Institute of Engineering & Technology 312,Kota,Rajasthan,Computer Science,673,91,71,NAAC A,Government
+COL313,Noida Institute of Engineering & Technology 313,Noida,Uttar Pradesh,Civil,985,59,183,AICTE Approved,Autonomous
+COL314,Madurai Institute of Engineering & Technology 314,Madurai,Tamil Nadu,Electronics & Communication,657,67,184,NAAC A++,Government
+COL315,Coimbatore Institute of Engineering & Technology 315,Coimbatore,Tamil Nadu,Computer Science,734,98,65,NBA,Private
+COL316,Indore Institute of Engineering & Technology 316,Indore,Madhya Pradesh,Civil,335,98,41,NAAC A,Government
+COL317,Pune Institute of Engineering & Technology 317,Pune,Maharashtra,Civil,249,96,77,NAAC A++,Autonomous
+COL318,Warangal Institute of Engineering & Technology 318,Warangal,Telangana,Computer Science,775,88,113,AICTE Approved,Government
+COL319,Madurai Institute of Engineering & Technology 319,Madurai,Tamil Nadu,Computer Science,427,64,78,NBA,Autonomous
+COL320,Indore Institute of Engineering & Technology 320,Indore,Madhya Pradesh,Chemical,142,74,185,AICTE Approved,Autonomous
+COL321,Madurai Institute of Engineering & Technology 321,Madurai,Tamil Nadu,Civil,907,75,148,AICTE Approved,Autonomous
+COL322,Nagpur Institute of Engineering & Technology 322,Nagpur,Maharashtra,Chemical,978,55,31,AICTE Approved,Autonomous
+COL323,Noida Institute of Engineering & Technology 323,Noida,Uttar Pradesh,Chemical,1116,95,128,NAAC A,Private
+COL324,Coimbatore Institute of Engineering & Technology 324,Coimbatore,Tamil Nadu,Computer Science,382,93,135,AICTE Approved,Government
+COL325,Kota Institute of Engineering & Technology 325,Kota,Rajasthan,Computer Science,227,97,124,AICTE Approved,Government
+COL326,Gwalior Institute of Engineering & Technology 326,Gwalior,Madhya Pradesh,Computer Science,687,90,190,AICTE Approved,Autonomous
+COL327,Madurai Institute of Engineering & Technology 327,Madurai,Tamil Nadu,Civil,1132,57,67,NBA,Autonomous
+COL328,Kota Institute of Engineering & Technology 328,Kota,Rajasthan,Information Technology,352,69,65,NAAC A++,Autonomous
+COL329,Indore Institute of Engineering & Technology 329,Indore,Madhya Pradesh,Information Technology,909,92,165,NAAC A,Government
+COL330,Bengaluru Institute of Engineering & Technology 330,Bengaluru,Karnataka,Electrical,827,97,81,NBA,Autonomous
+COL331,Mysuru Institute of Engineering & Technology 331,Mysuru,Karnataka,Electronics & Communication,1148,65,20,NAAC A+,Autonomous
+COL332,Nagpur Institute of Engineering & Technology 332,Nagpur,Maharashtra,Electrical,417,81,64,NAAC A,Autonomous
+COL333,Udaipur Institute of Engineering & Technology 333,Udaipur,Rajasthan,Chemical,1088,65,156,NAAC A+,Private
+COL334,Indore Institute of Engineering & Technology 334,Indore,Madhya Pradesh,Electronics & Communication,608,93,22,NAAC A+,Government
+COL335,Udaipur Institute of Engineering & Technology 335,Udaipur,Rajasthan,Mechanical,230,85,85,NBA,Private
+COL336,Nagpur Institute of Engineering & Technology 336,Nagpur,Maharashtra,Information Technology,158,63,172,NAAC A++,Autonomous
+COL337,Pune Institute of Engineering & Technology 337,Pune,Maharashtra,Electronics & Communication,1186,81,81,NAAC A+,Autonomous
+COL338,Ghaziabad Institute of Engineering & Technology 338,Ghaziabad,Uttar Pradesh,Information Technology,256,66,54,NAAC A+,Government
+COL339,Indore Institute of Engineering & Technology 339,Indore,Madhya Pradesh,Information Technology,1194,74,171,NAAC A++,Autonomous
+COL340,Chennai Institute of Engineering & Technology 340,Chennai,Tamil Nadu,Chemical,996,59,77,NAAC A++,Autonomous
+COL341,Bhopal Institute of Engineering & Technology 341,Bhopal,Madhya Pradesh,Chemical,647,56,85,NAAC A+,Government
+COL342,Warangal Institute of Engineering & Technology 342,Warangal,Telangana,Mechanical,639,90,182,NAAC A++,Autonomous
+COL343,Lucknow Institute of Engineering & Technology 343,Lucknow,Uttar Pradesh,Civil,808,56,43,NAAC A++,Government
+COL344,Warangal Institute of Engineering & Technology 344,Warangal,Telangana,Electrical,1076,88,189,NAAC A,Private
+COL345,Bhopal Institute of Engineering & Technology 345,Bhopal,Madhya Pradesh,Electronics & Communication,1113,56,58,NAAC A+,Private
+COL346,Lucknow Institute of Engineering & Technology 346,Lucknow,Uttar Pradesh,Mechanical,790,67,129,NBA,Autonomous
+COL347,Bhopal Institute of Engineering & Technology 347,Bhopal,Madhya Pradesh,Mechanical,1122,84,107,NAAC A+,Private
+COL348,Gwalior Institute of Engineering & Technology 348,Gwalior,Madhya Pradesh,Electrical,371,76,139,NAAC A,Private
+COL349,Mysuru Institute of Engineering & Technology 349,Mysuru,Karnataka,Computer Science,998,68,112,NBA,Private
+COL350,Coimbatore Institute of Engineering & Technology 350,Coimbatore,Tamil Nadu,Information Technology,999,94,175,NAAC A+,Government
+COL351,Gwalior Institute of Engineering & Technology 351,Gwalior,Madhya Pradesh,Computer Science,347,66,173,NBA,Autonomous
+COL352,Warangal Institute of Engineering & Technology 352,Warangal,Telangana,Information Technology,679,83,95,AICTE Approved,Private
+COL353,Jaipur Institute of Engineering & Technology 353,Jaipur,Rajasthan,Information Technology,145,71,62,NBA,Autonomous
+COL354,Indore Institute of Engineering & Technology 354,Indore,Madhya Pradesh,Electrical,454,67,25,NAAC A+,Autonomous
+COL355,Jaipur Institute of Engineering & Technology 355,Jaipur,Rajasthan,Civil,558,85,66,NAAC A,Government
+COL356,Indore Institute of Engineering & Technology 356,Indore,Madhya Pradesh,Electronics & Communication,844,70,35,NAAC A,Autonomous
+COL357,Warangal Institute of Engineering & Technology 357,Warangal,Telangana,Electronics & Communication,688,65,32,NBA,Government
+COL358,Mumbai Institute of Engineering & Technology 358,Mumbai,Maharashtra,Mechanical,863,60,87,AICTE Approved,Private
+COL359,Pune Institute of Engineering & Technology 359,Pune,Maharashtra,Computer Science,589,95,131,NBA,Autonomous
+COL360,Madurai Institute of Engineering & Technology 360,Madurai,Tamil Nadu,Computer Science,1075,65,41,NBA,Autonomous
+COL361,Pune Institute of Engineering & Technology 361,Pune,Maharashtra,Electrical,878,95,155,NAAC A+,Government
+COL362,Pune Institute of Engineering & Technology 362,Pune,Maharashtra,Chemical,322,64,25,NAAC A++,Private
+COL363,Bengaluru Institute of Engineering & Technology 363,Bengaluru,Karnataka,Chemical,619,98,133,NAAC A++,Government
+COL364,Indore Institute of Engineering & Technology 364,Indore,Madhya Pradesh,Mechanical,388,93,198,NAAC A,Autonomous
+COL365,Hyderabad Institute of Engineering & Technology 365,Hyderabad,Telangana,Chemical,758,84,84,NBA,Private
+COL366,Hubballi Institute of Engineering & Technology 366,Hubballi,Karnataka,Civil,586,70,23,AICTE Approved,Government
+COL367,Chennai Institute of Engineering & Technology 367,Chennai,Tamil Nadu,Electronics & Communication,338,83,145,NAAC A++,Autonomous
+COL368,Chennai Institute of Engineering & Technology 368,Chennai,Tamil Nadu,Electrical,893,69,61,NBA,Government
+COL369,Nashik Institute of Engineering & Technology 369,Nashik,Maharashtra,Civil,946,87,169,NAAC A,Government
+COL370,Warangal Institute of Engineering & Technology 370,Warangal,Telangana,Computer Science,1009,88,47,NAAC A+,Autonomous
+COL371,Pune Institute of Engineering & Technology 371,Pune,Maharashtra,Electrical,554,62,44,NAAC A++,Private
+COL372,Warangal Institute of Engineering & Technology 372,Warangal,Telangana,Chemical,272,69,168,NBA,Government
+COL373,Prayagraj Institute of Engineering & Technology 373,Prayagraj,Uttar Pradesh,Chemical,497,70,75,NBA,Autonomous
+COL374,Udaipur Institute of Engineering & Technology 374,Udaipur,Rajasthan,Chemical,612,90,144,NAAC A,Government
+COL375,Warangal Institute of Engineering & Technology 375,Warangal,Telangana,Civil,594,83,102,NBA,Private
+COL376,Indore Institute of Engineering & Technology 376,Indore,Madhya Pradesh,Mechanical,974,55,172,NAAC A++,Autonomous
+COL377,Indore Institute of Engineering & Technology 377,Indore,Madhya Pradesh,Civil,564,68,150,NAAC A++,Government
+COL378,Indore Institute of Engineering & Technology 378,Indore,Madhya Pradesh,Computer Science,685,58,185,NAAC A++,Private
+COL379,Indore Institute of Engineering & Technology 379,Indore,Madhya Pradesh,Mechanical,595,83,179,NAAC A+,Private
+COL380,Jaipur Institute of Engineering & Technology 380,Jaipur,Rajasthan,Electrical,573,70,197,NBA,Autonomous
+COL381,Hubballi Institute of Engineering & Technology 381,Hubballi,Karnataka,Information Technology,729,94,92,NAAC A++,Government
+COL382,Gwalior Institute of Engineering & Technology 382,Gwalior,Madhya Pradesh,Mechanical,1153,68,160,NBA,Government
+COL383,Udaipur Institute of Engineering & Technology 383,Udaipur,Rajasthan,Civil,131,58,110,NAAC A,Private
+COL384,Indore Institute of Engineering & Technology 384,Indore,Madhya Pradesh,Mechanical,848,70,133,NAAC A,Government
+COL385,Pune Institute of Engineering & Technology 385,Pune,Maharashtra,Mechanical,915,65,137,NAAC A++,Autonomous
+COL386,Coimbatore Institute of Engineering & Technology 386,Coimbatore,Tamil Nadu,Computer Science,387,93,167,NBA,Autonomous
+COL387,Coimbatore Institute of Engineering & Technology 387,Coimbatore,Tamil Nadu,Electrical,507,81,106,NAAC A+,Private
+COL388,Pune Institute of Engineering & Technology 388,Pune,Maharashtra,Mechanical,278,69,123,AICTE Approved,Autonomous
+COL389,Lucknow Institute of Engineering & Technology 389,Lucknow,Uttar Pradesh,Information Technology,1119,68,132,NAAC A+,Government
+COL390,Gwalior Institute of Engineering & Technology 390,Gwalior,Madhya Pradesh,Electrical,655,70,183,NAAC A+,Autonomous
+COL391,Jaipur Institute of Engineering & Technology 391,Jaipur,Rajasthan,Electrical,552,77,34,NBA,Private
+COL392,Noida Institute of Engineering & Technology 392,Noida,Uttar Pradesh,Computer Science,704,67,131,NBA,Government
+COL393,Indore Institute of Engineering & Technology 393,Indore,Madhya Pradesh,Electronics & Communication,663,97,104,AICTE Approved,Private
+COL394,Noida Institute of Engineering & Technology 394,Noida,Uttar Pradesh,Chemical,916,97,175,AICTE Approved,Government
+COL395,Indore Institute of Engineering & Technology 395,Indore,Madhya Pradesh,Computer Science,405,68,57,AICTE Approved,Government
+COL396,Indore Institute of Engineering & Technology 396,Indore,Madhya Pradesh,Mechanical,782,59,83,NAAC A++,Autonomous
+COL397,Nagpur Institute of Engineering & Technology 397,Nagpur,Maharashtra,Electronics & Communication,616,57,101,NBA,Private
+COL398,Nagpur Institute of Engineering & Technology 398,Nagpur,Maharashtra,Electrical,1140,84,83,NAAC A++,Private
+COL399,Ghaziabad Institute of Engineering & Technology 399,Ghaziabad,Uttar Pradesh,Computer Science,858,86,70,NAAC A++,Government
+COL400,Indore Institute of Engineering & Technology 400,Indore,Madhya Pradesh,Information Technology,817,57,53,NAAC A+,Private
+COL401,Chennai Institute of Engineering & Technology 401,Chennai,Tamil Nadu,Computer Science,1049,64,100,NAAC A+,Government
+COL402,Indore Institute of Engineering & Technology 402,Indore,Madhya Pradesh,Electronics & Communication,1088,55,82,NAAC A+,Government
+COL403,Jaipur Institute of Engineering & Technology 403,Jaipur,Rajasthan,Electrical,356,94,49,NBA,Private
+COL404,Nagpur Institute of Engineering & Technology 404,Nagpur,Maharashtra,Computer Science,674,95,108,NAAC A++,Autonomous
+COL405,Coimbatore Institute of Engineering & Technology 405,Coimbatore,Tamil Nadu,Mechanical,731,98,76,NAAC A,Autonomous
+COL406,Chennai Institute of Engineering & Technology 406,Chennai,Tamil Nadu,Electronics & Communication,771,78,181,NBA,Private
+COL407,Nagpur Institute of Engineering & Technology 407,Nagpur,Maharashtra,Electronics & Communication,600,73,175,AICTE Approved,Government
+COL408,Jaipur Institute of Engineering & Technology 408,Jaipur,Rajasthan,Civil,400,85,88,NAAC A+,Private
+COL409,Nashik Institute of Engineering & Technology 409,Nashik,Maharashtra,Information Technology,1131,93,22,NAAC A+,Autonomous
+COL410,Mysuru Institute of Engineering & Technology 410,Mysuru,Karnataka,Information Technology,729,87,122,NAAC A+,Private
+COL411,Hyderabad Institute of Engineering & Technology 411,Hyderabad,Telangana,Computer Science,1118,62,35,AICTE Approved,Private
+COL412,Jaipur Institute of Engineering & Technology 412,Jaipur,Rajasthan,Electronics & Communication,695,95,50,NAAC A+,Government
+COL413,Bhopal Institute of Engineering & Technology 413,Bhopal,Madhya Pradesh,Computer Science,179,87,141,NAAC A+,Private
+COL414,Warangal Institute of Engineering & Technology 414,Warangal,Telangana,Chemical,266,61,52,NAAC A+,Autonomous
+COL415,Hubballi Institute of Engineering & Technology 415,Hubballi,Karnataka,Electrical,932,91,25,AICTE Approved,Private
+COL416,Pune Institute of Engineering & Technology 416,Pune,Maharashtra,Mechanical,299,73,116,NAAC A,Private
+COL417,Lucknow Institute of Engineering & Technology 417,Lucknow,Uttar Pradesh,Chemical,994,95,41,NAAC A++,Autonomous
+COL418,Mysuru Institute of Engineering & Technology 418,Mysuru,Karnataka,Civil,576,97,32,NAAC A+,Autonomous
+COL419,Jaipur Institute of Engineering & Technology 419,Jaipur,Rajasthan,Electronics & Communication,836,61,191,NAAC A+,Government
+COL420,Udaipur Institute of Engineering & Technology 420,Udaipur,Rajasthan,Mechanical,640,66,36,NAAC A,Government
+COL421,Indore Institute of Engineering & Technology 421,Indore,Madhya Pradesh,Information Technology,446,83,77,NAAC A,Private
+COL422,Chennai Institute of Engineering & Technology 422,Chennai,Tamil Nadu,Computer Science,216,78,52,NBA,Private
+COL423,Udaipur Institute of Engineering & Technology 423,Udaipur,Rajasthan,Electrical,620,89,148,NBA,Government
+COL424,Udaipur Institute of Engineering & Technology 424,Udaipur,Rajasthan,Mechanical,918,88,27,NAAC A++,Autonomous
+COL425,Mysuru Institute of Engineering & Technology 425,Mysuru,Karnataka,Civil,1026,78,26,AICTE Approved,Government
+COL426,Coimbatore Institute of Engineering & Technology 426,Coimbatore,Tamil Nadu,Information Technology,373,74,158,NAAC A,Private
+COL427,Bengaluru Institute of Engineering & Technology 427,Bengaluru,Karnataka,Electrical,362,82,66,NAAC A+,Private
+COL428,Warangal Institute of Engineering & Technology 428,Warangal,Telangana,Civil,596,57,190,NBA,Government
+COL429,Chennai Institute of Engineering & Technology 429,Chennai,Tamil Nadu,Information Technology,446,74,79,NBA,Private
+COL430,Warangal Institute of Engineering & Technology 430,Warangal,Telangana,Chemical,634,59,33,NBA,Private
+COL431,Udaipur Institute of Engineering & Technology 431,Udaipur,Rajasthan,Electrical,910,68,85,NAAC A,Private
+COL432,Hyderabad Institute of Engineering & Technology 432,Hyderabad,Telangana,Mechanical,545,93,150,NAAC A+,Private
+COL433,Indore Institute of Engineering & Technology 433,Indore,Madhya Pradesh,Information Technology,184,66,104,NAAC A+,Government
+COL434,Udaipur Institute of Engineering & Technology 434,Udaipur,Rajasthan,Information Technology,970,89,117,NAAC A+,Autonomous
+COL435,Coimbatore Institute of Engineering & Technology 435,Coimbatore,Tamil Nadu,Civil,550,71,178,NAAC A++,Government
+COL436,Nashik Institute of Engineering & Technology 436,Nashik,Maharashtra,Electrical,1114,74,97,NAAC A,Autonomous
+COL437,Coimbatore Institute of Engineering & Technology 437,Coimbatore,Tamil Nadu,Civil,229,60,180,AICTE Approved,Private
+COL438,Nashik Institute of Engineering & Technology 438,Nashik,Maharashtra,Mechanical,869,75,72,NAAC A++,Government
+COL439,Bengaluru Institute of Engineering & Technology 439,Bengaluru,Karnataka,Mechanical,223,69,118,AICTE Approved,Private
+COL440,Jaipur Institute of Engineering & Technology 440,Jaipur,Rajasthan,Information Technology,1127,69,31,NAAC A+,Autonomous
+COL441,Nagpur Institute of Engineering & Technology 441,Nagpur,Maharashtra,Electronics & Communication,446,91,164,NAAC A,Government
+COL442,Nagpur Institute of Engineering & Technology 442,Nagpur,Maharashtra,Information Technology,798,74,92,NBA,Private
+COL443,Madurai Institute of Engineering & Technology 443,Madurai,Tamil Nadu,Mechanical,757,59,100,NAAC A+,Private
+COL444,Warangal Institute of Engineering & Technology 444,Warangal,Telangana,Electronics & Communication,571,94,158,NAAC A++,Autonomous
+COL445,Mumbai Institute of Engineering & Technology 445,Mumbai,Maharashtra,Civil,959,56,129,NAAC A+,Private
+COL446,Prayagraj Institute of Engineering & Technology 446,Prayagraj,Uttar Pradesh,Electronics & Communication,1010,70,76,NAAC A++,Private
+COL447,Indore Institute of Engineering & Technology 447,Indore,Madhya Pradesh,Electronics & Communication,812,68,116,NAAC A+,Autonomous
+COL448,Gwalior Institute of Engineering & Technology 448,Gwalior,Madhya Pradesh,Electrical,599,72,159,NAAC A+,Government
+COL449,Madurai Institute of Engineering & Technology 449,Madurai,Tamil Nadu,Civil,498,72,78,AICTE Approved,Autonomous
+COL450,Udaipur Institute of Engineering & Technology 450,Udaipur,Rajasthan,Information Technology,217,85,197,NAAC A+,Autonomous
+COL451,Bengaluru Institute of Engineering & Technology 451,Bengaluru,Karnataka,Mechanical,1036,88,137,NAAC A,Private
+COL452,Udaipur Institute of Engineering & Technology 452,Udaipur,Rajasthan,Electronics & Communication,466,80,170,NAAC A++,Private
+COL453,Nashik Institute of Engineering & Technology 453,Nashik,Maharashtra,Electronics & Communication,1100,66,167,NAAC A+,Government
+COL454,Madurai Institute of Engineering & Technology 454,Madurai,Tamil Nadu,Information Technology,655,90,179,AICTE Approved,Government
+COL455,Mysuru Institute of Engineering & Technology 455,Mysuru,Karnataka,Civil,1058,71,50,NAAC A,Private
+COL456,Udaipur Institute of Engineering & Technology 456,Udaipur,Rajasthan,Civil,302,75,192,NBA,Private
+COL457,Nagpur Institute of Engineering & Technology 457,Nagpur,Maharashtra,Civil,387,81,90,NAAC A+,Government
+COL458,Nagpur Institute of Engineering & Technology 458,Nagpur,Maharashtra,Electronics & Communication,862,58,74,NAAC A++,Private
+COL459,Jaipur Institute of Engineering & Technology 459,Jaipur,Rajasthan,Computer Science,329,63,151,AICTE Approved,Autonomous
+COL460,Lucknow Institute of Engineering & Technology 460,Lucknow,Uttar Pradesh,Chemical,253,95,89,NAAC A++,Private
+COL461,Kota Institute of Engineering & Technology 461,Kota,Rajasthan,Electronics & Communication,251,84,47,NAAC A,Private
+COL462,Indore Institute of Engineering & Technology 462,Indore,Madhya Pradesh,Electrical,163,58,83,NAAC A,Government
+COL463,Chennai Institute of Engineering & Technology 463,Chennai,Tamil Nadu,Civil,1085,68,158,NBA,Government
+COL464,Bhopal Institute of Engineering & Technology 464,Bhopal,Madhya Pradesh,Computer Science,598,81,99,NAAC A++,Autonomous
+COL465,Varanasi Institute of Engineering & Technology 465,Varanasi,Uttar Pradesh,Chemical,815,81,84,NAAC A+,Private
+COL466,Jaipur Institute of Engineering & Technology 466,Jaipur,Rajasthan,Electrical,973,87,56,AICTE Approved,Autonomous
+COL467,Indore Institute of Engineering & Technology 467,Indore,Madhya Pradesh,Information Technology,481,64,194,NAAC A+,Autonomous
+COL468,Nashik Institute of Engineering & Technology 468,Nashik,Maharashtra,Electrical,137,60,188,NAAC A++,Government
+COL469,Mumbai Institute of Engineering & Technology 469,Mumbai,Maharashtra,Electronics & Communication,907,91,96,NAAC A+,Private
+COL470,Hyderabad Institute of Engineering & Technology 470,Hyderabad,Telangana,Mechanical,599,55,53,NBA,Government
+COL471,Mysuru Institute of Engineering & Technology 471,Mysuru,Karnataka,Information Technology,1122,90,190,AICTE Approved,Autonomous
+COL472,Ghaziabad Institute of Engineering & Technology 472,Ghaziabad,Uttar Pradesh,Chemical,333,61,105,NAAC A+,Autonomous
+COL473,Warangal Institute of Engineering & Technology 473,Warangal,Telangana,Civil,319,57,58,NBA,Private
+COL474,Mysuru Institute of Engineering & Technology 474,Mysuru,Karnataka,Information Technology,264,73,155,AICTE Approved,Government
+COL475,Gwalior Institute of Engineering & Technology 475,Gwalior,Madhya Pradesh,Chemical,546,71,103,NAAC A+,Government
+COL476,Kanpur Institute of Engineering & Technology 476,Kanpur,Uttar Pradesh,Chemical,557,83,166,NAAC A+,Private
+COL477,Nashik Institute of Engineering & Technology 477,Nashik,Maharashtra,Electrical,587,93,177,NAAC A,Autonomous
+COL478,Udaipur Institute of Engineering & Technology 478,Udaipur,Rajasthan,Computer Science,463,60,195,AICTE Approved,Autonomous
+COL479,Kota Institute of Engineering & Technology 479,Kota,Rajasthan,Electronics & Communication,475,97,109,AICTE Approved,Autonomous
+COL480,Nashik Institute of Engineering & Technology 480,Nashik,Maharashtra,Electronics & Communication,690,80,149,NBA,Autonomous
+COL481,Prayagraj Institute of Engineering & Technology 481,Prayagraj,Uttar Pradesh,Information Technology,612,60,109,NAAC A++,Private
+COL482,Coimbatore Institute of Engineering & Technology 482,Coimbatore,Tamil Nadu,Mechanical,1012,74,113,NAAC A+,Autonomous
+COL483,Nashik Institute of Engineering & Technology 483,Nashik,Maharashtra,Computer Science,223,92,92,AICTE Approved,Private
+COL484,Mysuru Institute of Engineering & Technology 484,Mysuru,Karnataka,Electrical,804,80,132,NAAC A+,Government
+COL485,Gwalior Institute of Engineering & Technology 485,Gwalior,Madhya Pradesh,Mechanical,292,80,192,NBA,Autonomous
+COL486,Kanpur Institute of Engineering & Technology 486,Kanpur,Uttar Pradesh,Computer Science,1071,83,169,NAAC A++,Government
+COL487,Indore Institute of Engineering & Technology 487,Indore,Madhya Pradesh,Civil,751,60,161,NAAC A+,Government
+COL488,Chennai Institute of Engineering & Technology 488,Chennai,Tamil Nadu,Mechanical,1031,63,26,NAAC A,Government
+COL489,Udaipur Institute of Engineering & Technology 489,Udaipur,Rajasthan,Information Technology,437,86,172,NAAC A++,Private
+COL490,Madurai Institute of Engineering & Technology 490,Madurai,Tamil Nadu,Civil,165,89,26,AICTE Approved,Government
+COL491,Kota Institute of Engineering & Technology 491,Kota,Rajasthan,Computer Science,1058,84,139,NAAC A+,Private
+COL492,Kota Institute of Engineering & Technology 492,Kota,Rajasthan,Information Technology,575,95,171,NAAC A++,Private
+COL493,Hyderabad Institute of Engineering & Technology 493,Hyderabad,Telangana,Electronics & Communication,319,81,37,NBA,Autonomous
+COL494,Bengaluru Institute of Engineering & Technology 494,Bengaluru,Karnataka,Information Technology,713,90,155,NAAC A++,Private
+COL495,Kanpur Institute of Engineering & Technology 495,Kanpur,Uttar Pradesh,Chemical,294,84,163,NAAC A++,Private
+COL496,Chennai Institute of Engineering & Technology 496,Chennai,Tamil Nadu,Mechanical,526,89,106,AICTE Approved,Autonomous
+COL497,Indore Institute of Engineering & Technology 497,Indore,Madhya Pradesh,Information Technology,541,96,77,NBA,Government
+COL498,Madurai Institute of Engineering & Technology 498,Madurai,Tamil Nadu,Civil,741,91,179,NAAC A,Autonomous
+COL499,Mumbai Institute of Engineering & Technology 499,Mumbai,Maharashtra,Civil,500,76,145,NAAC A+,Autonomous
+COL500,Noida Institute of Engineering & Technology 500,Noida,Uttar Pradesh,Electrical,1196,61,198,AICTE Approved,Autonomous
+COL501,Pune Institute of Engineering & Technology 501,Pune,Maharashtra,Mechanical,441,89,111,AICTE Approved,Private
+COL502,Warangal Institute of Engineering & Technology 502,Warangal,Telangana,Chemical,444,75,82,AICTE Approved,Autonomous
+COL503,Mysuru Institute of Engineering & Technology 503,Mysuru,Karnataka,Chemical,1167,57,193,NAAC A,Government
+COL504,Noida Institute of Engineering & Technology 504,Noida,Uttar Pradesh,Electrical,1046,93,22,NAAC A++,Private
+COL505,Ghaziabad Institute of Engineering & Technology 505,Ghaziabad,Uttar Pradesh,Electronics & Communication,265,80,194,NAAC A+,Government
+COL506,Kota Institute of Engineering & Technology 506,Kota,Rajasthan,Electronics & Communication,1053,59,66,NBA,Autonomous
+COL507,Gwalior Institute of Engineering & Technology 507,Gwalior,Madhya Pradesh,Mechanical,475,82,170,NAAC A++,Private
+COL508,Bengaluru Institute of Engineering & Technology 508,Bengaluru,Karnataka,Computer Science,427,63,169,NBA,Private
+COL509,Coimbatore Institute of Engineering & Technology 509,Coimbatore,Tamil Nadu,Civil,587,95,31,NAAC A,Private
+COL510,Nashik Institute of Engineering & Technology 510,Nashik,Maharashtra,Mechanical,883,96,186,NBA,Autonomous
+COL511,Udaipur Institute of Engineering & Technology 511,Udaipur,Rajasthan,Information Technology,756,61,74,NAAC A,Government
+COL512,Kanpur Institute of Engineering & Technology 512,Kanpur,Uttar Pradesh,Information Technology,1145,70,118,AICTE Approved,Autonomous
+COL513,Warangal Institute of Engineering & Technology 513,Warangal,Telangana,Civil,952,62,122,AICTE Approved,Private
+COL514,Varanasi Institute of Engineering & Technology 514,Varanasi,Uttar Pradesh,Civil,948,92,78,NAAC A++,Private
+COL515,Kanpur Institute of Engineering & Technology 515,Kanpur,Uttar Pradesh,Chemical,1092,80,59,AICTE Approved,Autonomous
+COL516,Hyderabad Institute of Engineering & Technology 516,Hyderabad,Telangana,Civil,975,63,81,NBA,Government
+COL517,Madurai Institute of Engineering & Technology 517,Madurai,Tamil Nadu,Chemical,757,73,48,NAAC A,Private
+COL518,Bhopal Institute of Engineering & Technology 518,Bhopal,Madhya Pradesh,Civil,1027,61,101,AICTE Approved,Autonomous
+COL519,Nagpur Institute of Engineering & Technology 519,Nagpur,Maharashtra,Computer Science,245,71,133,NAAC A++,Government
+COL520,Pune Institute of Engineering & Technology 520,Pune,Maharashtra,Civil,1039,73,181,NBA,Autonomous
+COL521,Prayagraj Institute of Engineering & Technology 521,Prayagraj,Uttar Pradesh,Mechanical,1181,91,63,NAAC A+,Government
+COL522,Pune Institute of Engineering & Technology 522,Pune,Maharashtra,Chemical,638,73,142,NAAC A,Government
+COL523,Kota Institute of Engineering & Technology 523,Kota,Rajasthan,Civil,825,83,138,AICTE Approved,Private
+COL524,Bhopal Institute of Engineering & Technology 524,Bhopal,Madhya Pradesh,Chemical,724,76,68,NBA,Private
+COL525,Hubballi Institute of Engineering & Technology 525,Hubballi,Karnataka,Computer Science,159,56,127,NAAC A++,Autonomous
+COL526,Mysuru Institute of Engineering & Technology 526,Mysuru,Karnataka,Chemical,293,57,31,NBA,Government
+COL527,Mumbai Institute of Engineering & Technology 527,Mumbai,Maharashtra,Information Technology,252,59,169,NAAC A++,Private
+COL528,Mysuru Institute of Engineering & Technology 528,Mysuru,Karnataka,Information Technology,660,80,144,NAAC A+,Government
+COL529,Nagpur Institute of Engineering & Technology 529,Nagpur,Maharashtra,Information Technology,1151,64,108,NAAC A+,Government
+COL530,Noida Institute of Engineering & Technology 530,Noida,Uttar Pradesh,Electronics & Communication,765,59,76,NAAC A+,Autonomous
+COL531,Mysuru Institute of Engineering & Technology 531,Mysuru,Karnataka,Civil,771,95,52,NAAC A,Private
+COL532,Gwalior Institute of Engineering & Technology 532,Gwalior,Madhya Pradesh,Chemical,812,65,188,AICTE Approved,Private
+COL533,Bengaluru Institute of Engineering & Technology 533,Bengaluru,Karnataka,Chemical,259,86,64,AICTE Approved,Private
+COL534,Indore Institute of Engineering & Technology 534,Indore,Madhya Pradesh,Civil,1121,88,20,NBA,Private
+COL535,Kota Institute of Engineering & Technology 535,Kota,Rajasthan,Civil,218,59,174,NAAC A+,Autonomous
+COL536,Chennai Institute of Engineering & Technology 536,Chennai,Tamil Nadu,Information Technology,760,60,35,NAAC A++,Private
+COL537,Kanpur Institute of Engineering & Technology 537,Kanpur,Uttar Pradesh,Electrical,419,60,137,NBA,Government
+COL538,Nashik Institute of Engineering & Technology 538,Nashik,Maharashtra,Electrical,837,71,20,NBA,Private
+COL539,Madurai Institute of Engineering & Technology 539,Madurai,Tamil Nadu,Electrical,1191,60,149,AICTE Approved,Government
+COL540,Indore Institute of Engineering & Technology 540,Indore,Madhya Pradesh,Mechanical,519,96,163,NAAC A++,Private
+COL541,Warangal Institute of Engineering & Technology 541,Warangal,Telangana,Chemical,416,73,137,NAAC A++,Private
+COL542,Jaipur Institute of Engineering & Technology 542,Jaipur,Rajasthan,Computer Science,497,73,153,AICTE Approved,Government
+COL543,Warangal Institute of Engineering & Technology 543,Warangal,Telangana,Chemical,166,86,199,NAAC A,Autonomous
+COL544,Madurai Institute of Engineering & Technology 544,Madurai,Tamil Nadu,Computer Science,912,62,177,AICTE Approved,Government
+COL545,Bengaluru Institute of Engineering & Technology 545,Bengaluru,Karnataka,Mechanical,497,83,141,NAAC A+,Private
+COL546,Jaipur Institute of Engineering & Technology 546,Jaipur,Rajasthan,Electrical,1108,95,152,NAAC A++,Private
+COL547,Mysuru Institute of Engineering & Technology 547,Mysuru,Karnataka,Electrical,264,78,171,NBA,Autonomous
+COL548,Mumbai Institute of Engineering & Technology 548,Mumbai,Maharashtra,Electronics & Communication,991,91,163,NAAC A+,Private
+COL549,Hubballi Institute of Engineering & Technology 549,Hubballi,Karnataka,Civil,946,90,188,NAAC A++,Private
+COL550,Bengaluru Institute of Engineering & Technology 550,Bengaluru,Karnataka,Civil,174,61,115,NAAC A+,Private
+COL551,Nagpur Institute of Engineering & Technology 551,Nagpur,Maharashtra,Information Technology,604,66,73,NAAC A,Government
+COL552,Kota Institute of Engineering & Technology 552,Kota,Rajasthan,Mechanical,1069,62,78,NAAC A,Autonomous
+COL553,Jaipur Institute of Engineering & Technology 553,Jaipur,Rajasthan,Electrical,1168,75,50,NAAC A,Autonomous
+COL554,Coimbatore Institute of Engineering & Technology 554,Coimbatore,Tamil Nadu,Information Technology,417,97,178,NAAC A++,Private
+COL555,Mysuru Institute of Engineering & Technology 555,Mysuru,Karnataka,Mechanical,1081,62,136,AICTE Approved,Autonomous
+COL556,Hubballi Institute of Engineering & Technology 556,Hubballi,Karnataka,Electronics & Communication,849,60,25,NAAC A,Government
+COL557,Coimbatore Institute of Engineering & Technology 557,Coimbatore,Tamil Nadu,Mechanical,261,98,36,NAAC A+,Autonomous
+COL558,Madurai Institute of Engineering & Technology 558,Madurai,Tamil Nadu,Chemical,712,60,107,NAAC A+,Private
+COL559,Hubballi Institute of Engineering & Technology 559,Hubballi,Karnataka,Mechanical,663,58,24,NAAC A,Government
+COL560,Gwalior Institute of Engineering & Technology 560,Gwalior,Madhya Pradesh,Computer Science,619,55,181,AICTE Approved,Autonomous
+COL561,Noida Institute of Engineering & Technology 561,Noida,Uttar Pradesh,Information Technology,120,97,163,AICTE Approved,Private
+COL562,Varanasi Institute of Engineering & Technology 562,Varanasi,Uttar Pradesh,Civil,120,80,32,NAAC A,Private
+COL563,Nashik Institute of Engineering & Technology 563,Nashik,Maharashtra,Civil,129,77,28,NAAC A+,Government
+COL564,Udaipur Institute of Engineering & Technology 564,Udaipur,Rajasthan,Civil,1014,89,199,NAAC A+,Government
+COL565,Coimbatore Institute of Engineering & Technology 565,Coimbatore,Tamil Nadu,Civil,146,76,98,NBA,Government
+COL566,Hyderabad Institute of Engineering & Technology 566,Hyderabad,Telangana,Civil,1116,60,112,NAAC A++,Government
+COL567,Chennai Institute of Engineering & Technology 567,Chennai,Tamil Nadu,Civil,892,87,164,NBA,Government
+COL568,Mumbai Institute of Engineering & Technology 568,Mumbai,Maharashtra,Computer Science,796,60,147,NAAC A,Government
+COL569,Warangal Institute of Engineering & Technology 569,Warangal,Telangana,Mechanical,665,98,39,NAAC A++,Autonomous
+COL570,Gwalior Institute of Engineering & Technology 570,Gwalior,Madhya Pradesh,Electrical,661,91,173,NAAC A+,Government
+COL571,Kota Institute of Engineering & Technology 571,Kota,Rajasthan,Electronics & Communication,792,80,196,NAAC A++,Autonomous
+COL572,Bhopal Institute of Engineering & Technology 572,Bhopal,Madhya Pradesh,Chemical,1185,91,167,NBA,Autonomous
+COL573,Mumbai Institute of Engineering & Technology 573,Mumbai,Maharashtra,Computer Science,1026,62,188,NAAC A++,Private
+COL574,Nagpur Institute of Engineering & Technology 574,Nagpur,Maharashtra,Electronics & Communication,502,87,123,NAAC A+,Autonomous
+COL575,Warangal Institute of Engineering & Technology 575,Warangal,Telangana,Computer Science,929,61,177,NAAC A,Autonomous
+COL576,Chennai Institute of Engineering & Technology 576,Chennai,Tamil Nadu,Electrical,150,93,134,NBA,Private
+COL577,Warangal Institute of Engineering & Technology 577,Warangal,Telangana,Civil,740,86,188,NAAC A,Government
+COL578,Kanpur Institute of Engineering & Technology 578,Kanpur,Uttar Pradesh,Electronics & Communication,722,63,194,NAAC A,Autonomous
+COL579,Chennai Institute of Engineering & Technology 579,Chennai,Tamil Nadu,Civil,831,98,107,NAAC A++,Private
+COL580,Gwalior Institute of Engineering & Technology 580,Gwalior,Madhya Pradesh,Electronics & Communication,374,78,119,AICTE Approved,Government
+COL581,Hyderabad Institute of Engineering & Technology 581,Hyderabad,Telangana,Electrical,370,93,70,NBA,Autonomous
+COL582,Chennai Institute of Engineering & Technology 582,Chennai,Tamil Nadu,Computer Science,509,86,150,NAAC A,Government
+COL583,Bengaluru Institute of Engineering & Technology 583,Bengaluru,Karnataka,Information Technology,289,71,21,NAAC A++,Government
+COL584,Varanasi Institute of Engineering & Technology 584,Varanasi,Uttar Pradesh,Information Technology,127,88,34,NAAC A+,Autonomous
+COL585,Madurai Institute of Engineering & Technology 585,Madurai,Tamil Nadu,Computer Science,1065,59,166,NAAC A,Government
+COL586,Madurai Institute of Engineering & Technology 586,Madurai,Tamil Nadu,Mechanical,1193,93,81,NBA,Government
+COL587,Hyderabad Institute of Engineering & Technology 587,Hyderabad,Telangana,Chemical,1177,76,174,AICTE Approved,Private
+COL588,Warangal Institute of Engineering & Technology 588,Warangal,Telangana,Mechanical,1105,78,179,NAAC A,Autonomous
+COL589,Noida Institute of Engineering & Technology 589,Noida,Uttar Pradesh,Computer Science,237,97,42,NAAC A+,Autonomous
+COL590,Mysuru Institute of Engineering & Technology 590,Mysuru,Karnataka,Electrical,269,63,66,NAAC A,Government
+COL591,Udaipur Institute of Engineering & Technology 591,Udaipur,Rajasthan,Chemical,404,84,101,NAAC A++,Private
+COL592,Hyderabad Institute of Engineering & Technology 592,Hyderabad,Telangana,Civil,466,79,121,AICTE Approved,Private
+COL593,Kanpur Institute of Engineering & Technology 593,Kanpur,Uttar Pradesh,Civil,1041,89,65,NAAC A+,Private
+COL594,Hubballi Institute of Engineering & Technology 594,Hubballi,Karnataka,Electronics & Communication,770,63,193,NAAC A+,Autonomous
+COL595,Kanpur Institute of Engineering & Technology 595,Kanpur,Uttar Pradesh,Civil,516,92,52,NAAC A++,Autonomous
+COL596,Nashik Institute of Engineering & Technology 596,Nashik,Maharashtra,Chemical,587,61,73,AICTE Approved,Autonomous
+COL597,Prayagraj Institute of Engineering & Technology 597,Prayagraj,Uttar Pradesh,Civil,1016,59,40,NAAC A,Government
+COL598,Bengaluru Institute of Engineering & Technology 598,Bengaluru,Karnataka,Information Technology,709,81,133,NAAC A+,Private
+COL599,Varanasi Institute of Engineering & Technology 599,Varanasi,Uttar Pradesh,Computer Science,1113,76,150,NAAC A++,Autonomous
+COL600,Hyderabad Institute of Engineering & Technology 600,Hyderabad,Telangana,Electronics & Communication,320,95,52,NAAC A++,Private
+COL601,Kota Institute of Engineering & Technology 601,Kota,Rajasthan,Mechanical,808,96,198,AICTE Approved,Private
+COL602,Ghaziabad Institute of Engineering & Technology 602,Ghaziabad,Uttar Pradesh,Electronics & Communication,1184,93,46,AICTE Approved,Government
+COL603,Udaipur Institute of Engineering & Technology 603,Udaipur,Rajasthan,Chemical,793,96,125,NBA,Autonomous
+COL604,Mysuru Institute of Engineering & Technology 604,Mysuru,Karnataka,Information Technology,521,65,63,NAAC A,Private
+COL605,Bhopal Institute of Engineering & Technology 605,Bhopal,Madhya Pradesh,Chemical,1186,59,56,AICTE Approved,Government
+COL606,Prayagraj Institute of Engineering & Technology 606,Prayagraj,Uttar Pradesh,Information Technology,557,60,78,NAAC A,Private
+COL607,Bhopal Institute of Engineering & Technology 607,Bhopal,Madhya Pradesh,Mechanical,127,63,66,NAAC A+,Private
+COL608,Jaipur Institute of Engineering & Technology 608,Jaipur,Rajasthan,Chemical,419,85,106,NBA,Autonomous
+COL609,Kanpur Institute of Engineering & Technology 609,Kanpur,Uttar Pradesh,Information Technology,1012,85,43,NAAC A+,Private
+COL610,Hubballi Institute of Engineering & Technology 610,Hubballi,Karnataka,Information Technology,1122,84,150,NBA,Autonomous
+COL611,Kota Institute of Engineering & Technology 611,Kota,Rajasthan,Chemical,796,92,105,NAAC A,Government
+COL612,Chennai Institute of Engineering & Technology 612,Chennai,Tamil Nadu,Mechanical,719,65,128,AICTE Approved,Autonomous
+COL613,Chennai Institute of Engineering & Technology 613,Chennai,Tamil Nadu,Civil,812,97,22,NBA,Government
+COL614,Kanpur Institute of Engineering & Technology 614,Kanpur,Uttar Pradesh,Electrical,1119,59,134,NAAC A,Autonomous
+COL615,Hubballi Institute of Engineering & Technology 615,Hubballi,Karnataka,Civil,533,91,64,NBA,Private
+COL616,Kanpur Institute of Engineering & Technology 616,Kanpur,Uttar Pradesh,Information Technology,763,76,122,NAAC A++,Private
+COL617,Hyderabad Institute of Engineering & Technology 617,Hyderabad,Telangana,Information Technology,546,90,55,NAAC A,Autonomous
+COL618,Nagpur Institute of Engineering & Technology 618,Nagpur,Maharashtra,Electronics & Communication,936,68,98,NAAC A+,Private
+COL619,Nashik Institute of Engineering & Technology 619,Nashik,Maharashtra,Civil,151,80,92,NAAC A+,Government
+COL620,Udaipur Institute of Engineering & Technology 620,Udaipur,Rajasthan,Computer Science,800,89,195,NBA,Government
+COL621,Bhopal Institute of Engineering & Technology 621,Bhopal,Madhya Pradesh,Information Technology,559,74,23,NAAC A++,Government
+COL622,Jaipur Institute of Engineering & Technology 622,Jaipur,Rajasthan,Chemical,675,58,174,NAAC A+,Private
+COL623,Mumbai Institute of Engineering & Technology 623,Mumbai,Maharashtra,Civil,948,88,196,NAAC A,Private
+COL624,Coimbatore Institute of Engineering & Technology 624,Coimbatore,Tamil Nadu,Electrical,499,90,171,NAAC A+,Private
+COL625,Madurai Institute of Engineering & Technology 625,Madurai,Tamil Nadu,Electronics & Communication,1197,63,78,NAAC A+,Autonomous
+COL626,Udaipur Institute of Engineering & Technology 626,Udaipur,Rajasthan,Electronics & Communication,1160,91,99,NAAC A,Autonomous
+COL627,Mysuru Institute of Engineering & Technology 627,Mysuru,Karnataka,Electronics & Communication,520,92,136,NAAC A,Government
+COL628,Hyderabad Institute of Engineering & Technology 628,Hyderabad,Telangana,Information Technology,244,72,189,NBA,Government
+COL629,Pune Institute of Engineering & Technology 629,Pune,Maharashtra,Electronics & Communication,1072,71,188,NAAC A+,Private
+COL630,Mysuru Institute of Engineering & Technology 630,Mysuru,Karnataka,Information Technology,929,89,191,AICTE Approved,Autonomous
+COL631,Warangal Institute of Engineering & Technology 631,Warangal,Telangana,Information Technology,832,88,34,AICTE Approved,Government
+COL632,Nagpur Institute of Engineering & Technology 632,Nagpur,Maharashtra,Information Technology,162,55,98,NAAC A+,Government
+COL633,Jaipur Institute of Engineering & Technology 633,Jaipur,Rajasthan,Mechanical,899,70,81,NAAC A+,Government
+COL634,Mysuru Institute of Engineering & Technology 634,Mysuru,Karnataka,Computer Science,1179,91,130,NAAC A++,Autonomous
+COL635,Hyderabad Institute of Engineering & Technology 635,Hyderabad,Telangana,Information Technology,623,69,63,NBA,Government
+COL636,Udaipur Institute of Engineering & Technology 636,Udaipur,Rajasthan,Computer Science,297,94,111,NBA,Government
+COL637,Hubballi Institute of Engineering & Technology 637,Hubballi,Karnataka,Electrical,1038,61,90,NBA,Private
+COL638,Nagpur Institute of Engineering & Technology 638,Nagpur,Maharashtra,Mechanical,167,91,63,NAAC A+,Autonomous
+COL639,Indore Institute of Engineering & Technology 639,Indore,Madhya Pradesh,Information Technology,1066,80,31,NAAC A++,Government
+COL640,Indore Institute of Engineering & Technology 640,Indore,Madhya Pradesh,Mechanical,655,74,116,NAAC A++,Autonomous
+COL641,Gwalior Institute of Engineering & Technology 641,Gwalior,Madhya Pradesh,Electronics & Communication,749,73,108,NAAC A,Private
+COL642,Hyderabad Institute of Engineering & Technology 642,Hyderabad,Telangana,Information Technology,851,90,80,NAAC A,Private
+COL643,Warangal Institute of Engineering & Technology 643,Warangal,Telangana,Mechanical,502,71,70,AICTE Approved,Autonomous
+COL644,Indore Institute of Engineering & Technology 644,Indore,Madhya Pradesh,Information Technology,818,85,148,NBA,Government
+COL645,Bengaluru Institute of Engineering & Technology 645,Bengaluru,Karnataka,Mechanical,1123,85,138,NBA,Government
+COL646,Gwalior Institute of Engineering & Technology 646,Gwalior,Madhya Pradesh,Chemical,1196,74,64,AICTE Approved,Government
+COL647,Pune Institute of Engineering & Technology 647,Pune,Maharashtra,Mechanical,817,69,135,NAAC A,Autonomous
+COL648,Noida Institute of Engineering & Technology 648,Noida,Uttar Pradesh,Computer Science,915,81,22,AICTE Approved,Autonomous
+COL649,Ghaziabad Institute of Engineering & Technology 649,Ghaziabad,Uttar Pradesh,Mechanical,493,90,121,NAAC A,Private
+COL650,Jaipur Institute of Engineering & Technology 650,Jaipur,Rajasthan,Chemical,488,58,132,NAAC A+,Government
+COL651,Jaipur Institute of Engineering & Technology 651,Jaipur,Rajasthan,Electronics & Communication,150,83,166,NAAC A++,Autonomous
+COL652,Bhopal Institute of Engineering & Technology 652,Bhopal,Madhya Pradesh,Civil,132,77,171,AICTE Approved,Private
+COL653,Varanasi Institute of Engineering & Technology 653,Varanasi,Uttar Pradesh,Civil,859,64,117,AICTE Approved,Private
+COL654,Warangal Institute of Engineering & Technology 654,Warangal,Telangana,Chemical,1037,89,142,NBA,Private
+COL655,Udaipur Institute of Engineering & Technology 655,Udaipur,Rajasthan,Civil,291,95,180,NAAC A,Autonomous
+COL656,Bengaluru Institute of Engineering & Technology 656,Bengaluru,Karnataka,Mechanical,491,57,194,NBA,Autonomous
+COL657,Udaipur Institute of Engineering & Technology 657,Udaipur,Rajasthan,Computer Science,212,71,64,NAAC A,Government
+COL658,Lucknow Institute of Engineering & Technology 658,Lucknow,Uttar Pradesh,Chemical,336,87,151,NAAC A+,Government
+COL659,Varanasi Institute of Engineering & Technology 659,Varanasi,Uttar Pradesh,Chemical,912,76,132,NAAC A+,Autonomous
+COL660,Prayagraj Institute of Engineering & Technology 660,Prayagraj,Uttar Pradesh,Civil,649,95,53,NBA,Government
+COL661,Nashik Institute of Engineering & Technology 661,Nashik,Maharashtra,Computer Science,652,85,23,NAAC A+,Autonomous
+COL662,Varanasi Institute of Engineering & Technology 662,Varanasi,Uttar Pradesh,Computer Science,870,72,32,NAAC A+,Autonomous
+COL663,Kota Institute of Engineering & Technology 663,Kota,Rajasthan,Information Technology,172,85,48,AICTE Approved,Private
+COL664,Chennai Institute of Engineering & Technology 664,Chennai,Tamil Nadu,Mechanical,885,68,30,NAAC A,Government
+COL665,Nashik Institute of Engineering & Technology 665,Nashik,Maharashtra,Civil,953,91,115,NAAC A+,Government
+COL666,Chennai Institute of Engineering & Technology 666,Chennai,Tamil Nadu,Civil,621,77,51,NAAC A,Private
+COL667,Bhopal Institute of Engineering & Technology 667,Bhopal,Madhya Pradesh,Chemical,163,61,127,NBA,Autonomous
+COL668,Nagpur Institute of Engineering & Technology 668,Nagpur,Maharashtra,Civil,285,79,178,AICTE Approved,Autonomous
+COL669,Kanpur Institute of Engineering & Technology 669,Kanpur,Uttar Pradesh,Information Technology,473,90,192,NAAC A+,Autonomous
+COL670,Warangal Institute of Engineering & Technology 670,Warangal,Telangana,Civil,826,61,143,NAAC A++,Private
+COL671,Hyderabad Institute of Engineering & Technology 671,Hyderabad,Telangana,Information Technology,963,87,61,NAAC A+,Autonomous
+COL672,Hyderabad Institute of Engineering & Technology 672,Hyderabad,Telangana,Information Technology,131,83,39,NAAC A+,Government
+COL673,Nashik Institute of Engineering & Technology 673,Nashik,Maharashtra,Mechanical,832,56,162,NAAC A+,Autonomous
+COL674,Ghaziabad Institute of Engineering & Technology 674,Ghaziabad,Uttar Pradesh,Information Technology,397,74,170,NAAC A++,Autonomous
+COL675,Coimbatore Institute of Engineering & Technology 675,Coimbatore,Tamil Nadu,Mechanical,525,60,109,NAAC A+,Private
+COL676,Warangal Institute of Engineering & Technology 676,Warangal,Telangana,Electrical,913,81,27,NAAC A++,Government
+COL677,Bengaluru Institute of Engineering & Technology 677,Bengaluru,Karnataka,Civil,282,70,20,NAAC A+,Autonomous
+COL678,Nashik Institute of Engineering & Technology 678,Nashik,Maharashtra,Mechanical,879,86,182,NAAC A,Government
+COL679,Hyderabad Institute of Engineering & Technology 679,Hyderabad,Telangana,Mechanical,644,88,194,NBA,Private
+COL680,Hubballi Institute of Engineering & Technology 680,Hubballi,Karnataka,Information Technology,651,90,154,NBA,Private
+COL681,Hubballi Institute of Engineering & Technology 681,Hubballi,Karnataka,Information Technology,868,82,197,NBA,Government
+COL682,Chennai Institute of Engineering & Technology 682,Chennai,Tamil Nadu,Computer Science,1154,68,46,NBA,Autonomous
+COL683,Warangal Institute of Engineering & Technology 683,Warangal,Telangana,Chemical,625,69,138,NAAC A,Autonomous
+COL684,Hyderabad Institute of Engineering & Technology 684,Hyderabad,Telangana,Chemical,652,93,192,AICTE Approved,Government
+COL685,Mumbai Institute of Engineering & Technology 685,Mumbai,Maharashtra,Electronics & Communication,975,95,147,NBA,Government
+COL686,Kota Institute of Engineering & Technology 686,Kota,Rajasthan,Chemical,1057,79,29,NAAC A++,Private
+COL687,Warangal Institute of Engineering & Technology 687,Warangal,Telangana,Electronics & Communication,936,80,45,NAAC A++,Private
+COL688,Hyderabad Institute of Engineering & Technology 688,Hyderabad,Telangana,Civil,284,85,103,NAAC A,Private
+COL689,Coimbatore Institute of Engineering & Technology 689,Coimbatore,Tamil Nadu,Chemical,521,84,22,NAAC A,Autonomous
+COL690,Chennai Institute of Engineering & Technology 690,Chennai,Tamil Nadu,Civil,930,84,51,NAAC A+,Autonomous
+COL691,Ghaziabad Institute of Engineering & Technology 691,Ghaziabad,Uttar Pradesh,Electronics & Communication,248,74,132,NBA,Private
+COL692,Warangal Institute of Engineering & Technology 692,Warangal,Telangana,Electronics & Communication,417,66,135,NAAC A++,Government
+COL693,Madurai Institute of Engineering & Technology 693,Madurai,Tamil Nadu,Chemical,1074,77,74,AICTE Approved,Government
+COL694,Ghaziabad Institute of Engineering & Technology 694,Ghaziabad,Uttar Pradesh,Information Technology,451,95,200,NAAC A,Government
+COL695,Prayagraj Institute of Engineering & Technology 695,Prayagraj,Uttar Pradesh,Electronics & Communication,1033,79,181,AICTE Approved,Autonomous
+COL696,Ghaziabad Institute of Engineering & Technology 696,Ghaziabad,Uttar Pradesh,Information Technology,778,61,143,NBA,Autonomous
+COL697,Indore Institute of Engineering & Technology 697,Indore,Madhya Pradesh,Information Technology,701,65,160,NAAC A+,Autonomous
+COL698,Bengaluru Institute of Engineering & Technology 698,Bengaluru,Karnataka,Computer Science,529,55,45,AICTE Approved,Government
+COL699,Coimbatore Institute of Engineering & Technology 699,Coimbatore,Tamil Nadu,Mechanical,280,98,170,NBA,Autonomous
+COL700,Coimbatore Institute of Engineering & Technology 700,Coimbatore,Tamil Nadu,Electrical,147,65,70,NBA,Government
+COL701,Coimbatore Institute of Engineering & Technology 701,Coimbatore,Tamil Nadu,Civil,236,64,60,NBA,Government
+COL702,Hubballi Institute of Engineering & Technology 702,Hubballi,Karnataka,Chemical,927,73,174,NAAC A,Government
+COL703,Madurai Institute of Engineering & Technology 703,Madurai,Tamil Nadu,Electrical,492,71,154,NAAC A++,Private
+COL704,Coimbatore Institute of Engineering & Technology 704,Coimbatore,Tamil Nadu,Electronics & Communication,493,80,27,NAAC A,Private
+COL705,Warangal Institute of Engineering & Technology 705,Warangal,Telangana,Information Technology,179,86,71,NAAC A++,Government
+COL706,Hyderabad Institute of Engineering & Technology 706,Hyderabad,Telangana,Mechanical,619,58,196,NAAC A++,Private
+COL707,Madurai Institute of Engineering & Technology 707,Madurai,Tamil Nadu,Chemical,727,61,126,AICTE Approved,Autonomous
+COL708,Hyderabad Institute of Engineering & Technology 708,Hyderabad,Telangana,Electronics & Communication,925,87,198,NAAC A++,Private
+COL709,Udaipur Institute of Engineering & Technology 709,Udaipur,Rajasthan,Mechanical,529,69,68,NAAC A++,Government
+COL710,Madurai Institute of Engineering & Technology 710,Madurai,Tamil Nadu,Computer Science,573,64,137,NBA,Autonomous
+COL711,Prayagraj Institute of Engineering & Technology 711,Prayagraj,Uttar Pradesh,Electrical,162,69,187,NAAC A++,Private
+COL712,Noida Institute of Engineering & Technology 712,Noida,Uttar Pradesh,Information Technology,640,85,104,AICTE Approved,Private
+COL713,Chennai Institute of Engineering & Technology 713,Chennai,Tamil Nadu,Mechanical,710,58,65,NAAC A+,Private
+COL714,Nashik Institute of Engineering & Technology 714,Nashik,Maharashtra,Chemical,923,84,39,NAAC A++,Autonomous
+COL715,Kota Institute of Engineering & Technology 715,Kota,Rajasthan,Electronics & Communication,979,86,172,NAAC A++,Government
+COL716,Hyderabad Institute of Engineering & Technology 716,Hyderabad,Telangana,Civil,531,93,84,NBA,Private
+COL717,Warangal Institute of Engineering & Technology 717,Warangal,Telangana,Electronics & Communication,238,60,35,NAAC A++,Autonomous
+COL718,Lucknow Institute of Engineering & Technology 718,Lucknow,Uttar Pradesh,Electronics & Communication,830,62,141,NAAC A+,Government
+COL719,Bengaluru Institute of Engineering & Technology 719,Bengaluru,Karnataka,Electronics & Communication,1013,63,24,NAAC A+,Government
+COL720,Indore Institute of Engineering & Technology 720,Indore,Madhya Pradesh,Mechanical,873,67,187,NAAC A,Autonomous
+COL721,Warangal Institute of Engineering & Technology 721,Warangal,Telangana,Chemical,139,81,35,NAAC A,Autonomous
+COL722,Chennai Institute of Engineering & Technology 722,Chennai,Tamil Nadu,Civil,568,86,110,NAAC A,Government
+COL723,Mumbai Institute of Engineering & Technology 723,Mumbai,Maharashtra,Computer Science,275,71,39,NAAC A,Government
+COL724,Mumbai Institute of Engineering & Technology 724,Mumbai,Maharashtra,Information Technology,992,75,28,AICTE Approved,Private
+COL725,Indore Institute of Engineering & Technology 725,Indore,Madhya Pradesh,Computer Science,942,63,50,NBA,Private
+COL726,Kota Institute of Engineering & Technology 726,Kota,Rajasthan,Mechanical,279,68,24,NAAC A+,Autonomous
+COL727,Hubballi Institute of Engineering & Technology 727,Hubballi,Karnataka,Electrical,436,76,181,NBA,Government
+COL728,Varanasi Institute of Engineering & Technology 728,Varanasi,Uttar Pradesh,Chemical,605,72,140,NAAC A,Government
+COL729,Coimbatore Institute of Engineering & Technology 729,Coimbatore,Tamil Nadu,Computer Science,177,57,107,AICTE Approved,Autonomous
+COL730,Mumbai Institute of Engineering & Technology 730,Mumbai,Maharashtra,Mechanical,820,86,164,AICTE Approved,Autonomous
+COL731,Udaipur Institute of Engineering & Technology 731,Udaipur,Rajasthan,Chemical,679,70,193,NAAC A,Government
+COL732,Ghaziabad Institute of Engineering & Technology 732,Ghaziabad,Uttar Pradesh,Electronics & Communication,470,91,29,AICTE Approved,Private
+COL733,Udaipur Institute of Engineering & Technology 733,Udaipur,Rajasthan,Electronics & Communication,490,80,117,NBA,Private
+COL734,Warangal Institute of Engineering & Technology 734,Warangal,Telangana,Information Technology,1171,72,55,NAAC A++,Autonomous
+COL735,Mumbai Institute of Engineering & Technology 735,Mumbai,Maharashtra,Computer Science,412,58,61,NAAC A,Government
+COL736,Varanasi Institute of Engineering & Technology 736,Varanasi,Uttar Pradesh,Mechanical,218,60,89,NAAC A+,Autonomous
+COL737,Bengaluru Institute of Engineering & Technology 737,Bengaluru,Karnataka,Civil,151,65,198,NAAC A++,Private
+COL738,Hubballi Institute of Engineering & Technology 738,Hubballi,Karnataka,Civil,1040,69,96,NAAC A,Autonomous
+COL739,Hubballi Institute of Engineering & Technology 739,Hubballi,Karnataka,Computer Science,1105,75,56,NBA,Autonomous
+COL740,Lucknow Institute of Engineering & Technology 740,Lucknow,Uttar Pradesh,Information Technology,634,90,107,AICTE Approved,Private
+COL741,Bengaluru Institute of Engineering & Technology 741,Bengaluru,Karnataka,Information Technology,701,70,131,NAAC A+,Private
+COL742,Coimbatore Institute of Engineering & Technology 742,Coimbatore,Tamil Nadu,Information Technology,793,79,70,NAAC A+,Autonomous
+COL743,Warangal Institute of Engineering & Technology 743,Warangal,Telangana,Information Technology,646,58,88,NAAC A,Autonomous
+COL744,Pune Institute of Engineering & Technology 744,Pune,Maharashtra,Electronics & Communication,810,70,68,NAAC A+,Government
+COL745,Hyderabad Institute of Engineering & Technology 745,Hyderabad,Telangana,Computer Science,368,89,20,AICTE Approved,Government
+COL746,Jaipur Institute of Engineering & Technology 746,Jaipur,Rajasthan,Chemical,792,80,200,NBA,Government
+COL747,Hubballi Institute of Engineering & Technology 747,Hubballi,Karnataka,Electronics & Communication,1074,63,106,NAAC A+,Private
+COL748,Udaipur Institute of Engineering & Technology 748,Udaipur,Rajasthan,Information Technology,696,72,172,AICTE Approved,Autonomous
+COL749,Bengaluru Institute of Engineering & Technology 749,Bengaluru,Karnataka,Information Technology,918,73,85,NBA,Government
+COL750,Pune Institute of Engineering & Technology 750,Pune,Maharashtra,Chemical,750,60,128,NBA,Government
+COL751,Indore Institute of Engineering & Technology 751,Indore,Madhya Pradesh,Computer Science,368,70,183,NAAC A+,Private
+COL752,Coimbatore Institute of Engineering & Technology 752,Coimbatore,Tamil Nadu,Computer Science,520,69,178,NAAC A,Autonomous
+COL753,Hubballi Institute of Engineering & Technology 753,Hubballi,Karnataka,Chemical,464,55,166,NAAC A+,Private
+COL754,Bhopal Institute of Engineering & Technology 754,Bhopal,Madhya Pradesh,Information Technology,762,94,103,AICTE Approved,Autonomous
+COL755,Prayagraj Institute of Engineering & Technology 755,Prayagraj,Uttar Pradesh,Chemical,463,75,92,NBA,Autonomous
+COL756,Udaipur Institute of Engineering & Technology 756,Udaipur,Rajasthan,Computer Science,405,62,124,NBA,Government
+COL757,Nagpur Institute of Engineering & Technology 757,Nagpur,Maharashtra,Electrical,466,64,160,NAAC A+,Autonomous
+COL758,Indore Institute of Engineering & Technology 758,Indore,Madhya Pradesh,Mechanical,947,96,185,AICTE Approved,Government
+COL759,Coimbatore Institute of Engineering & Technology 759,Coimbatore,Tamil Nadu,Computer Science,991,71,161,NAAC A,Autonomous
+COL760,Udaipur Institute of Engineering & Technology 760,Udaipur,Rajasthan,Electronics & Communication,298,96,177,NAAC A,Autonomous
+COL761,Coimbatore Institute of Engineering & Technology 761,Coimbatore,Tamil Nadu,Computer Science,940,74,47,NAAC A++,Private
+COL762,Nashik Institute of Engineering & Technology 762,Nashik,Maharashtra,Electronics & Communication,330,67,31,NBA,Autonomous
+COL763,Udaipur Institute of Engineering & Technology 763,Udaipur,Rajasthan,Information Technology,857,67,178,AICTE Approved,Autonomous
+COL764,Hubballi Institute of Engineering & Technology 764,Hubballi,Karnataka,Electrical,1178,89,42,NBA,Autonomous
+COL765,Indore Institute of Engineering & Technology 765,Indore,Madhya Pradesh,Mechanical,456,71,72,NAAC A++,Private
+COL766,Bengaluru Institute of Engineering & Technology 766,Bengaluru,Karnataka,Computer Science,850,78,37,NAAC A++,Private
+COL767,Pune Institute of Engineering & Technology 767,Pune,Maharashtra,Mechanical,239,96,59,NAAC A,Government
+COL768,Pune Institute of Engineering & Technology 768,Pune,Maharashtra,Computer Science,301,86,102,NAAC A,Private
+COL769,Jaipur Institute of Engineering & Technology 769,Jaipur,Rajasthan,Chemical,806,91,79,NAAC A++,Government
+COL770,Kota Institute of Engineering & Technology 770,Kota,Rajasthan,Civil,1092,75,167,AICTE Approved,Government
+COL771,Madurai Institute of Engineering & Technology 771,Madurai,Tamil Nadu,Electronics & Communication,1114,83,48,NAAC A,Autonomous
+COL772,Kota Institute of Engineering & Technology 772,Kota,Rajasthan,Computer Science,783,68,101,AICTE Approved,Private
+COL773,Nashik Institute of Engineering & Technology 773,Nashik,Maharashtra,Electrical,510,74,30,AICTE Approved,Autonomous
+COL774,Hubballi Institute of Engineering & Technology 774,Hubballi,Karnataka,Mechanical,564,98,168,AICTE Approved,Private
+COL775,Bengaluru Institute of Engineering & Technology 775,Bengaluru,Karnataka,Chemical,208,78,79,NAAC A+,Private
+COL776,Indore Institute of Engineering & Technology 776,Indore,Madhya Pradesh,Civil,496,90,62,NAAC A,Government
+COL777,Indore Institute of Engineering & Technology 777,Indore,Madhya Pradesh,Mechanical,771,87,78,NAAC A+,Autonomous
+COL778,Nashik Institute of Engineering & Technology 778,Nashik,Maharashtra,Electrical,827,70,96,NBA,Government
+COL779,Nagpur Institute of Engineering & Technology 779,Nagpur,Maharashtra,Computer Science,1090,83,56,NAAC A+,Government
+COL780,Madurai Institute of Engineering & Technology 780,Madurai,Tamil Nadu,Computer Science,840,92,118,NAAC A++,Autonomous
+COL781,Nagpur Institute of Engineering & Technology 781,Nagpur,Maharashtra,Civil,947,74,166,NBA,Autonomous
+COL782,Bhopal Institute of Engineering & Technology 782,Bhopal,Madhya Pradesh,Civil,313,90,199,NBA,Government
+COL783,Warangal Institute of Engineering & Technology 783,Warangal,Telangana,Civil,1021,61,151,AICTE Approved,Private
+COL784,Pune Institute of Engineering & Technology 784,Pune,Maharashtra,Information Technology,468,81,41,NBA,Autonomous
+COL785,Bengaluru Institute of Engineering & Technology 785,Bengaluru,Karnataka,Information Technology,778,84,198,NAAC A+,Government
+COL786,Lucknow Institute of Engineering & Technology 786,Lucknow,Uttar Pradesh,Electronics & Communication,581,87,30,NAAC A++,Private
+COL787,Nashik Institute of Engineering & Technology 787,Nashik,Maharashtra,Electronics & Communication,997,74,109,NAAC A++,Private
+COL788,Madurai Institute of Engineering & Technology 788,Madurai,Tamil Nadu,Electronics & Communication,697,63,105,NAAC A,Autonomous
+COL789,Bhopal Institute of Engineering & Technology 789,Bhopal,Madhya Pradesh,Computer Science,1171,71,200,AICTE Approved,Government
+COL790,Hyderabad Institute of Engineering & Technology 790,Hyderabad,Telangana,Information Technology,637,59,115,NAAC A++,Autonomous
+COL791,Jaipur Institute of Engineering & Technology 791,Jaipur,Rajasthan,Electrical,585,94,71,NBA,Autonomous
+COL792,Ghaziabad Institute of Engineering & Technology 792,Ghaziabad,Uttar Pradesh,Civil,746,57,111,NAAC A++,Autonomous
+COL793,Warangal Institute of Engineering & Technology 793,Warangal,Telangana,Information Technology,123,86,83,NAAC A,Government
+COL794,Nagpur Institute of Engineering & Technology 794,Nagpur,Maharashtra,Computer Science,1035,94,85,NAAC A,Private
+COL795,Jaipur Institute of Engineering & Technology 795,Jaipur,Rajasthan,Information Technology,248,95,55,NAAC A+,Private
+COL796,Kota Institute of Engineering & Technology 796,Kota,Rajasthan,Chemical,276,66,27,NAAC A+,Private
+COL797,Chennai Institute of Engineering & Technology 797,Chennai,Tamil Nadu,Information Technology,476,96,161,NAAC A++,Autonomous
+COL798,Ghaziabad Institute of Engineering & Technology 798,Ghaziabad,Uttar Pradesh,Information Technology,731,75,120,NAAC A,Private
+COL799,Jaipur Institute of Engineering & Technology 799,Jaipur,Rajasthan,Chemical,606,75,174,NAAC A++,Autonomous
+COL800,Chennai Institute of Engineering & Technology 800,Chennai,Tamil Nadu,Computer Science,405,86,98,NAAC A,Government

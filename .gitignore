@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+env/
+venv/
+venv3/
+
+# Backend secrets
+backend/.env
+
+# Local databases / vector database
+backend/chroma_db/
+chroma_db/
+backend/*.db
+
+# Logs
+*.log
+
+# IDE files
+.vscode/
+.idea/
+# User uploaded files
+frontend/uploads/
