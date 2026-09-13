@@ -22,5 +22,5 @@ EXPOSE 7860
 ENV PORT=7860
 ENV PYTHONUNBUFFERED=1
 
-# Run Gunicorn server
-CMD ["gunicorn", "--bind", "0.0.0.0:7860", "--workers", "2", "--timeout", "120", "backend.app:app"]
+# Run Gunicorn server with 1 worker and 4 threads to save RAM
+CMD ["gunicorn", "--bind", "0.0.0.0:7860", "--workers", "1", "--threads", "4", "--timeout", "120", "backend.app:app"]

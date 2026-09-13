@@ -46,9 +46,16 @@ load_dotenv()
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-print("🔍 Loading MiniLM embedding model...")
-embedder = SentenceTransformer("all-MiniLM-L6-v2")
-print("✅ Model loaded.")
+_embedder = None
+
+def get_embedder():
+    global _embedder
+    if _embedder is None:
+        print("🔍 Loading MiniLM embedding model (lazy load)...")
+        _embedder = SentenceTransformer("all-MiniLM-L6-v2")
+        print("✅ Model loaded.")
+    return _embedder
+
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 CHROMA_PATH = os.path.join(BASE_DIR, "chroma_db")
 
@@ -77,7 +84,7 @@ def classify_intent(question: str) -> str:
     return "general"
 
 def embed_query(text):
-    return embedder.encode(text, normalize_embeddings=True).tolist()
+    return get_embedder().encode(text, normalize_embeddings=True).tolist()
 
 def format_context(chunks, metadatas):
     formatted = []
