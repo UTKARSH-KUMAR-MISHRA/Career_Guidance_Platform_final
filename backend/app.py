@@ -1,11 +1,15 @@
 # backend/app.py
 import os
+import sys
 import sqlite3
 import re
 import json
 import tempfile
 import time
 from datetime import datetime, timezone
+
+# Ensure backend directory is in sys.path for Gunicorn/Railway deployment
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from flask import Flask, g, request, jsonify, session, send_from_directory, make_response
 from flask_cors import CORS
@@ -1552,5 +1556,6 @@ def admin_dashboard():
 
 # ===================== MAIN =====================
 if __name__ == '__main__':
-    print("🚀 Starting Flask server on port 5000...")
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    port = int(os.getenv("PORT", 5000))
+    print(f"🚀 Starting Flask server on port {port}...")
+    app.run(debug=True, host='0.0.0.0', port=port)

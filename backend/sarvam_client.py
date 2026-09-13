@@ -12,9 +12,10 @@ BASE_URL = os.getenv("SARVAM_BASE_URL", "https://api.sarvam.ai/v1")
 API_KEY = os.getenv("SARVAM_API_KEY")
 
 if not API_KEY:
-    raise ValueError("SARVAM_API_KEY not set in environment.")
-
-HEADERS = {"Authorization": f"Bearer {API_KEY}", "Content-Type": "application/json"}
+    print("⚠️ WARNING: SARVAM_API_KEY is not set in environment. Set it in Railway Dashboard.")
+    HEADERS = {"Content-Type": "application/json"}
+else:
+    HEADERS = {"Authorization": f"Bearer {API_KEY}", "Content-Type": "application/json"}
 
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 

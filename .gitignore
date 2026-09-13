@@ -26,3 +26,6 @@ backend/*.db
 .idea/
 # User uploaded files
 frontend/uploads/
+
+# Nested clones
+Career_Guidance_Platform_final/
